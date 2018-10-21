@@ -1,6 +1,6 @@
 # Open dOrg Participation  
 ## Description  
-TODO: Anybody can participate.  
+TODO: Anybody can participate...  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
