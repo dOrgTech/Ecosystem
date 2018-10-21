@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Task Prioritization, Grouping, and Dependencies  
 ## Description  
 TODO: High level description.  
+* Task `A` must be completed before task `B`, it has top priority of all other tasks in `Milestone 1`.  
+  * Prioritization: 0-100  
+  * Grouping: Milestones  
+  * Dependencies: Protocol-enforced order of completion  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

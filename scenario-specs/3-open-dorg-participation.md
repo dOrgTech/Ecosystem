@@ -1,6 +1,6 @@
-# TODO: Scenario Name  
+# Open dOrg Participation  
 ## Description  
-TODO: High level description.  
+TODO: Anybody can participate.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

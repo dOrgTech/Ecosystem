@@ -1,6 +1,11 @@
-# TODO: Scenario Name  
+# User Profiles  
 ## Description  
 TODO: High level description.  
+* Reputation  
+* Activity Feed  
+* Memberships  
+* Configurable profile information  
+* Link to other profiles  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

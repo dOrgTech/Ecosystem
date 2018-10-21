@@ -1,6 +1,8 @@
-# TODO: Scenario Name  
+# Support Attested Users  
 ## Description  
 TODO: High level description.  
+* Support attestation networks that tie on-chain accounts back to individuals in the real world.
+  * This is needed to correlate people's actions for legal purposes.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

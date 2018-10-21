@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Legal Agreements  
 ## Description  
 TODO: High level description.  
+* There should be a way of adding legal agreements to a dOrg (and signing them) in a compliant way.  
+  * These contracts could facilitate:  
+    * dOrg as corporate entities (better liability insulation).  
+    * Agreements between individuals and between dOrgs for anything that should have a legal recourse if things go wrong.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

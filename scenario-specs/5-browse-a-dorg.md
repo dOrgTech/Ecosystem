@@ -1,6 +1,9 @@
-# TODO: Scenario Name  
+# Browse a dOrg  
 ## Description  
 TODO: High level description.  
+* See activity.  
+* See sub-communities.  
+* Only if it isn't a private visibility dOrg.
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

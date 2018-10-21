@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Enable Verifiable Revenue Streams  
 ## Description  
 TODO: High level description.  
+* It should be possible to verify the revenue stream is streaming through a particular smart contract.  
+  * Ensures the dividend token holders are being compensated appropriately.  
+  * Enables analytics.  
+  * This could be solved using a combination of standard smart contracts, automated code scanning, community auditing, and tradition legal agreements.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

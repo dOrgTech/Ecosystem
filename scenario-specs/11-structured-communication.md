@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Structured Communication  
 ## Description  
 TODO: High level description.  
+* dOrg forums.  
+  * Members within a dOrg can create forum threads.
+  * Similar to GitHub tasks.  
+* Community forums.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

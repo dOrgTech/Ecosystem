@@ -1,6 +1,6 @@
-# TODO: Scenario Name  
+# Optional dOrg Visibility  
 ## Description  
-TODO: High level description.  
+TODO: Users can choose to keep their dOrg public or private. What does it mean to have a "private" dOrg? Private chain? Encrypted data on pub chain? What should be private?  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

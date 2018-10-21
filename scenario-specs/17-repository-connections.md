@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Repository Connections  
 ## Description  
 TODO: High level description.  
+* It should be possible to connect repositories to a dOrg (Public and Private).  
+  * ex: GitHub repository  
+  * ex: GitHub organization  
+  * ex: BitBucket  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

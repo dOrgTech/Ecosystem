@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Automated Deployments  
 ## Description  
 TODO: High level description.  
+* It should be possible to deploy the software created in an automatic and decentralized way.  
+  * ex: Build and publish app to store.  
+  * ex: Push new build of web app.  
+  * ex: Upload freshly built binaries to a repository.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

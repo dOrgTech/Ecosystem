@@ -1,6 +1,10 @@
-# TODO: Scenario Name  
+# Instant Communication  
 ## Description  
 TODO: High level description.  
+* dOrg chat.  
+  * Members within a dOrg can create channels or private messages.  
+* Community chat.  
+  * Cross dOrg channels and private messages.
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

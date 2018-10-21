@@ -1,6 +1,7 @@
-# TODO: Scenario Name  
+# Task Rewards  
 ## Description  
 TODO: High level description.  
+* It should be possible to add rewards to tasks.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

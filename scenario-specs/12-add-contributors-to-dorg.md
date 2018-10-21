@@ -1,6 +1,7 @@
-# TODO: Scenario Name  
+# Add Contributors to dOrg  
 ## Description  
 TODO: High level description.  
+* It should be possible to add members / contributors to a dOrg.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

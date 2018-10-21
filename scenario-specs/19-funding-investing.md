@@ -1,6 +1,12 @@
-# TODO: Scenario Name  
+# Funding / Investing  
 ## Description  
 TODO: High level description.  
+* It should be possible for a project to accept funding if they want.  
+  * Sell utility tokens.  
+  * Sell dividend tokens.  
+  * Sell security tokens.  
+  * Accept donations.  
+  * Accept funding for specific tasks (bounties).  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

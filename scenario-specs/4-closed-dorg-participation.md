@@ -1,6 +1,6 @@
-# TODO: Scenario Name  
+# Closed dOrg Participation  
 ## Description  
-TODO: High level description.  
+TODO: Only invited/accepted members can participate.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  

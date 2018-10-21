@@ -1,6 +1,8 @@
-# TODO: Scenario Name  
+# Support Anon Users  
 ## Description  
 TODO: High level description.  
+* Support users as anonymous individuals with only an on-chain identity.
+  * These users would have limited abilities within the dOrg (can't sign legal documents that are indented to be enforced off-chain).  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
