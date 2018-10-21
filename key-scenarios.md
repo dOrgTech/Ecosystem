@@ -7,43 +7,33 @@ This is a high level, technology independent look at the scenarios we're interes
 [Community]  
 [Development]  
 [Project Management]  
-[*] == all groups above
+[*] == all groups above  
 
-| Scenario | Feature Group(s) | Implementation Spec |  
-| -------- | ---------------- | ------------------- |  
-| [dOrg Setup and Configuration](#dorg-setup-and-configuration) | [*] | TODO |  
-| [Public dOrg Visibility](#public-dorg-visibility) | [*] | TODO |  
-| [Private dOrg Visibility](#private-dorg-visibility) | [*] | TODO |  
-| [Open dOrg Participation](#open-dorg-participation) | [*] | TODO |  
-| [Closed dOrg Participation](#closed-dorg-participation) | [*] | TODO |  
-| [Browse a dOrg](#browse-a-dorg) | [Community] | TODO |  
-| [dOrgs Are Discoverable](#dorgs-are-discoverable) | [Community] | TODO |  
-| [User Profiles](#user-profiles) | [Community] | TODO |  
-| [Support Attested Users](#support-attested-users) | [Legal]<br>[Community] | TODO |  
-| [Support Anon Users](#support-anon-users) | [Legal]<br>[Community] | TODO |  
-| [Instant Communication](#instant-communication) | [Community]<br>[Project Management] | TODO |  
-| [Structured Communication](#structured-communication) | [Community]<br>[Project Management] | TODO |  
-| [Add Member / Contributors to dOrg](#add-member-/-contributors-to-dorg) | [Community]<br>[Project Management] | TODO |  
-| [Task Creation](#task-creation) | [Project Management] | TODO |  
-| [Task Rewards](#task-rewards) | [Project Management] | TODO |  
-| [Consensus Functionality and Applicability](#consensus-functionality-and-applicability) | [Project Management] | TODO |  
-| [Task Prioritization, Grouping, and Dependencies](#task-prioritization-grouping-and-dependencies) | [Project Management] | TODO |  
-| [Repository Connections](#repository-connections) | [Development]<br>[Project Management] | TODO |  
-| [Automated Deployments](#automated-deployments) | [*] | TODO |  
-| [Funding / Investing](#funding-/-investing) | [Finance] | TODO |  
-| [Enable Verifiable Revenue Streams](#enable-verifiable-revenue-streams) | [Legal]<br>[Finance] | TODO |  
-| [Legal Agreements](#legal-agreements) | [Legal] | TODO |  
-
----
-## dOrg Setup and Configuration  
-* Setup a dOrg from scratch.  
-  * Support the importing of a dOrg from other services like GitHub, LinkedIn, etc, helping hasten migrations.  
-* Configure a dOrg.  
-  * Setup the rules by which the dOrg operates.  
-* Reconfiguration rules.  
-  * Make rules on how a dOrg could reconfigure itself.  
-    * Immutable.  
-    * Top 10% of rep holders required.  
+|  # | Scenario | Feature Group(s) |  
+| -- | -------- | ---------------- |  
+|  0 | [scenario spec template](./scenario-specs/0-spec-template.md) | |  
+|  1 | [dOrg Setup and Configuration](./scenario-specs/1-setup-and-configure.md) | [*] |  
+|  2 | Public dOrg Visibility | [*] |  
+|  3 | Private dOrg Visibility | [*] |  
+|  4 | Open dOrg Participation | [*] |  
+|  5 | Closed dOrg Participation | [*] |  
+|  6 | Browse a dOrg | [Community] |  
+|  7 | dOrgs Are Discoverable | [Community] |  
+|  8 | User Profiles | [Community] |  
+|  9 | Support Attested Users | [Legal]<br>[Community] |  
+| 10 | Support Anon Users | [Legal]<br>[Community] |  
+| 11 | Instant Communication | [Community]<br>[Project Management] |  
+| 12 | Structured Communication | [Community]<br>[Project Management] |  
+| 13 | Add Member / Contributors to dOrg | [Community]<br>[Project Management] |  
+| 14 | Task Creation | [Project Management] |  
+| 15 | Task Rewards | [Project Management] |  
+| 16 | Consensus Functionality and Applicability | [Project Management] |  
+| 17 | Task Prioritization, Grouping, and Dependencies | [Project Management] |  
+| 18 | Repository Connections | [Development]<br>[Project Management] |  
+| 19 | Automated Deployments | [*] |  
+| 20 | Funding / Investing | [Finance] |  
+| 21 | Enable Verifiable Revenue Streams | [Legal]<br>[Finance] |  
+| 22 | Legal Agreements | [Legal] |  
 
 ---
 ## Public dOrg Visibility  
