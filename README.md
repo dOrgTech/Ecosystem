@@ -42,7 +42,6 @@ Start with software development, cater to a specific group, gain traction there,
   - Closing the loop (stake holders, DAO, source code, income stream, back to dao & holders).  
 - Insight into your company’s different stats: revenue stream, investment distribution, development activity.  
 - Automated & decentralized environment, ENS pointing to it.  
-- Trying to leverage cloud service provider compute in an autonomous and verifiable manor (contract -> aws_contract -> aws [publishes root hashes]. Can verify published hashes and challenge if it is off).  
 
 ## Tech  
 - Project Management: Colony, DAOStack, Aragon  
