@@ -1,9 +1,9 @@
-# dOrg Setup and Configuration  
+# DAO Setup and Configuration  
 ## Description  
-As a creator of a dOrg, I need to be able to setup and configure it to my liking.  
+As a creator of a DAO, I need to be able to setup and configure it to my liking.  
 
 ## Motivation  
-We'd like to make the process of standing up a global organization extremely easy. The newly created dOrg shouldn't feel foreign to the creator. They should have a good idea of what this dOrg could look like in the future as more members join and new developments take place. The configuration of the dOrg should be heavily based on the creator's aspirations, and in line with the future of the dOrg. We should be able to provide guidance in the form of: education material, real world data, contacts who can help, and templates.  
+We'd like to make the process of standing up a global organization extremely easy. The newly created DAO shouldn't feel foreign to the creator. They should have a good idea of what this DAO could look like in the future as more members join and new developments take place. The configuration of the DAO should be heavily based on the creator's aspirations, and in line with the future of the DAO. We should be able to provide guidance in the form of: education material, real world data, contacts who can help, and templates.  
 
 ## Examples  
 ### Bob: Owner of a small tech company.  
@@ -23,11 +23,11 @@ TODO: Show supporting data to help explain: why this scenario is important, what
 
 ## Implementation Plan  
 TODO
-* Setup a dOrg from scratch.  
-  * Support the importing of a dOrg from other services like GitHub, LinkedIn, etc, helping hasten migrations.  
-* Configure a dOrg.  
-  * Setup the rules by which the dOrg operates.  
+* Setup a DAO from scratch.  
+  * Support the importing of a DAO from other services like GitHub, LinkedIn, etc, helping hasten migrations.  
+* Configure a DAO.  
+  * Setup the rules by which the DAO operates.  
 * Reconfiguration rules.  
-  * Make rules on how a dOrg could reconfigure itself.  
+  * Make rules on how a DAO could reconfigure itself.  
     * Immutable.  
     * Top 10% of rep holders required.  
