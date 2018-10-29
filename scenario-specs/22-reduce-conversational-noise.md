@@ -1,9 +1,15 @@
 # Reduce Conversational Noise
 ## Description  
-TODO: High level description.  
+The chat should be a place for "chatting" and not a source of information. All chatting that results in any real progress should be captured elsewhere.
+
+Therefore, we propose a solution where the chat history only is retained for two days.
 
 ## Motivation  
-TODO: Explain the motivation behind enabling this scenario.  
+One of the things that DAO's enables is the collaboration of a large number of people - see for instance with DAOstac's Holographic consensus. Therefore, also the tools for communications needs the ability to scale.
+
+Chats are unstructured and often consist of a lot of noise, and the problem grows larger and larger the more people that enter a chat. In the end, only the most dedicated users manage to follow the chat.
+
+People should not be required to read through a long and potentially noisy chat log to see what's going on in a DAO.
 
 ## Examples  
 TODO: Show a few different examples of what this scenario might look like.  
