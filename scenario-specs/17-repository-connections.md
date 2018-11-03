@@ -1,13 +1,10 @@
 # Repository Connections  
 ## Description  
-TODO: High level description.  
-* It should be possible to connect repositories to a dOrg (Public and Private).  
-  * ex: GitHub repository  
-  * ex: GitHub organization  
-  * ex: BitBucket  
+Make it possible for the DAO to own a decentralized Git repository. The merging of PRs and other repository management should be managed through the DAO.
 
+It should also be possible to mirror the repository to centralized services like GitHub and Bitbucket, but the ultimate source of through should be decided through consensus, through the DAO.
 ## Motivation  
-TODO: Explain the motivation behind enabling this scenario.  
+The work created (code etc.) should not be in the hands of a single person. It should be owned collectively and managed collectively through the DAO.
 
 ## Examples  
 TODO: Show a few different examples of what this scenario might look like.  
