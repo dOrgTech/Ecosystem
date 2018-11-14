@@ -15,6 +15,8 @@ TODO: High level description.
 TODO: Explain the motivation behind enabling this scenario.  
 
 ## Examples  
+- simple democracy
+- liquid democracy
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  
