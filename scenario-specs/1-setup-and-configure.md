@@ -3,7 +3,7 @@
 Enable anyone to create and configure a DAO that suites their specific needs.  
 
 ## Motivation  
-We'd like to make the process of standing up a global organization extremely easy. The newly created DAO shouldn't feel foreign to the creator. They should have a good idea of what this DAO could look like in the future as more members join and new developments take place. The configuration of the DAO should be heavily based on the creator's aspirations, and in line with the future of the DAO. We should be able to provide guidance in the form of: education material, real world data, contacts who can help, and templates.  
+We'd like to make the process of standing up a global organization extremely easy. The newly created DAO shouldn't feel foreign to the creator. They should have a good idea of what this DAO could look like in the future as more members join and new developments take place. The configuration of the DAO should be heavily based on the creator's aspirations, and in line with the future of the DAO. We should be able to provide guidance in the form of: education material, real world data, contacts who can help, and templates.  No Bananas
 
 ## Examples  
 **New Creator:** Create a simple DAO, using a template to start, and making modifications based on preferences.  
