@@ -1,12 +1,12 @@
 # Task Creation  
 ## Description  
 TODO: High level description.  
-* It should be possible to create tasks that are done in the dOrg.  
+* It should be possible to create tasks that are done in the DAO.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

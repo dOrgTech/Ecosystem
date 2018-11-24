@@ -1,12 +1,12 @@
-# Add Contributors to dOrg  
+# Add Contributors to DAO  
 ## Description  
 TODO: High level description.  
-* It should be possible to add members / contributors to a dOrg.  
+* It should be possible to add members / contributors to a DAO.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

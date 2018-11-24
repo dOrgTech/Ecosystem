@@ -1,11 +1,11 @@
-# Open dOrg Participation  
+# Optional DAO Visibility  
 ## Description  
-TODO: Anybody can participate...  
+TODO: Users can choose to keep their DAO public or private. What does it mean to have a "private" DAO? Private chain? Encrypted data on pub chain? What should be private?  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

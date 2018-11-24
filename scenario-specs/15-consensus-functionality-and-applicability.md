@@ -4,7 +4,7 @@ TODO: High level description.
 * Support configurable consensus functionality.  
   * ex: 2/3 is required to form consensus.  
   * ex: Only top 50% rep users can vote.  
-  * ex: Any attested user, regardless of rep, can have 1 vote (great for social impacting dOrgs that want to have the people have a say).  
+  * ex: Any attested user, regardless of rep, can have 1 vote (great for social impacting DAOs that want to have the people have a say).  
 * Support configurable consensus applicability.  
   * ex: Require consensus for task creation.  
   * ex: Require consensus for reward assignment.  
@@ -14,7 +14,7 @@ TODO: High level description.
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 - simple democracy
 - liquid democracy
 TODO: Show a few different examples of what this scenario might look like.  

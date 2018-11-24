@@ -1,11 +1,11 @@
-# Closed dOrg Participation  
+# Open DAO Participation  
 ## Description  
-TODO: Only invited/accepted members can participate.  
+TODO: Anybody can participate...  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

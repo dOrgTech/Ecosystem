@@ -1,15 +1,15 @@
 # Structured Communication  
 ## Description  
 TODO: High level description.  
-* dOrg forums.  
-  * Members within a dOrg can create forum threads.
+* DAO forums.  
+  * Members within a DAO can create forum threads.
   * Similar to GitHub tasks.  
 * Community forums.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

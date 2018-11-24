@@ -6,7 +6,7 @@ It should also be possible to mirror the repository to centralized services like
 ## Motivation  
 The work created (code etc.) should not be in the hands of a single person. It should be owned collectively and managed collectively through the DAO.
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  
