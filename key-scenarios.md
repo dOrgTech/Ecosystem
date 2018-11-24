@@ -33,3 +33,4 @@ This is a high level, technology independent look at the scenarios we're interes
 | 19 | [Funding / Investing](./scenario-specs/19-funding-investing.md) | [Finance] | 0% |  
 | 20 | [Enable Verifiable Revenue Streams](./scenario-specs/20-enable-verifiable-revenue-streams.md) | [Legal]<br>[Finance] | 0% |  
 | 21 | [Legal Agreements](./scenario-specs/21-legal-agreements.md) | [Legal] | 0% |  
+| 22 | [DAO Narative Building](./scenario-specs/22-dao-narrative-building.md) | [Community] | 0% |  
