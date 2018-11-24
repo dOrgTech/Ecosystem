@@ -1,15 +1,15 @@
 # Instant Communication  
 ## Description  
 TODO: High level description.  
-* dOrg chat.  
-  * Members within a dOrg can create channels or private messages.  
+* DAO chat.  
+  * Members within a DAO can create channels or private messages.  
 * Community chat.  
-  * Cross dOrg channels and private messages.
+  * Cross DAO channels and private messages.
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

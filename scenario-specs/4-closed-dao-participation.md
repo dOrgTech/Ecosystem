@@ -1,11 +1,11 @@
-# Optional dOrg Visibility  
+# Closed DAO Participation  
 ## Description  
-TODO: Users can choose to keep their dOrg public or private. What does it mean to have a "private" dOrg? Private chain? Encrypted data on pub chain? What should be private?  
+TODO: Only invited/accepted members can participate.  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

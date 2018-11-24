@@ -2,12 +2,12 @@
 ## Description  
 TODO: High level description.  
 * Support users as anonymous individuals with only an on-chain identity.
-  * These users would have limited abilities within the dOrg (can't sign legal documents that are indented to be enforced off-chain).  
+  * These users would have limited abilities within the DAO (can't sign legal documents that are indented to be enforced off-chain).  
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  

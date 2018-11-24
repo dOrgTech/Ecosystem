@@ -5,7 +5,7 @@ TODO: High level description.
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Implementation Plan  

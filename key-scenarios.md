@@ -12,18 +12,18 @@ This is a high level, technology independent look at the scenarios we're interes
 |  # | Scenario | Feature Group(s) | % Realized |  
 | -- | -------- | ---------------- | ---------- |  
 |  0 | [Scenario Spec Template](./scenario-specs/0-spec-template.md) | | 0% |  
-|  1 | [dOrg Setup and Configuration](./scenario-specs/1-setup-and-configure.md) | [*] | 0% |  
-|  2 | [Optional dOrg Visibility](./scenario-specs/2-optional-dorg-visibility.md) | [*] | 0% |  
-|  3 | [Open dOrg Participation](./scenario-specs/3-open-dorg-participation.md) | [*] | 0% |  
-|  4 | [Closed dOrg Participation](./scenario-specs/4-closed-dorg-participation.md) | [*] | 0% |  
-|  5 | [Browse a dOrg](./scenario-specs/5-browse-a-dorg.md) | [Community] | 0% |  
-|  6 | [dOrgs Are Discoverable](./scenario-specs/6-dorgs-are-discoverable.md) | [Community] | 0% |  
+|  1 | [DAO Setup and Configuration](./scenario-specs/1-setup-and-configure.md) | [*] | 0% |  
+|  2 | [Optional DAO Visibility](./scenario-specs/2-optional-dao-visibility.md) | [*] | 0% |  
+|  3 | [Open DAO Participation](./scenario-specs/3-open-dao-participation.md) | [*] | 0% |  
+|  4 | [Closed DAO Participation](./scenario-specs/4-closed-dao-participation.md) | [*] | 0% |  
+|  5 | [Browse a DAO](./scenario-specs/5-browse-a-dao.md) | [Community] | 0% |  
+|  6 | [DAO Are Discoverable](./scenario-specs/6-daos-are-discoverable.md) | [Community] | 0% |  
 |  7 | [User Profiles](./scenario-specs/7-user-profiles.md) | [Community] | 0% |  
 |  8 | [Support Attested Users](./scenario-specs/8-support-attested-users.md) | [Legal]<br>[Community] | 0% |  
 |  9 | [Support Anon Users](./scenario-specs/9-support-anon-users.md) | [Legal]<br>[Community] | 0% |  
 | 10 | [Instant Communication](./scenario-specs/10-instant-communication.md) | [Community]<br>[Project Management] | 0% |  
 | 11 | [Structured Communication](./scenario-specs/11-structured-communication.md) | [Community]<br>[Project Management] | 0% |  
-| 12 | [Add Contributors to dOrg](./scenario-specs/12-add-contributors-to-dorg.md) | [Community]<br>[Project Management] | 0% |  
+| 12 | [Add Contributors to DAO](./scenario-specs/12-add-contributors-to-dao.md) | [Community]<br>[Project Management] | 0% |  
 | 13 | [Task Creation](./scenario-specs/13-task-creation.md) | [Project Management] | 0% |  
 | 14 | [Task Rewards](./scenario-specs/14-task-rewards.md) | [Project Management] | 0% |  
 | 15 | [Consensus Functionality and Applicability](./scenario-specs/15-consensus-functionality-and-applicability.md) | [Project Management] | 0% |  

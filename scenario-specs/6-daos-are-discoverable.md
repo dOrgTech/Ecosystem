@@ -1,20 +1,20 @@
-# dOrgs Are Discoverable  
+# DAOs Are Discoverable  
 ## Description  
 TODO: High level description.  
-*Users considered: investors, skilled professionals, community members / enthusiasts, dOrg's looking for collaborators (other dOrgs or individuals).*  
-* Search for a dOrgs (togglable discoverability).  
-  * ex: Search for a dOrg of graphic designers.  
-  * Search using our dApp, or find a dOrg through a search engine (support SEO).  
-* Search for "help wanted" postings from dOrgs.  
+*Users considered: investors, skilled professionals, community members / enthusiasts, DAOs looking for collaborators (other DAOs or individuals).*  
+* Search for DAO (togglable discoverability).  
+  * ex: Search for a DAO of graphic designers.  
+  * Search using our dApp, or find a DAO through a search engine (support SEO).  
+* Search for "help wanted" postings from DAOs.  
   * ex: Front-end engineer looking for work.  
-* Allow dOrgs to post to a global feed, similar to twitter.  
-  * ex: dOrg "Foo" has a new release and wants to post a video explaining it.  
+* Allow DAOs to post to a global feed, similar to twitter.  
+  * ex: DAO "Foo" has a new release and wants to post a video explaining it.  
 
 
 ## Motivation  
 TODO: Explain the motivation behind enabling this scenario.  
 
-## Examples  
+## Example Scenarios  
 TODO: Show a few different examples of what this scenario might look like.  
 
 ## Supporting Data  
