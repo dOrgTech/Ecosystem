@@ -27,13 +27,13 @@ Additionally you could:
 
 ### Call To Archive  
 **Goals: Retain Call Activity, Grow Knowledge Archive**  
-**Description:** Every week the DAO has a call where the discuss the past week. Recordings are made and uploaded to the archive. Attendees are recorded. Notes are taken and appended to the recording. Tags within the video timeline are added for easy reference.  
+**Description:** Every week the DAO has a call where they discuss the past week. Recordings are made and uploaded to the archive. Attendees are recorded. Notes are taken and appended to the recording. Tags within the video timeline are added for easy reference.  
 
 ### Group & Summarize  
 **Goals: Declutter Chat**  
-**Description:** 5 group members are discussing something, trying for form consensus. Once consensus is reached, they select the ~50 messages, and summarize them with "we decided SOLUTION was best because REASON". The original messages would still be reatined if someone wanted to click through and see how the summarization was reached.  
+**Description:** 5 group members are discussing something, trying to form consensus. Once consensus is reached, they select the ~50 messages, and summarize them with "we decided SOLUTION was best because REASON". The original messages would still be retained if someone wanted to click through and see how the summarization was reached.  
 
-Governance over the summarization would be ideal to ensure peoples thoughts are not misrepresented. Some sort of incentivized meta game could be developed to hasten and secure this process.  
+Governance over the summarization would be ideal to ensure people's thoughts are not misrepresented. Some sort of incentivized meta game could be developed to hasten and secure this process.  
 
 ### Notification Replay  
 **Goals: Catch Up Quickly, Time Contextualized Activity**
