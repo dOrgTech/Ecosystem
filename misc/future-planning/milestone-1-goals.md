@@ -47,8 +47,12 @@ Note: Prefer decentralized tooling whenever available.
 
 ### 3. BUIDL  
 * DAOstack Ecosystem Project  
-  * Registries?  
+  * Registrie for DAOs (Mosaic)
+  * Register for Schemas and Global Constraints (with a standard for defining Schema and Global Constraint UI)(Compendium)
+  * Open community-wide billboard (The Hive)
+  * Register for DAO themplates (sets of schemas and Global Contrainghts)
   * Arc & Arc.js Development?  
+  * Alchemy Development?
   * Generic Scheme GUI Tool?  
   * DAO Universe Explorer? (Unity Project)  
 * SemanticWeb3 Development  
