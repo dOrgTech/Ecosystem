@@ -29,8 +29,8 @@ dOrg is owned and controlled by its contributors, not external investors. Our re
 
 Interested in contributing? We'd love for you to participate! You can contact us through
 
-- [Discord](https://discord.gg/VaHdXs): unstructured chat
-- [Reddit](https://www.reddit.com/r/ACX_Network/): structured discussion
+- [Discord](https://discord.gg/6Kujmad): unstructured chat
+- [Reddit](https://www.reddit.com/r/dOrgTech/): structured discussion
 - Or learn more about our operational tooling [here](https://github.com/dOrgTech/operations)
 
 Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
