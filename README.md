@@ -1,16 +1,36 @@
-# dOrg (The Decentralized Organization dApp)  
-## Goal  
-Provide tools and services that enable the use of DAOs for all.  
+![](logo.png)
 
-## Plan  
-Start with software development, cater to a specific group, gain traction there, move outward and enable other communities after. Think of a group of journalists, or film makers.  
+> a freelancer cooperative committed to enhancing the means of coordination
 
-Please see our ["Key Scenarios"](./key-scenarios.md) document where we will document the user scenarios we will be developing solutions for.  
+dOrg improves the stack for distributed organizing by producing open-source . . .
 
-## Contribute  
-Interested in this mission? Find something missing? We'd love for you to contribute! You can also make contact with us online, anything works. A link to our group chat is listed here: https://github.com/dOrgTech/.
+### 1. Infrastructure
 
-## dOrg?  
-We wanted something that was easy for anyone, inside or outside the blockchain community, to remember and become familiar with. We think that the term dApp was extremely successful in doing this for Decentralized Apps, which brought us to thinking dOrg for Decentralized Organizations was a good fit.  
+- *[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)*. modular UI framework for easy integration of DAOs into React apps
+- *[DAOactions](https://github.com/dOrgTech/DAOactions)*. contracts and transaction scripts that enable DAOs to perform complex actions like fundraising and asset management
+- *Utility DAOs*. on-chain organizations that provide ecosystem-wide utilities, such as identity verification and [token whitelisting](https://github.com/dOrgTech/tokenRegistry)
 
-The term DAO has become a standard in the blockchain community, and we do not aim to replace. We plan to use the term DAO in all technical documentation, and will only use dOrg as an up front "new user friendly" term.  
+### 2. Research
+
+- *[web3bindings](https://github.com/dOrgTech/research/tree/master/Web3Binding)*. derive application interfaces for protocols from data
+- *[web3semantics](https://github.com/dOrgTech/research/tree/master/Web3Semantics)*. render transactions legible with formally verified semantics
+- *web3poliphil*. wrap web3 technologies in coherent political-philosophy
+
+### 3. Products
+
+- *Client DAOs*. help dApps, grant programs and communities [launch their own DAOs](https://github.com/dOrgTech/dOrg)
+- *Custom Interfaces & Integrations*. build and maintain tools that enhance the DAO experience
+
+See our [Key Scenarios](https://github.com/dOrgTech/vision/blob/master/key-scenarios.md) to learn about other solutions we are developing.
+
+## Contribute
+
+dOrg is owned and controlled by its contributors, not external investors. Our representational forms— both on and off-chain— are designed to harness our collective power while protecting each agent's autonomy. We aim to leverage economies of scale without sacrificing fair and reliable compensation.
+
+Interested in contributing? We'd love for you to participate! You can contact us through
+
+- [Discord](https://discord.gg/VaHdXs): unstructured chat
+- [Reddit](https://www.reddit.com/r/ACX_Network/): structured discussion
+- Or learn more about our operational tooling [here](https://github.com/dOrgTech/operations)
+
+Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
