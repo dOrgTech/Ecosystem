@@ -2,7 +2,7 @@
 
 > a freelancer cooperative committed to enhancing the means of coordination
 
-dOrg improves the stack for distributed organizing by producing open-source . . .
+We produce open-source:
 
 ### 1. Infrastructure
 
@@ -22,6 +22,7 @@ dOrg improves the stack for distributed organizing by producing open-source . . 
 - *Custom Interfaces & Integrations*. build and maintain tools that enhance the DAO experience
 
 See our [Key Scenarios](https://github.com/dOrgTech/vision/blob/master/key-scenarios.md) to learn about other solutions we are developing.
+
 
 ## Contribute
 
