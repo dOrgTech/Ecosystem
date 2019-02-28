@@ -33,6 +33,6 @@ Interested in contributing? We'd love for you to participate! You can contact us
 
 - [Discord](https://discord.gg/6Kujmad): unstructured chat
 - [Reddit](https://www.reddit.com/r/dOrgTech/): structured discussion
-- Or learn more about our operational tooling [here](./operations).
+- Or learn more about our operational tooling [here](./operations.md).
 
 Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
