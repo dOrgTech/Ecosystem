@@ -1,16 +1,38 @@
-# dOrg (The Decentralized Organization dApp)  
-## Goal  
-Provide tools and services that enable the use of DAOs for all.  
+![](logo.png)
 
-## Plan  
-Start with software development, cater to a specific group, gain traction there, move outward and enable other communities after. Think of a group of journalists, or film makers.  
+> *A freelancer cooperative committed to enhancing the means of coordination.*
 
-Please see our ["Key Scenarios"](./key-scenarios.md) document where we will document the user scenarios we will be developing solutions for.  
+# We Produce
 
-## Contribute  
-Interested in this mission? Find something missing? We'd love for you to contribute! You can also make contact with us online, anything works. A link to our group chat is listed here: https://github.com/dOrgTech/.
+### Open-Source Infrastructure
 
-## dOrg?  
-We wanted something that was easy for anyone, inside or outside the blockchain community, to remember and become familiar with. We think that the term dApp was extremely successful in doing this for Decentralized Apps, which brought us to thinking dOrg for Decentralized Organizations was a good fit.  
+- **[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)**: Modular DAO Primitive React Component Library, enabling steamlined application integration.
+- **[DAOactions](https://github.com/dOrgTech/DAOactions)**: Toolkit that enables DAOs to perform complex actions like fundraising and asset management.
+- **Utility DAOs**: On-chain organizations that provide ecosystem-wide utilities, such as identity verification and [token whitelisting](https://github.com/dOrgTech/tokenRegistry).
 
-The term DAO has become a standard in the blockchain community, and we do not aim to replace. We plan to use the term DAO in all technical documentation, and will only use dOrg as an up front "new user friendly" term.  
+### Research
+
+- **[Web3Wemantics](https://github.com/dOrgTech/research/tree/master/Web3Semantics)**: Standardize Smart Contract Protocol metadata for semantic reading and writing.
+- **[Web3Bindings](https://github.com/dOrgTech/research/tree/master/Web3Binding)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
+- **[Web3Device](https://github.com/dOrgTech/research/blob/master/Web3Device.LocalEverything/study.md)**: Enable a fluid dApp experience by running 'Everything' locally, with as few dependencies as possible.
+
+### Services
+
+- **Client DAOs**: Help dApps, grant programs and communities launch their own DAOs.
+- **Client Solutions**: Help others build custom integrations and solutions for their DAO needs.
+- **Custom Interfaces**: Build and maintain tools that enhance the DAO experience.
+
+See our [Key Scenarios](https://github.com/dOrgTech/vision/blob/master/key-scenarios.md) to learn more about what we're looking to enable.
+
+
+## Contribute
+
+dOrg is owned and controlled by its contributors, not external investors. Our representational forms— both on and off-chain— are designed to harness our collective power while protecting each agent's autonomy. We aim to leverage economies of scale without sacrificing fair and reliable compensation.
+
+Interested in contributing? We'd love for you to participate! You can contact us through:
+
+- [Discord](https://discord.gg/6Kujmad): unstructured chat
+- [Reddit](https://www.reddit.com/r/dOrgTech/): structured discussion
+- Or learn more about our operational tooling [here](./operations).
+
+Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
