@@ -12,7 +12,7 @@
 
 ### Research
 
-- **[Web3Wemantics](https://github.com/dOrgTech/research/tree/master/Web3Semantics)**: Standardize Smart Contract Protocol metadata for semantic reading and writing.
+- **[Web3Semantics](https://github.com/dOrgTech/research/tree/master/Web3Semantics)**: Standardize Smart Contract Protocol metadata for semantic reading and writing.
 - **[Web3Bindings](https://github.com/dOrgTech/research/tree/master/Web3Binding)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
 - **[Web3Device](https://github.com/dOrgTech/research/blob/master/Web3Device.LocalEverything/study.md)**: Enable a fluid dApp experience by running 'Everything' locally, with as few dependencies as possible.
 
