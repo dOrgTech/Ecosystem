@@ -7,6 +7,7 @@
 ### Open-Source Infrastructure
 
 - **[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)**: Modular DAO Primitive React Component Library, enabling steamlined application integration.
+- **[DAOcreator](https://github.com/dOrgTech/DAOcreator)**: Wizard for setting up your own DAO.
 - **[DAOactions](https://github.com/dOrgTech/DAOactions)**: Toolkit that enables DAOs to perform complex actions like fundraising and asset management.
 - **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Features that can be easily added to a DAO. A DAOfeature consists of a universal scheme (on chain) and a user interface (on IPFS) for interaction with that scheme.
 - **Utility DAOs**: On-chain organizations that provide ecosystem-wide utilities, such as identity verification and token whitelisting.
