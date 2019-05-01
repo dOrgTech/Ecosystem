@@ -24,9 +24,6 @@
 - **Client Solutions**: Help others build custom integrations and solutions for their DAO needs.
 - **Custom Interfaces**: Build and maintain tools that enhance the DAO experience.
 
-See our [Key Scenarios](https://github.com/dOrgTech/vision/blob/master/key-scenarios.md) to learn more about what we're looking to enable.
-
-
 ## Contribute
 
 dOrg is owned and controlled by its contributors, not external investors. Our representational forms— both on and off-chain— are designed to harness our collective power while protecting each agent's autonomy. We aim to leverage economies of scale without sacrificing fair and reliable compensation.
