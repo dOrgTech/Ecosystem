@@ -1,38 +1,31 @@
 ![](logo.png)
 
-> *A freelancer cooperative committed to enhancing the means of coordination.*
+> *Empowering Distributed Organizations*
 
-# We Produce
+# We work on
 
-### Open-Source Infrastructure
+### Tooling
 
-- **[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)**: Modular DAO Primitive React Component Library, enabling streamlined application integration.
 - **[DAOcreator](https://github.com/dOrgTech/DAOcreator)**: Wizard for setting up your own DAO.
-- **[DAOactions](https://github.com/dOrgTech/DAOactions)**: Toolkit that enables DAOs to perform complex actions like fundraising and asset management.
-- **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Features that can be easily added to a DAO. A DAOfeature consists of a universal scheme (on chain) and a user interface (on IPFS) for interaction with that scheme.
-- **Utility DAOs**: On-chain organizations that provide ecosystem-wide utilities, such as identity verification and token whitelisting.
+- **[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)**: Modular React Component Library of DAO Primitives, enabling streamlined application integration.
+- **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Templated schemes, constraints and utilities for building DAOs.
 
-### Research
+### Client Projects
+- **[Identity DAO]()**: A DAO curated registry of human identities.
+- **[Continuous Funding]()**: Token bonding curve modules for DAOs.
 
-- **[BBLLC-DAO](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Design legal specifications for DAOs.
-- **[Web3Semantics](https://github.com/dOrgTech/research/tree/master/Web3Semantics)**: Standardize Smart Contract Protocol metadata for semantic reading and writing.
-- **[Web3Bindings](https://github.com/dOrgTech/research/tree/master/Web3Binding)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
-- **[Web3Device](https://github.com/dOrgTech/research/blob/master/Web3Device.LocalEverything/study.md)**: Enable a fluid dApp experience by running 'Everything' locally, with as few dependencies as possible.
+### Ecosystem Research
 
-### Services
-
-- **Client DAOs**: Help dApps, grant programs and communities launch their own DAOs.
-- **Client Solutions**: Help others build custom integrations and solutions for their DAO needs.
-- **Custom Interfaces**: Build and maintain tools that enhance the DAO experience.
+- **[Web3Bindings](https://github.com/web3bindings/prototype)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
+- **[BBLLC-DAO](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Live pilot and legal specification for limited liability DAOs.
 
 ## Contribute
+dOrg is structured as a cooperative of freelancers. We join forces to enjoy economies of scale while maintaining our independence as freelancers.
 
-dOrg is owned and controlled by its contributors, not managers or investors. Our organizational forms— both on and off-chain— are designed to harness our collective power while protecting each agent's autonomy. We aim to leverage economies of scale without sacrificing fair and reliable compensation.
+Interested in contributing?
 
-Interested in contributing? We'd love for you to participate! You can contact us through:
-
-- [Discord](https://discord.gg/6Kujmad): unstructured chat
-- [Reddit](https://www.reddit.com/r/dOrgTech/): structured discussion
+- Check out our repos,
+- Reach out on [Discord](https://discord.gg/6Kujmad), or
 - Or learn more about our operational tooling [here](./operations.md).
 
 Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
