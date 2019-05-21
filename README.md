@@ -16,7 +16,7 @@
 ### Ecosystem Research
 
 - **[Web3Bindings](https://github.com/web3bindings/prototype)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
-- **[BBLLC](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Blockchain-based LLCs as legal wrappers for DAOs. 
+- **[Blockchain-based LLC](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Automate formation of legal wrappers for DAOs.
 
 ## Contribute
 dOrg is structured as a cooperative of freelancers. We join forces to enjoy economies of scale while maintaining our independence as freelancers.
