@@ -11,12 +11,12 @@
 
 ### Client Projects
 - **Identity DAO**: A DAO curated registry of human identities.
-- **Continuous Funding**: Token bonding curves for DAOs.
+- **Continuous DAOs**: Funding DAOs through bonding curves.
 
 ### Ecosystem Research
 
 - **[Web3Bindings](https://github.com/web3bindings/prototype)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
-- **[BBLLC-DAO](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Live pilot and legal specification for limited liability DAOs.
+- **[BBLLC](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Blockchain-based LLCs as legal wrappers for DAOs. 
 
 ## Contribute
 dOrg is structured as a cooperative of freelancers. We join forces to enjoy economies of scale while maintaining our independence as freelancers.
