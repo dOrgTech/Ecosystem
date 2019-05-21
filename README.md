@@ -1,23 +1,24 @@
+# dOrg
 > *Empowering Distributed Organizations*
 
-# Workstreams
+## Workstreams
 
-## Tooling
+### Tooling
 
 - **[DAOcreator](https://github.com/dOrgTech/DAOcreator)**: Wizard for setting up your own DAO.
 - **[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)**: Modular React Component Library of DAO Primitives, enabling streamlined application integration.
 - **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Templated schemes, constraints and utilities for building DAOs.
 
-## Client Projects
+### Client Projects
 - **Identity DAO**: A DAO curated registry of human identities.
 - **Continuous Funding**: Token bonding curve modules for DAOs.
 
-## Ecosystem Research
+### Ecosystem Research
 
 - **[Web3Bindings](https://github.com/web3bindings/prototype)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
 - **[BBLLC-DAO](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Live pilot and legal specification for limited liability DAOs.
 
-# Contribute
+## Contribute
 dOrg is structured as a cooperative of freelancers. We join forces to enjoy economies of scale while maintaining our independence as freelancers.
 
 Interested in contributing?
