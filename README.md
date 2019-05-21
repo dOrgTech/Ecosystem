@@ -11,7 +11,7 @@
 
 ### Client Projects
 - **Identity DAO**: A DAO curated registry of human identities.
-- **Continuous Funding**: Token bonding curve modules for DAOs.
+- **Continuous Funding**: Token bonding curves for DAOs.
 
 ### Ecosystem Research
 
