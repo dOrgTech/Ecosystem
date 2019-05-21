@@ -2,7 +2,7 @@
 
 > *Empowering Distributed Organizations*
 
-# We work on
+# Workstreams
 
 ### Tooling
 
@@ -11,8 +11,8 @@
 - **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Templated schemes, constraints and utilities for building DAOs.
 
 ### Client Projects
-- **[Identity DAO]()**: A DAO curated registry of human identities.
-- **[Continuous Funding]()**: Token bonding curve modules for DAOs.
+- **Identity DAO**: A DAO curated registry of human identities.
+- **Continuous Funding**: Token bonding curve modules for DAOs.
 
 ### Ecosystem Research
 
@@ -26,6 +26,6 @@ Interested in contributing?
 
 - Check out our repos,
 - Reach out on [Discord](https://discord.gg/6Kujmad), or
-- Or learn more about our operational tooling [here](./operations.md).
+- Learn more about our [operational tooling](./operations.md).
 
 Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
