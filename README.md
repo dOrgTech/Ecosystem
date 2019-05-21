@@ -1,4 +1,4 @@
-![](LOGO.png)
+![](img/LOGO.png)
 > *Empowering Distributed Organizations*
 
 ## Workstreams
