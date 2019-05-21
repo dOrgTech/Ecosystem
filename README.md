@@ -10,7 +10,7 @@
 - **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Templated schemes, constraints and utilities for building DAOs.
 
 ### Client Projects
-- **Identity DAO**: A DAO curated registry of human identities.
+- **Identity DAO**: A DAO-curated registry of human identities.
 - **Continuous DAOs**: Funding DAOs through bonding curves.
 
 ### Ecosystem Research
