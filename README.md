@@ -1,4 +1,4 @@
-# dOrg
+![](dOrg.png)
 > *Empowering Distributed Organizations*
 
 ## Workstreams
