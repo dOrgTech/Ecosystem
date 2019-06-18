@@ -7,7 +7,6 @@
 
 - **[DAOcreator](https://github.com/dOrgTech/DAOcreator)**: Wizard for setting up your own DAO.
 - **[DAOcomponents](https://github.com/dOrgTech/DAOcomponents)**: Modular React Component Library of DAO Primitives, enabling streamlined application integration.
-- **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Templated schemes, constraints and utilities for building DAOs.
 
 ### Client Projects
 - **[ID-DAO](https://github.com/dOrgTech/ID-DAO)**: A DAO-curated registry of human identities.
