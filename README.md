@@ -10,13 +10,13 @@
 - **[DAOfeatures](https://github.com/dOrgTech/DAOfeatures)**: Templated schemes, constraints and utilities for building DAOs.
 
 ### Client Projects
-- **Identity DAO**: A DAO-curated registry of human identities.
-- **Continuous DAOs**: Funding DAOs through bonding curves.
+- **[ID-DAO](https://github.com/dOrgTech/ID-DAO)**: A DAO-curated registry of human identities.
+- **[BC-DAO](https://github.com/dOrgTech/BC-DAO)**: Continuously funding DAOs with bonding curves.
 
 ### Ecosystem Research
 
+- **[LL-DAO](https://github.com/dOrgTech/LL-DAO)**: Automate the formation and maintenance of Limited Liability DAOs
 - **[Web3Bindings](https://github.com/web3bindings/prototype)**: Generate APIs for Smart Contract Protocols from their semantic metadata.
-- **[Blockchain-based LLC](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/)**: Automate formation of legal wrappers for DAOs.
 
 ## Contribute
 dOrg is structured as a cooperative of freelancers. We join forces to enjoy economies of scale while maintaining our independence as freelancers.
