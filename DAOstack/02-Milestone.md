@@ -1,11 +1,8 @@
 # Milestone 2 Deliverables
 
 Date: Jun 28, 2019
-Tags: Deliverables,Milestone
 
 *An overview of dOrg's progress in the second 2-month segment of our partnership with DAOstack (May 1 - June 30)*
-
-*See here for [Milestone 1 Deliverables (March 1 - April 30)](https://www.notion.so/dorg/Milestone-1-Deliverables-5fead6b0a777440bb3830dcedb3f5fe0)
 
 ### Summary of Document:
 

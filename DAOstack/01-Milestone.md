@@ -1,7 +1,6 @@
 # Milestone 1 Deliverables
 
 Date: Apr 26, 2019
-Tags: Deliverables,Milestone
 
 *An overview of dOrg's progress in the first 2-month segment of our partnership with DAOstack (March 1 - April 30)*
 
