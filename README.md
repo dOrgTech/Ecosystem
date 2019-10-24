@@ -12,9 +12,11 @@ The easiest way for a new freelancer to start earning Rep in dOrg is to complete
 
 See the `Issues` section of the repository for all open bounties.
 
-### Bounty Curation
+### Suggest a new bounty!
 
-Anyone can add a bounty and (optionally) propose funding. Bounties are funded by the DAO through a proposal of intent. Links to these passed proposals will be added to each bounty.
+Anyone can suggest a new bounty by adding an issue to this repo.
+
+Bounties can then be discussed and priced according to their priority, complexity and required time. Bounties are funded by the DAO through a proposal of intent. Links to these passed proposals will be added to each bounty.
 
 # Contribute
 
@@ -24,6 +26,6 @@ Have any questions? Want to get in touch?
 - Learn more on our [site](https://dorg.tech/#/)
 - Reach out on [Discord](https://discord.gg/6Kujmad) with any questions
 
-### Fork
+### Fork dOrg!
 
 Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
