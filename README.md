@@ -8,7 +8,7 @@ See our [Handbook](TODO) to learn all about the organization.
 
 # Bounties
 
-The easiest way for a new freelancer to start earning Rep in dOrg is to complete an open bounty. If the DAO accepts your bounty, you will receive up to the full reward along with the corresponding Reputation in the DAO!
+The easiest way to join dOrg is to complete an open bounty. If the DAO accepts your bounty, you will receive up to the full reward along with some Reputation (read: voting power) in the DAO!
 
 See the `Issues` section of the repository for all open bounties.
 
