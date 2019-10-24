@@ -1,14 +1,14 @@
 <img src="img/LOGO.png" width="300">
 
-# Welcome
+# dOrg Ecosystem
 
 [dOrg](https://dorg.tech) is a web3 freelancer coalition. We join forces to enjoy economies of scale while maintaining our independence as freelancers.
 
 See our [Handbook](TODO) to learn all about the organization.
 
-# Contribute
+## Contribute
 
-The easiest way to join dOrg is to complete an open bounty. If the DAO accepts your bounty, you will receive up to the full reward along with some Reputation (read: voting power) in the DAO!
+The easiest way to join dOrg is to complete an open bounty. If the DAO accepts your bounty, you will receive up to the full reward– along with membership in the DAO and the ability to contribute to our ongoing workstreams.
 
 See the `Issues` section of the repository for all open bounties.
 
@@ -18,7 +18,7 @@ Anyone can suggest a new bounty by adding an issue to this repo.
 
 Bounties can then be discussed and priced according to their priority, complexity and required time. Bounties are funded by the DAO through a proposal of intent. Links to these passed proposals will be added to each bounty.
 
-# Contact
+## Contact
 
 Have any questions? Want to speak with humans?
 
@@ -26,7 +26,7 @@ Have any questions? Want to speak with humans?
 - Reach out on [Discord](https://discord.gg/6Kujmad)
 - Send an [email](contact@dorg.tech)
 
-# Fork dOrg!
+## Fork dOrg!
 
 Want to start your own digital co-op?
 1. Read ["A Technology Freelancer's Guide To Starting a Worker Cooperative"](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf)
