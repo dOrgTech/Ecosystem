@@ -28,4 +28,7 @@ Have any questions? Want to get in touch?
 
 ### Fork dOrg!
 
-Want to start your own Freelancer Co-Op? Check out [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf).
+Want to start your own digital co-op?
+1. Study [A Technology Freelancer's Guide To Starting a Worker Cooperative](https://www.techworker.coop/sites/default/files/TechCoopHOWTO.pdf)
+2. Deploy with the the [DAOCreator](https://dorg.tech/#/dao-creator)
+3. Get legit and [incorporate](https://github.com/dOrgTech/LL-DAO) (not legal advice!)
