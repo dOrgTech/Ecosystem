@@ -46,8 +46,6 @@
 
 # Ecosystem
 
-We worked closely 
-
 - Started [DAOstack-collab](https://github.com/dOrgTech/daostack-collab/) repo on github to support joint roadmaps across technical teams in the ecosystem  → forked into [DAOstack's Ecosystem repo](https://github.com/daostack/Ecosystem)
 - Helped to begin specifying good "first time issues" for new open-source contributors (several of which have been more fully elaborated on [here](https://github.com/daostack/Ecosystem/issues))
 - Launched the [DAOfest DAO](https://alchemy.daostack.io/dao/0x8990e11b69403Ea53Ef2B32434bBD7dBf84B5234) with Felipe
