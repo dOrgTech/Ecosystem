@@ -2,7 +2,7 @@
 
 *An overview of dOrg's progress in the 1st segment (Oct 1 - 31) of our  six month engagement  with Genesis DAO.*
 
-*For context, see the recurring proposal here. TODO INCLUDE LINK*
+*For context, [see the recurring proposal here](Recurring_Funding_Proposal.md).*
 
 # DAOcreator
 
@@ -11,19 +11,19 @@
 - **Mainnet deployments** now supported inside the app!
     - Detailed warnings and instructions
 
-    ![](../img/deploy.png)
+    <img src="../img/deploy.png" width="800">
 
     - Full, exportable deployment log
 
-    ![](../img/log.png)
+    <img src="../img/log.png" width="800">
 
 - **Import DAO** now supported
 
-    ![](../img/import.png)
+    <img src="../img/import.png" width="250">
 
 - Improved [import members from CSV sanitation](https://github.com/dOrgTech/DAOcreator/issues/215)
 - [Subgraph PR](https://github.com/daostack/subgraph/pull/215) and [DAOtracker PR](https://github.com/daostack/arc/pull/640) fixed and merged - this lays the groundwork for automated Alchemy support!
-- Beta release redesign specified and timelined (TODO link)
+- Beta release redesign specified and timelined
 
 ### Future
 
@@ -36,7 +36,7 @@
 - **Gasless Rep Redeem**: Allows ReputationFromToken to be redeemed without needing any gas in order to support seemless onboarding for future dHacks and DAOfests. [[problem](https://github.com/dOrgTech/Ecosystem/issues/17)] [[solution](https://github.com/dOrgTech/TxPayerService)]
 - Began specifying [Reputation simulation app](https://github.com/dOrgTech/Ecosystem/issues/19) for DAOs to visualize and model changes in Rep over time.
 
-    ![](../img/rep-simulation.png)
+    <img src="../img/rep-simulation.png" width="500">
 
 - Began coordinating _prtcl
 

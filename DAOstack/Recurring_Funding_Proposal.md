@@ -9,11 +9,11 @@ dOrg is the first team to emerge from the Genesis community and begin decentrali
 With this proposal, we are officially asking Genesis to fund our ongoing software development and open-source advocacy efforts in the DAOstack ecosystem / GEN economy. This proposal will:
 
 1. Signal Genesis DAO's intent to fund dOrg for the attached deliverables at a rate of $15k/month for 6 months (Q4 2019 & Q1 2020)
-2. Send dOrg payment for the first period (Oct 1 - Oct 31). See progress report here. TODO
+2. Send dOrg payment for the first period (Oct 1 - Oct 31). [See progress report here](Genesis_Milestone_01.md).
 
 # Past Work
 
-We have published all of dOrg's milestone reports from our incubation period with DAOstack [[1](https://github.com/dOrgTech/Ecosystem/blob/master/DAOstack/01-Milestone.md)][[2](https://github.com/dOrgTech/Ecosystem/blob/master/DAOstack/02-Milestone.md)][[3](https://github.com/dOrgTech/Ecosystem/blob/master/DAOstack/03-Milestone.md)]. Here are some highlights:
+We have published all of dOrg's milestone reports from our incubation period with DAOstack [[1](DAOstack_Milestone_01.md)][[2](DAOstack_Milestone_02.md][[3](DAOstack_Milestone_03.md)]. Here are some highlights:
 
 - Constructed a [DAO creator](https://dorg.tech/#/dao-creator) application for the simple deployment of DAOstack native DAOs.
 - Developed a [fundraising module](https://www.notion.so/dorg/BC-DAPP-Proposal-9c4dec4870ed48a19b39f5be6ccbf373#93f5e757c3b74a5bbe5748702594de62) that allow DAOs to [automatically distribute dividends to its token purchasers](https://github.com/dOrgTech/BC-DAO/blob/master/README.md).
