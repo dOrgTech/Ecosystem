@@ -1,6 +1,6 @@
 # Genesis Recurring Funding Proposal
 
-> $15k per month x 6 months
+> $15k per month x 6 months (Q4 2019 & Q1 2020)
 
 # Summary
 

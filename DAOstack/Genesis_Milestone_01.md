@@ -1,6 +1,4 @@
-# 01-Genesis-Milestone
-
-*An overview of dOrg's progress in the 1st segment (Oct 1 - 31) of our  six month engagement  with Genesis DAO.*
+*An overview of dOrg's progress in the 1st month (Oct 1 - 31) of our six month engagement with Genesis DAO.*
 
 *For context, [see the recurring proposal here](Recurring_Funding_Proposal.md).*
 
