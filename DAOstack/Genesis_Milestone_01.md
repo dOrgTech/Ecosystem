@@ -29,14 +29,14 @@
 - Design and iterate on new design mock-ups with community research
 - Begin implementing functional version of DAOcreator beta from wireframes
 
-# Integration
+# Use Cases & Integration
 
 - **Gasless Rep Redeem**: Allows ReputationFromToken to be redeemed without needing any gas in order to support seemless onboarding for future dHacks and DAOfests. [[problem](https://github.com/dOrgTech/Ecosystem/issues/17)] [[solution](https://github.com/dOrgTech/TxPayerService)]
 - Began specifying [Reputation simulation app](https://github.com/dOrgTech/Ecosystem/issues/19) for DAOs to visualize and model changes in Rep over time.
 
     <img src="../img/rep-simulation.png" width="500">
 
-- Began coordinating _prtcl
+- **_prtcl Alchemy Integration**: We've kicked off this project, and development should start around November 11th. Genesis proposal viewable [here](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0xcbdc3612e6d73cb47cdb4c44e1db18213eb0cf8c17f4870b8beca33cffbd7d3f).
 
 ### Future
 
