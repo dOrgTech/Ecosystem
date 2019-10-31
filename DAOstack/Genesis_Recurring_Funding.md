@@ -55,9 +55,9 @@ For each initiative, we are dividing up the deliverables across the two halves o
 - Multiple Generic Action schemes
 - Custom schemes
 
-## Opportunistic Integrations | 20%
+## Use Cases & Integrations | 20%
 
-*Identify and aggressively target high-impact, low-complexity technologies for integration with the DAO stack.*
+*Identify and aggressively target high-impact DAOstack use cases and integrations.*
 
 - Collaborate with external product/protocol teams ([GoodDollar](https://github.com/dOrgTech/ID-DAO), [Gnosis](https://github.com/dOrgTech/BC-DAO), [DeversiFi](https://github.com/dOrgTech/NectarDAO-Bootstrapper), [_prtcl](https://twitter.com/uprtcl/status/1169929023977402370), [Veriledger](https://veriledger.io))
 - Unblock high-impact use cases and help wherever we can
@@ -68,6 +68,10 @@ For each initiative, we are dividing up the deliverables across the two halves o
 - [Gasless Rep Redeem](https://github.com/dOrgTech/Ecosystem/issues/17)
 - [Stake in any token](https://github.com/dOrgTech/Ecosystem/issues/15)
 - [_prtcl Alchemy Integration (DAO's Mind)](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0xcbdc3612e6d73cb47cdb4c44e1db18213eb0cf8c17f4870b8beca33cffbd7d3f)
+- Continue to execute on externally funded DAO projects...
+  - [Bonding Curves For DAOs](https://github.com/dorgtech/bc-dao) -> Gnosis & DxDAO
+  - [Identity DAO](https://github.com/dorgtech/id-dao) -> GoodDollar
+  - [Nectar DAO](https://github.com/dOrgTech/NectarDAO-Bootstrapper) -> DeversiFi
 
 **Q1 2020:** *Enable new functionality through external interactions*
 
