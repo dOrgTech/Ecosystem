@@ -16,7 +16,7 @@ With this proposal, we are officially asking Genesis to fund our ongoing softwar
 We have published all of dOrg's milestone reports from our incubation period with DAOstack [[1](DAOstack_Milestone_01.md)][[2](DAOstack_Milestone_02.md)][[3](DAOstack_Milestone_03.md)]. Here are some highlights:
 
 - Constructed a [DAO creator](https://dorg.tech/#/dao-creator) application for the simple deployment of DAOstack native DAOs.
-- Developed a [fundraising module](https://www.notion.so/dorg/BC-DAPP-Proposal-9c4dec4870ed48a19b39f5be6ccbf373#93f5e757c3b74a5bbe5748702594de62) that allow DAOs to [automatically distribute dividends to its token purchasers](https://github.com/dOrgTech/BC-DAO/blob/master/README.md).
+- Developed a [fundraising module]((https://github.com/dOrgTech/BC-DAO/blob/master/README.md)) that allow DAOs to [automatically distribute dividends to its token purchasers](https://www.notion.so/dorg/BC-DAPP-Proposal-9c4dec4870ed48a19b39f5be6ccbf373#93f5e757c3b74a5bbe5748702594de62).
 - Pioneered a DAO [legal solution](https://coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao) and migrated all company funds and decision-making authority to our DAO.
 - Developed an [easy to use React Component Library](https://github.com/dOrgTech/DAOcomponents) to support DAOstack DAO app integration.
 - Partnered with GoodDollar to build a DAOstack-based [identity solution](https://github.com/dOrgTech/id-dao).
