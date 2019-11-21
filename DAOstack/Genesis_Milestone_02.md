@@ -8,7 +8,7 @@
 
 	- DAOtracker solution merged to [Arc](https://github.com/daostack/arc/pull/683) and [Subgraph](https://github.com/daostack/subgraph/pull/380)
 
-- **Improvements & Bug Fixes**
+- **Improvements & Bug Fixes** to the live DAOcreator app
 
 	- [Various deployment improvements](https://github.com/dOrgTech/DAOcreator/pull/238)
 
@@ -33,14 +33,13 @@
 	- [Upgrade arcVersion dependency](https://github.com/dOrgTech/DAOcreator/pull/235)
 
 
-- **DAOcreator Redesign** interactive wireframe & intensive community feedback
+- **DAOcreator Redesign** interactive wireframe & intensive user research
+
+	- User research: focus group with DAOstack core, [DAOtalk forum post](https://daotalk.org/t/daocreator-redesign-feedback-round-1/993), [feedback form](https://dorgtech.typeform.com/to/RjMhEq), and [open call for one-on-ones](https://calendly.com/orishim/daocreator)
 
 	- Play with [interactive wireframe here](https://www.figma.com/proto/t77rlBAupEeqIYHFBBpqrl/Playground?node-id=98%3A1072&viewport=213%2C267%2C0.1505504995584488&scaling=min-zoom)
 
-	<img src="../img/beta01.png" width="800">
-
-	- Community feedback: focus group with DAOstack core, [DAOtalk forum post](https://daotalk.org/t/daocreator-redesign-feedback-round-1/993), [feedback form](https://dorgtech.typeform.com/to/RjMhEq), and [open call for one-on-ones](https://calendly.com/orishim/daocreator)
-
+	<img src="../img/beta01.png" width="400">
 
 ### Next Steps
 
@@ -99,6 +98,8 @@
 ### Next Steps
 
 - Follow through on solutions for issues raised in DAOstack core repos
+
+TODO
 
 # DAO Admin
 
