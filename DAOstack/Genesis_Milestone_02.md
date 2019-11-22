@@ -61,6 +61,8 @@
 
 - **_prtcl Alchemy Integration**: Worked on [wiki componentent](https://github.com/dOrgTech/js-uprtcl/tree/wiki_component_creation)
 
+	<img src="../img/uprtcl_0.png" width="400">
+
 - **Identity DAO: MVP Reached**: Soft-launched identity DAO with GoodDollar client
 
 - **Nectar DAO Bootstrap U.I.: Launch-ready**: Rigorous testing, functionality and UX improvements in collaboration with DeversiFi and DAOstack core
@@ -71,7 +73,7 @@
 
 - Finish testing and ship Gasless Rep Redeem
 
-- Continue to assist in the uprtcl integration
+- uprtcl: create perspective
 
 - Resume work on Bonding Curve Smart Contracts, Subgraph and Dapp for dxDAO
 
