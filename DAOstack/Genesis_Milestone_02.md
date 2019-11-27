@@ -58,9 +58,9 @@
 
 - **Gasless Rep Redeem ([solution](https://github.com/dOrgTech/TxPayerService))**:
 
-	- Dynamic handling of insufficient balance and gas limits
+	- [Dynamic handling of insufficient balance and gas limits](https://github.com/dOrgTech/TxPayerService/pull/29)
 
-	- Migrated from Heroku to Netlify to run as serverless function
+	- Migrated from Heroku to Netlify to run as [serverless function](https://github.com/dOrgTech/TxPayerService/pull/31)
 
 	- Testing and gathering feedback from DAOstack core (Jelle, Oren, Eylon)
 
