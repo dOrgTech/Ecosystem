@@ -131,3 +131,7 @@
 	- [Rep/Token Dynamics](https://github.com/dOrgTech/Ecosystem/issues/24)
 
 - Released [dOrg Handbook](https://dorg.gitbook.io/-/) for our contributors
+
+### Next Steps
+
+TODO
