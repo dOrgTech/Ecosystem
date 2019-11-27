@@ -4,9 +4,13 @@
 
 # DAOcreator
 
-- **Automated Alchemy Support** is here! Newly deployed DAOs will automatically show up in Alchemy if you visit their URL.
+- **Automated Alchemy Support** is here! Newly deployed DAOs will now automatically show up in Alchemy using the latest [DAOcreator](https://dorg.tech/#/dao-creator).
+	- DAOtracker solution merged to [Arc](https://github.com/daostack/arc/pull/683) and [Subgraph](https://github.com/daostack/subgraph/pull/380)  
 
-	- DAOtracker solution merged to [Arc](https://github.com/daostack/arc/pull/683) and [Subgraph](https://github.com/daostack/subgraph/pull/380)
+<p float="center">
+  <img src="../img/DAOcreator-Deploy-Success.png" width="49%" />
+  <img src="../img/DAOcreator-Deploy-Alchemy.png" width="49%" /> 
+</p>  
 
 - **Improvements & Bug Fixes** to the live DAOcreator app
 
@@ -28,10 +32,13 @@
 
 	- [Fix time validation bug](https://github.com/dOrgTech/DAOcreator/pull/227)
 
-	- Save DAO config in local storage & [preview config before resume](https://github.com/dOrgTech/DAOcreator/issues/232)
-
 	- [Upgrade arcVersion dependency](https://github.com/dOrgTech/DAOcreator/pull/235)
 
+	- Save DAO config in local storage & [preview config before resume](https://github.com/dOrgTech/DAOcreator/issues/232)
+
+<p float="middle">
+  <img src="../img/DAOcreator-Preview.png" width="75%" />
+</p> 
 
 - **DAOcreator Redesign** interactive wireframe & intensive user research
 
@@ -49,7 +56,7 @@
 
 # Use Cases & Integration
 
-- **[Gasless Rep Redeem]([solution](https://github.com/dOrgTech/TxPayerService))**:
+- **Gasless Rep Redeem ([solution](https://github.com/dOrgTech/TxPayerService))**:
 
 	- Dynamic handling of insufficient balance and gas limits
 
@@ -63,9 +70,19 @@
 
 	<img src="../img/uprtcl_0.png" width="400">
 
-- **Identity DAO: MVP Reached**: Soft-launched identity DAO with GoodDollar client
+- **Identity DAO - MVP Complete**: We've completed our first 4 month engagment with GoodDollar, and an initial MVP of the Identity DAO is functional including:  
+	- [Identity Registry Contract](https://github.com/dOrgTech/ID-DAO/blob/dev/dao/contracts/IdentityRegistry.sol)
+	- ["Human Reputation Claim" Scheme](https://github.com/dOrgTech/ID-DAO/blob/dev/dao/contracts/HumanReputationClaim.sol)
+	- [DAO Deployment Scripts](https://github.com/dOrgTech/ID-DAO/blob/dev/dao/migrations/2_deploy_contracts.js)
+	- [Javascript Client Library](https://github.com/dOrgTech/ID-DAO/tree/dev/client) Which Supports...
+		- ID-DAO Proposals
+		- Registry Lookup
+		- Identity Definition Download & Upload
+		- Identity Definition Creation & Validation
+	- [Onboarding Tool](https://github.com/dOrgTech/ID-DAO/tree/dev/init-humans) For "Initial Humanity Set"
+	- GoodDollar [dApp](https://github.com/dOrgTech/GoodDAPP/tree/dorg-id-dev) & [Server](https://github.com/dOrgTech/GoodServer/tree/dorg-id-dev) Integration
 
-- **Nectar DAO Bootstrap U.I.: Launch-ready**: Rigorous testing, functionality and UX improvements in collaboration with DeversiFi and DAOstack core
+- **[Nectar DAO Bootstrap U.I.](https://github.com/dorgtech/nectarDAO-Bootstrapper) - Launch-ready**: Rigorous testing, functionality and UX improvements in collaboration with DeversiFi and DAOstack core
 
 ### Next Steps
 
@@ -81,7 +98,7 @@
 
 - Various contributions to core DAOstack repos
 
-	- [Subgraph Rinkeby bug fix](https://github.com/daostack/subgraph/pull/392)
+	- [Subgraph bug fix](https://github.com/daostack/subgraph/pull/392)
 
 	- [Handle transaction timeout error](https://github.com/daostack/migration/issues/211)
 
@@ -101,8 +118,6 @@
 
 - Follow through on solutions for issues raised in DAOstack core repos
 
-TODO
-
 # DAO Admin
 
 - Working with legal counsel to optimize agreement signing flows with paying DAO clients
@@ -115,8 +130,4 @@ TODO
 
 	- [Rep/Token Dynamics](https://github.com/dOrgTech/Ecosystem/issues/24)
 
-- Released [dOrg Handbook](TODO) for our contributors
-
-### Next Steps
-
-TODO
+- Released [dOrg Handbook](https://dorg.gitbook.io/-/) for our contributors
