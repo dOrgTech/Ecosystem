@@ -36,23 +36,29 @@
 
 	- Save DAO config in local storage & [preview config before resume](https://github.com/dOrgTech/DAOcreator/issues/232)
 
-<p float="middle">
+<p float="center">
   <img src="../img/DAOcreator-Preview.png" width="75%" />
 </p> 
 
-- **DAOcreator Redesign** interactive wireframe & intensive user research
+- **DAOcreator Redesign** intensive user research & multiple wireframe iterations
 
 	- User research: focus group with DAOstack core, [DAOtalk forum post](https://daotalk.org/t/daocreator-redesign-feedback-round-1/993), [feedback form](https://dorgtech.typeform.com/to/RjMhEq), and [open call for one-on-ones](https://calendly.com/orishim/daocreator)
 
-	- Play with [interactive wireframe here](https://www.figma.com/proto/t77rlBAupEeqIYHFBBpqrl/Playground?node-id=98%3A1072&viewport=213%2C267%2C0.1505504995584488&scaling=min-zoom)
+	- Play with [interactive wireframe here](https://www.figma.com/proto/t77rlBAupEeqIYHFBBpqrl/Playground?node-id=723%3A28&viewport=48%2C337%2C0.14125387370586395&scaling=min-zoom)
 
-	<img src="../img/beta01.png" width="400">
+<p float="center">
+  <img src="../img/Cotary-Describe.png" width="33%"/>
+  <img src="../img/Cotary-Configure.png" width="33%"/>
+  <img src="../img/Cotary-Members.png" width="33%"/>
+</p>  
 
 ### Next Steps
 
-- Continue conducting user research to iterate on wireframe, develop into full mock-up, begin implementing front-end.
+- Continue conducting user research and iterating on wirefram, develop into functional front-end
 
-- Get newly deployed DAOs on Alchemy front-page. [Solution proposed here](https://github.com/daostack/alchemy/issues/1246).
+- Get newly deployed DAOs on Alchemy front-page. [Solution proposed here](https://github.com/daostack/alchemy/issues/1246)
+
+- Embed DAOcreator directly into Alchemy. [Working on solution here](https://github.com/daostack/alchemy/pull/1264)
 
 # Use Cases & Integration
 
@@ -84,15 +90,21 @@
 
 - **[Nectar DAO Bootstrap U.I.](https://github.com/dorgtech/nectarDAO-Bootstrapper) - Launch-ready**: Rigorous testing, functionality and UX improvements in collaboration with DeversiFi and DAOstack core
 
-### Next Steps
+<p float="center">
+  <img src="../img/Nectar-Lock.png" width="33%"/>
+  <img src="../img/Nectar-Snapshot.png" width="33%"/>
+  <img src="../img/Nectar-Bid.png" width="33%"/>
+</p>  
 
-- Begin working on new tooling to enable dHack ETH Denver 
+### Next Steps
 
 - Finish testing and ship Gasless Rep Redeem
 
 - uprtcl: create perspective
 
 - Resume work on Bonding Curve Smart Contracts, Subgraph and Dapp for dxDAO
+
+- Begin work on GEN-locking-for-Rep U.I.
 
 # Ecosystem
 
@@ -110,7 +122,7 @@
 
 	- [Arc security vulnerability discovered and addressed](https://github.com/daostack/arc/issues/680)
 
-- Continued to specify good first time and advanced issues for new OS contrubtors to DAOstack in a follow-up session with Kate, Shiv and others.
+- Continued to specify good first time and advanced issues for new OS contrubtors to DAOstack in a follow-up session with Kate, Shiv and others. ([Loan Scheme](https://github.com/daostack/Ecosystem/issues/32))
 
 - Presented on DAOstack, dOrg and the DAOcreator tool at Jason's DAOfest event in Bangkok
 
@@ -134,4 +146,9 @@
 
 ### Next Steps
 
-TODO
+- Iterate on Handbook
+
+- Migrate dOrg DAO to fresh instance [to resolve current issues](https://github.com/dOrgTech/Ecosystem/issues/18)
+
+- New landing page better publicizing all of the projects we've been working on
+
