@@ -47,7 +47,7 @@
 	- Play with [interactive wireframe here](https://www.figma.com/proto/t77rlBAupEeqIYHFBBpqrl/Playground?node-id=723%3A28&viewport=48%2C337%2C0.14125387370586395&scaling=min-zoom)
 
 <p float="center">
-  <img src="../img/Cotary-Describe.png" width="33%"/>
+  <img src="../img/Cotary-Description.png" width="33%"/>
   <img src="../img/Cotary-Configure.png" width="33%"/>
   <img src="../img/Cotary-Members.png" width="33%"/>
 </p>  
