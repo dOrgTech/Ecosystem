@@ -8,11 +8,20 @@
 
 - Developing the redesigned front-end
 
-	TODO
+	- [x] Step 1 - [Set Naming of DAO](https://github.com/dOrgTech/DAOcreator/issues/260)
+	- [x] Step 2 - Set DAO Configuration(Schemes) ([1](https://github.com/dOrgTech/DAOcreator/issues/261), [2](https://github.com/dOrgTech/DAOcreator/issues/269))
+	- [x] Step 3 - [Set DAO Members](https://github.com/dOrgTech/DAOcreator/issues/262)
 
 ### Next Steps
 
-...
+- [Implement functional Step 4](https://github.com/dOrgTech/DAOcreator/issues/268)
+
+- deploying a DAOForm Object.
+
+- [Finish Styling/compliance of mocks](https://github.com/dOrgTech/DAOcreator/issues/274)
+
+- [Advance Scheme Configuration Form](https://github.com/dOrgTech/DAOcreator/issues/275)
+- [Accordion Component form all steps of Cotary Create form](https://github.com/dOrgTech/DAOcreator/issues/276)
 
 # Use Cases & Integration
 
@@ -37,7 +46,7 @@
 		<img src="../img/uprtcl_1.png" width="50%" />
 	<p/>
 
-	- Generic Scheme interface added
+	- Generic Scheme interface added 
 
 	<p float="center">
 		<img src="../img/uprtcl_2.png" width="50%" /> 	TODO
