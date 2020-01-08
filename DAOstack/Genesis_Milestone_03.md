@@ -49,7 +49,7 @@
 	- Generic Scheme interface added 
 
 	<p float="center">
-		<img src="../img/uprtcl_2.png" width="50%" /> 	TODO
+		<img src="../img/uprtcl_2.png" width="50%" />
 	</p>
 
 	- [Additional development on wiki component](https://github.com/uprtcl/js-uprtcl/pull/21)
