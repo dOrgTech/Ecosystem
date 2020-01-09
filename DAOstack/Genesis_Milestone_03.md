@@ -75,19 +75,19 @@
 
 - Added [mcDAI support to Alchemy](https://github.com/daostack/alchemy/pull/1269)
 
+TODO
+
 ### Next Steps
 
-...
+TODO
 
 # DAO Admin
 
 - New release of [dOrg Handbook](https://dorg.gitbook.io/-/)
 
-- [Migrate dOrg DAO]](https://github.com/dOrgTech/Ecosystem/issues/18) ?
-
-- [New landing page] ? 
+TODO
 
 ### Next Steps
 
-...
+TODO
 
