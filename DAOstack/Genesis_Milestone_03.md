@@ -3,16 +3,19 @@
 *For context, [see the recurring proposal here](Genesis_Recurring_Funding.md).*
 
 # DAOcreator
+TODO: images of DAOcreator in alchemy, link to new DAOcreator UI, published DAOcreator core library & UI as npm packages for others to use, contact links
 
 - [Embed DAOcreator in Alchemy](https://github.com/daostack/alchemy/pull/1264) - awaiting approval from DAOstack core
 
 - Developing the redesigned front-end
 
-	- [x] Step 1 - [Set Naming of DAO](https://github.com/dOrgTech/DAOcreator/issues/260)
-	- [x] Step 2 - Set DAO Configuration(Schemes) ([1](https://github.com/dOrgTech/DAOcreator/issues/261), [2](https://github.com/dOrgTech/DAOcreator/issues/269))
-	- [x] Step 3 - [Set DAO Members](https://github.com/dOrgTech/DAOcreator/issues/262)
+  - [x] Step 1 - [Set Naming of DAO](https://github.com/dOrgTech/DAOcreator/issues/260)
+  - [x] Step 2 - Set DAO Configuration(Schemes) ([1](https://github.com/dOrgTech/DAOcreator/issues/261), [2](https://github.com/dOrgTech/DAOcreator/issues/269))
+  - [x] Step 3 - [Set DAO Members](https://github.com/dOrgTech/DAOcreator/issues/262)
 
 ### Next Steps
+
+TODO: high level instead of links to issues
 
 - [Implement functional Step 4](https://github.com/dOrgTech/DAOcreator/issues/268)
 
@@ -27,45 +30,54 @@
 
 - **[Gasless Rep Redeem](https://github.com/dOrgTech/TxPayerService)) is live**
 
-	- [One click button serverless deploy](https://github.com/dOrgTech/TxPayerService/pull/31)
+TODO: high level intro, next steps, contact links
 
-	- [Send email when the service is low on funds](https://github.com/dOrgTech/TxPayerService/pull/40)
+  - [One click button serverless deploy](https://github.com/dOrgTech/TxPayerService/pull/31)
 
-	- Other bug fixes & optimizations: [1](https://github.com/dOrgTech/TxPayerService/issues/38), [2](https://github.com/dOrgTech/TxPayerService/pull/35), [3](https://github.com/dOrgTech/TxPayerService/pull/37), [4](https://github.com/dOrgTech/TxPayerService/pull/34)
+  - [Send email when the service is low on funds](https://github.com/dOrgTech/TxPayerService/pull/40)
+
+  - Other bug fixes & optimizations: [1](https://github.com/dOrgTech/TxPayerService/issues/38), [2](https://github.com/dOrgTech/TxPayerService/pull/35), [3](https://github.com/dOrgTech/TxPayerService/pull/37), [4](https://github.com/dOrgTech/TxPayerService/pull/34)
 
 - **Auto-Generated Proposals from Alchemy URL**: Add the ability to open a proposal template for a user via embedding its pre-filled-out contents within the URL's parameters. 
 
-	- Additional optimizations and testing (https://github.com/daostack/alchemy/pull/1226)
+  - Additional optimizations and testing (https://github.com/daostack/alchemy/pull/1226)
 
+TODO: next steps?
 
 - **DAO's Mind**: 70% done (note this work is also partially funded by uprtcl)
 
-	- [Wiki component added to Alchemy](https://github.com/dOrgTech/alchemy/commits/wiki_functionality_attachment)
+TODO: intro it, images, contact links
 
-	<p float="center">
-		<img src="../img/uprtcl_1.png" width="50%" />
-	<p/>
+  - [Wiki component added to Alchemy](https://github.com/dOrgTech/alchemy/commits/wiki_functionality_attachment)
 
-	- Generic Scheme interface added 
+  <p float="center">
+    <img src="../img/uprtcl_1.png" width="50%" />
+  <p/>
 
-	<p float="center">
-		<img src="../img/uprtcl_2.png" width="50%" />
-	</p>
+  - Generic Scheme interface added 
 
-	- [Additional development on wiki component](https://github.com/uprtcl/js-uprtcl/pull/21)
+  <p float="center">
+    <img src="../img/uprtcl_2.png" width="50%" />
+  </p>
 
-	- [Bundling into npm package](https://github.com/dOrgTech/daosMind)
+  - [Additional development on wiki component](https://github.com/uprtcl/js-uprtcl/pull/21)
+
+  - [Bundling into npm package](https://github.com/dOrgTech/daosMind)
 
 - **BC-DAO** Applying to external grants to fund improvements and audit
 
+TODO: change to open raise, link to gitcoin grant app
+
 - **GEN-locking-for-Rep U.I.** Restyling Nec-DAO for Genesis DAO token locking launch [1](https://github.com/dOrgTech/GEN-Locking/commit/459228d6fdbac2658574026893f6fcc813fcaba6)
+
+TODO: image embed of genesis mockup
 
 ### Next Steps
 
 - DAO's Mind:
-	- Allow the creation of proposals through the wiki's UI
-	- Improve wiki component UI
-	- Improve uprtcl smart contracts
+  - Allow the creation of proposals through the wiki's UI
+  - Improve wiki component UI
+  - Improve uprtcl smart contracts
 
 - Gasless Rep Redeem: complete and test email notifications
 
@@ -75,11 +87,11 @@
 
 - Added [mcDAI support to Alchemy](https://github.com/daostack/alchemy/pull/1269)
 
-TODO
+TODO: other stuff? maybe a note about DAOfest?
 
 ### Next Steps
 
-TODO
+TODO:
 
 # DAO Admin
 
