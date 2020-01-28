@@ -37,9 +37,9 @@
 
 ### Next Steps
 
-- Open-source funnel coordination
+- Improve Hacker's Kit & other open-source processes
 
--
+- Working with DAOstack core to prioritize dOrg's development tasks by use-case
 
 # DAO Admin
 
