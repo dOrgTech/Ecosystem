@@ -17,6 +17,7 @@
 # Use Cases & Integration
 
 - **DAO's Mind** is live
+  - [PR](https://github.com/daostack/alchemy/pull/1314)
 
 - **Gasless Rep Redeem** is tested & ready for ETH Denver.
   
@@ -30,7 +31,9 @@
 
 # Ecosystem
 
-- 
+- Help spec out [custom token issue](https://github.com/daostack/alchemy/issues/1318)
+
+- npm package sizing issues [1](https://github.com/daostack/migration/issues/265) & [2](https://github.com/daostack/migration/pull/264)
 
 ### Next Steps
 
