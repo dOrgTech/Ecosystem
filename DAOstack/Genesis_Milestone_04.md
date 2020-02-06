@@ -4,30 +4,24 @@
 
 # DAOcreator
 
-- **DAOcreator in Alchemy** is LIVE.
+- **DAOcreator in Alchemy** is staged for deployment: finishing touches being worked on [here](https://github.com/daostack/alchemy/pull/1264)
 
-- **DAOcreator Redesign** is LIVE.
+- **DAOcreator Redesign Pre-Alpha** is LIVE. Test it out [here](http://daocreator-v2.herokuapp.com/)
 
-### Next Steps 
-
-- 
-
-- 
+  - Tracking and resolving issues [here](https://github.com/dOrgTech/DAOcreator/issues)
 
 # Use Cases & Integration
 
-- **DAO's Mind** is live
+- **DAO's Mind** is almost ready to deploy.
   - [PR](https://github.com/daostack/alchemy/pull/1314)
 
+  - Watch demo video [here](TODO)
+
 - **Gasless Rep Redeem** is tested & ready for ETH Denver.
+
+  - Watch demo video [here](TODO)
   
 - **Open Raise** under development
-
-### Next Steps
-
--
-
--
 
 # Ecosystem
 
@@ -35,23 +29,11 @@
 
 - npm package sizing issues [1](https://github.com/daostack/migration/issues/265) & [2](https://github.com/daostack/migration/pull/264)
 
-### Next Steps
-
-- Improve Hacker's Kit & other open-source processes
-
 - Working with DAOstack core to prioritize dOrg's development tasks by use-case
 
 # DAO Admin
 
-- **New landing page** is live
-
-- 
-
-### Next Steps
-
-- Share learnings at Paris COALA workshop
-
--
+- COALA workshop - helping lawyers to craft [DAO model law](https://medium.com/coala/the-dao-model-law-68e5360971ea) for unregistered DAOs to have international legal recognition. (First draft expected by end of June)
 
 
 
