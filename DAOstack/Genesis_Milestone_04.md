@@ -30,7 +30,7 @@
   - [PR](https://github.com/daostack/alchemy/pull/1314)
 
   <p float="center">
-    <img src="uprtcl_3.png" width="60%"/>
+    <img src="../img/uprtcl_3.png" width="60%"/>
   </p>
 
 - **Gasless Rep Redeem** is tested & ready for ETH Denver.
