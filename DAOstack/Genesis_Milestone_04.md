@@ -4,7 +4,11 @@
 
 # DAOcreator
 
-- **DAOcreator in Alchemy** is staged for deployment: finishing touches being worked on [here](https://github.com/daostack/alchemy/pull/1264)
+- **DAOcreator in Alchemy** is staged for deployment
+
+    - finishing touches being worked on [here](https://github.com/daostack/alchemy/pull/1264)
+    
+    - Use staged working version [here](https://alchemy-daocreator-embe-skttt7.herokuapp.com/daos/create)
 
 - **DAOcreator V2 Pre-Alpha** is LIVE. Test it out [here](http://daocreator-v2.herokuapp.com/)
 
@@ -69,8 +73,17 @@
 # Ecosystem
 
 - NYC DAOfest! Jordan presented on the DAOstack tech stack and open source ecosystem at Crypto NYC
+  <p float="center">
+    <img src="../img/DAOfestNYC.png" width="50%"/>
+  </p> 
+
+    https://twitter.com/flakoubay/status/1223107861233860613
+
+- Helping Ape Unit with the Signal Scheme implementation 
 
 - Working with DAOstack core to prioritize dOrg's development tasks by use-case
+
+- Helping DAOstack core prep for ETHDenver workshop
 
 - Help spec out [custom token issue](https://github.com/daostack/alchemy/issues/1318)
 
@@ -78,9 +91,9 @@
 
 # DAO Admin
 
-- COALA workshop - helping lawyers to craft [DAO model law](https://medium.com/coala/the-dao-model-law-68e5360971ea) for unregistered DAOs to have international legal recognition. (First draft expected by end of June)
+- **COALA DAO Model Law Workshop** - helping lawyers to craft [DAO model law](https://medium.com/coala/the-dao-model-law-68e5360971ea) for unregistered DAOs to have international legal recognition. (First draft expected by end of June)
 
-
+- **DAO Tax Compliance** - Megan from Veriledger helped dOrg become the first DAO to issue its contributors tax forms! Hooray for compliance
 
 
 
