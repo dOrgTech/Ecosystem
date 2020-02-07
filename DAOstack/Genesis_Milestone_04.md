@@ -41,14 +41,12 @@
 
   - Major functionality improvements
   
-    - [Sell hooks](https://github.com/dOrgTech/OpenRaise/pull/82) - TODO
-  
-    - [Pre-mint & milestone caps](https://github.com/dOrgTech/OpenRaise/pull/90) - TODO
-   
-    - [Pre/post buy](https://github.com/dOrgTech/OpenRaise/pull/73) - TODO
-  
     - [Rewards wallet](https://github.com/dOrgTech/OpenRaise/pull/84) - smart contract wallet responsible for distributing dividends
-    
+  
+    - [Sell hooks](https://github.com/dOrgTech/OpenRaise/pull/82), [Buy hooks](https://github.com/dOrgTech/OpenRaise/pull/73) - architecture change to facilitate expanding the buy and sell functions in future versions
+  
+    - [Pre-mint & milestone caps](https://github.com/dOrgTech/OpenRaise/pull/90) - Pre-mint tokens to the beneficiary & freeze the fundraiser at a certain milestone
+ 
     - [ETH collateral](https://github.com/dOrgTech/OpenRaise/pull/63) - add ability to use ETH as collateral (rather than just erc20)
     
   - Front-end is coming along...
