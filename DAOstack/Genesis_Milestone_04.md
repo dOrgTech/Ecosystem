@@ -10,6 +10,10 @@
 
   - Tracking and resolving issues [here](https://github.com/dOrgTech/DAOcreator/issues)
 
+  <p float="center">
+  	<img src="../img/DAOcreator-V2-Dev-3.png"/>
+  </p>
+
 # Use Cases & Integration
 
 - **DAO's Mind** is almost ready to deploy.
