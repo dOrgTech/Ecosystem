@@ -6,13 +6,23 @@
 
 - **DAOcreator in Alchemy** is staged for deployment: finishing touches being worked on [here](https://github.com/daostack/alchemy/pull/1264)
 
-- **DAOcreator Redesign Pre-Alpha** is LIVE. Test it out [here](http://daocreator-v2.herokuapp.com/)
+- **DAOcreator V2 Pre-Alpha** is LIVE. Test it out [here](http://daocreator-v2.herokuapp.com/)
 
   - Tracking and resolving issues [here](https://github.com/dOrgTech/DAOcreator/issues)
 
   <p float="center">
-  	<img src="../img/DAOcreator-V2-Dev-3.png"/>
+  	<img src="../img/DAOcreator-V2-Dev-3.png" width="60%"/>
   </p>
+  
+  - The key improvements of DAOcreaor V1 are related to *usability*
+    
+    - **Simple by Default**: Open the app and launch a DAO in under 1 minute
+    
+    - **Advanced Mode**: All  configuration options are still easily accessible for advanced users
+    
+    - **Educational On-boarding**:Learn how DAOstack works as you click through the tooltips
+    
+    - **1 Member DAOs**: User is included as the DAO's first member by default. No more opening metamask to copy & paste.
 
 # Use Cases & Integration
 
