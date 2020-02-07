@@ -29,11 +29,13 @@
 - **DAO's Mind** is almost ready to deploy.
   - [PR](https://github.com/daostack/alchemy/pull/1314)
 
-  - Watch demo video [here](TODO)
+  <p float="center">
+    <img src="uprtcl_3.png" width="60%"/>
+  </p>
 
 - **Gasless Rep Redeem** is tested & ready for ETH Denver.
 
-  - Watch demo video [here](TODO)
+  - Watch full demo video [here](https://www.youtube.com/watch?v=JaV7EdSGjE8)
   
 - **Open Raise (formerly bc-dao)** is under active development again. We're focusing on functionalities relevant to the dxDAO use-case
 
