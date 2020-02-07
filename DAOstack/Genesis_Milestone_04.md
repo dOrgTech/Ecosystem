@@ -68,11 +68,13 @@
 
 # Ecosystem
 
+- NYC DAOfest! Jordan presented on the DAOstack tech stack and open source ecosystem at Crypto NYC
+
+- Working with DAOstack core to prioritize dOrg's development tasks by use-case
+
 - Help spec out [custom token issue](https://github.com/daostack/alchemy/issues/1318)
 
 - npm package sizing issues [1](https://github.com/daostack/migration/issues/265) & [2](https://github.com/daostack/migration/pull/264)
-
-- Working with DAOstack core to prioritize dOrg's development tasks by use-case
 
 # DAO Admin
 
