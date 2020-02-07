@@ -26,7 +26,7 @@
 
 # Use Cases & Integration
 
-- **DAO's Mind** is almost ready to deploy.
+- **DAO's Mind** is almost ready to deploy. This will allow DAOs to manage a wiki through proposals.
   - [PR](https://github.com/daostack/alchemy/pull/1314)
 
   <p float="center">
