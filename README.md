@@ -1,4 +1,5 @@
-<img src="assets/icon_black.png" width="300">
+
+<img src="assets/icon_black.png" width="100">
 
 # dOrg Ecosystem
 
