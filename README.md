@@ -1,4 +1,4 @@
-<img src="img/LOGO.png" width="300">
+<img src="assets/logo.svg" width="300">
 
 # dOrg Ecosystem
 
