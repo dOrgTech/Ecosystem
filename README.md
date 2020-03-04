@@ -14,3 +14,4 @@ dOrg is a self-organizing Ethereum development agency.
 - [brand](brand) - brand assets & guideline
 - [legal](legal) - legal agreements
 - [proposals](proposals) - public proposals for external engagements
+- [issues](https://github.com/dOrgTech/Ecosystem/issues) - open bounties
