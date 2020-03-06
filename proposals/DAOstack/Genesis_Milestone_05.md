@@ -4,29 +4,29 @@
 
 # DAOcreator
 
-- **DAOcreator V2 Pre-Alpha** is LIVE. Test it out [here](http://daocreator-v2.herokuapp.com/)
+- Test it out [here](http://daocreator-v2.herokuapp.com/)
 
-  - Issues resolved: https://github.com/dOrgTech/DAOcreator/issues
+- Issues resolved: https://github.com/dOrgTech/DAOcreator/issues
 
-      - [Mobile support](https://github.com/dOrgTech/DAOcreator/pull/456)
+    - [Mobile support](https://github.com/dOrgTech/DAOcreator/pull/456)
 
-      - [Styling clean up](https://github.com/dOrgTech/DAOcreator/pull/446)
+    - [Styling clean up](https://github.com/dOrgTech/DAOcreator/pull/446)
 
-      - [Scheme Config improvements](https://github.com/dOrgTech/DAOcreator/pull/383)
+    - [Scheme Config improvements](https://github.com/dOrgTech/DAOcreator/pull/383)
 
-      - [Recover modal](https://github.com/dOrgTech/DAOcreator/pull/401)
+    - [Recover modal](https://github.com/dOrgTech/DAOcreator/pull/401)
 
-      - [Improved Metamask UX](https://github.com/dOrgTech/DAOcreator/issues/375) and [launch step](https://github.com/dOrgTech/DAOcreator/issues/376)
+    - [Improved Metamask UX](https://github.com/dOrgTech/DAOcreator/issues/375) and [launch step](https://github.com/dOrgTech/DAOcreator/issues/376)
 
-      - [Added tooltips on decision-making speed](https://github.com/dOrgTech/DAOcreator/pull/458)
+    - [Added tooltips on decision-making speed](https://github.com/dOrgTech/DAOcreator/pull/458)
 
-      - And many many more [issues resolved](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed)
+    - And many many more [issues resolved](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed)
 
 # Use Cases & Integration
 
 - **DAO's Mind**
 
-  - Generic Scheme migrated to subgraph [1](https://github.com/daostack/subgraph/pull/480)[2]()
+  - [Generic Scheme migrated to subgraph](https://github.com/daostack/subgraph/pull/480)
 
 - **Gasless Rep Redeem** cleaned up & archived
 
