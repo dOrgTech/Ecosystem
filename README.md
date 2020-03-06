@@ -6,8 +6,8 @@ dOrg is a self-organizing Ethereum development agency.
 
 - [Website](https://dorg.tech) - client entry point
 - [Handbook](https://docs.dorg.tech) - agent entry point
-- [DAO](https://alchemy.daostack.io/dao/0xd358d4f159e6fae32d1b6096bdace829a5fe33fb) - proposals, voting, staking
-- [Cotary](https://cotary.io) - DAO launcher
+- [DAO](https://alchemy.daostack.io/dao/0xd358d4f159e6fae32d1b6096bdace829a5fe33fb)
+- [DAO Launcher](https://launch.dorg.tech)
 
 ## This Repo
 
