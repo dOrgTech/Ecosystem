@@ -36,6 +36,8 @@
   
 - **Open Raise** prepped for dxDAO launch
 
+  - Test it out [here](https://ipfs.infura.io/ipfs/QmQxsoJ2VqWN8RrH8ZPJUd8qvdfoJBaWZk9V2tT47HCShM/#/exchange)
+
   - Functionality improvements
 
     - [Polynomial support](https://github.com/dOrgTech/OpenRaise/pull/92)
