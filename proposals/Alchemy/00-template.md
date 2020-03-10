@@ -6,7 +6,7 @@ A brief summary of the proposal.
 
 ## User Story
 
-As a <type of user> I want to <some goal>, so that <some reason>.
+As a `[type of user]` I want to `[some goal]`, so that `[some reason]`.
 
 ## Urgency
 
