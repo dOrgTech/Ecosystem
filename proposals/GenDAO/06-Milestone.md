@@ -16,7 +16,7 @@
 
 # Alchemy
 
-- Specify the following alchemy improvement proposals:
+- Specify the following alchemy improvement proposals [here](../Alchemy)
 
 | Proposal | Description |
 |-|-|
