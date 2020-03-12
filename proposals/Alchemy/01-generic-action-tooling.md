@@ -11,15 +11,11 @@ Adding GA plugins within Alchemy currently has the following problems:
 
 ## User Story
 
-As a <type of user> I want to <some goal>, so that <some reason>.
-
-As a DAO founder or enthusiast I want to easily interface my DAO with existing smart contracts, so that it can perform particular actions (administer parameters, manage finances).
+As a DAO founder or enthusiast I want to easily interface my DAO with existing smart contracts, so that it can perform particular actions (set parameters, manage finances).
 
 As a protocol developer, I want to give DAOstack DAOs the ability to interact with my smart contracts (ENS, Uniswap, Compound), so that adoption of my protocol increases.
 
 ## Detailed Design
-
-TODO: detail each user flow in the "User Story" section, and illustrate each change needed in the stack.  
 
 ### Terminology
 
@@ -38,11 +34,11 @@ use it?
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 Month | 1.0 FT | TODO | 1 Month |
-| 1 Month | 1.0 FT | TODO | 1 Month |
+| 1 Month | 1.0 FT | TODO |
+| 1 Month | 1.0 FT | TODO |
 
 ## Open Questions
 
-- Will this feature be affected by Stack 2.0 changes?
+- How will this feature be affected by Stack 2.0 changes?
 
 - Would it be better to create a "generic generic action" (a scheme for a DAO to send any bytecode to any contract)?
