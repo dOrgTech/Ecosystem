@@ -1,4 +1,4 @@
-# RFC-0000: Template
+# RFC-00: Template
 
 ## Summary
 
@@ -17,11 +17,11 @@ use it?
 
 ## Roadmap
 
-| Name | Description | Time | Workload |
-|-|-|-|-|
-| Phase X | Work on Phase X | 1 Month | 1.5 FT |
-| Phase Y | Work on Phase Y | 1 Month | 1.5 FT |
-| Phase Z | Work on Phase Z | 1 Month | 1.0 FT |
+| Time | Workload | Description | 
+|-|-|-|
+| 1 Month | 1.0 FT | X | 1 Month |
+| 1 Month | 1.0 FT | Y | 1 Month |
+| ... | ... | ... | ... |
 
 ## Open Questions
 
