@@ -41,4 +41,10 @@ use it?
 
 - How will this feature be affected by Stack 2.0 changes?
 
-- Would it be better to create a "generic generic action" (a scheme for a DAO to send any bytecode to any contract)?
+- Would it be better to focus on creating a "generic generic action" rather than encouraging a proliferation of particular generic actions?
+
+## Impact on Adoption
+
+
+
+The ability to easily call existing smart contracts is crucial for adoption by any Ethereum projects interested in DAOifying their governance with DAOstack.

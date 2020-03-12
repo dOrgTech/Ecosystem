@@ -26,3 +26,7 @@ use it?
 ## Open Questions
 
 What are unresolved questions?
+
+## Impact on Adoption
+
+How will this lead to further adoption for DAOstack?
