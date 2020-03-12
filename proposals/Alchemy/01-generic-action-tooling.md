@@ -45,6 +45,8 @@ use it?
 
 ## Impact on Adoption
 
-
-
 The ability to easily call existing smart contracts is crucial for adoption by any Ethereum projects interested in DAOifying their governance with DAOstack.
+
+Many projects are currently choosing to use Aragon specifically because [Aragon Agent](https://aragon.org/agent/) makes it easy to interface their DAO with smart contracts.
+
+This is a HUGE missed opportunity right now.
