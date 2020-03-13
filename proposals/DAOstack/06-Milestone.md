@@ -10,9 +10,9 @@
   	<img src="../img/DAOcreator-V2-Dev-4.png" width="60%"/>
   </p>
 
-- Resolve [various minor issues](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed)
+- Resolve [various minor issues](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed): [1](https://github.com/dOrgTech/DAOcreator/pull/474), [2](https://github.com/dOrgTech/DAOcreator/pull/475), [3](https://github.com/dOrgTech/DAOcreator/pull/476), [4](https://github.com/dOrgTech/DAOcreator/pull/462/files), [5](https://github.com/dOrgTech/DAOcreator/pull/469)
 
-- Promotional [tweet with demo video](https://twitter.com/dOrg_tech/status/1237769212099264518?s=20) + [medium article explainer](https://twitter.com/Ingalandia/status/1237525857981218816)
+- Published Promotional [explainer article on Medium](https://twitter.com/Ingalandia/status/1237525857981218816) and [demo video on Twitter](https://twitter.com/dOrg_tech/status/1237769212099264518?s=20)
 
 # DAO's Mind
 
@@ -21,8 +21,8 @@
   	- [DEMO VIDEO](https://youtu.be/nSuwobJI3-4)
 
   <p float="center">
-  	<img src="../img/uprtcl_4.png" width="60%"/>
   	<img src="../img/uprtcl_5.png" width="60%"/>
+	<img src="../img/uprtcl_4.png" width="30%"/>
   </p>
 
 # Alchemy
