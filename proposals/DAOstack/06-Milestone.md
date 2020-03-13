@@ -4,7 +4,7 @@
 
 # DAOcreator
 
-- [Embeded new DAOcreator into Alchemy](https://github.com/dOrgTech/alchemy/commits/daocreator-v2-embed)
+- [Embeded new DAOcreator into Alchemy](https://github.com/daostack/alchemy/pull/1506)
 
   <p float="center">
   	<img src="../img/DAOcreator-V2-Dev-4.png" width="60%"/>
@@ -27,7 +27,7 @@
 
 # Alchemy
 
-- Specify the following alchemy improvement proposals [here](../Alchemy)
+- Specify the following alchemy improvement proposals [here](../Alchemy):
 
 | Proposal | Description |
 |-|-|
@@ -44,8 +44,10 @@
 | Documentation Overhaul | Developer docs for Alchemy development |
 | DevOps Overhaul | |
 | Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
+| Mobile Optimization | Styling changes to make the entire app mobile friendly |
 | Bug Squashing / Maintenance | Continue to identify, triage and squash bugs |
 
+- Each of these will be specified, roadmapped, and budgeted before approval by DAOstack to begin building
 
 # Biz Dev
 
@@ -60,7 +62,6 @@
 
 - Develop tailored offering for large institutions (non-profits, NGOs, corporates) to run DAOstack pilots
 	- Slush fund for their employees
-	- Standard pricing for set-up
 	- Seed everyone with ETH & GEN for participation
 	- Set up (monthly) contribution drip contract for the institution
 
