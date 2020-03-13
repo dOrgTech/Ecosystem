@@ -36,8 +36,8 @@ use it?
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 Month | 1.0 FT | TODO |
-| 1 Month | 1.0 FT | TODO |
+| 4 week | 1.0 FT | TODO |
+| 4 week | 1.0 FT | TODO |
 
 ## Open Questions
 
