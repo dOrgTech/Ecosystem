@@ -29,10 +29,10 @@
 
 - Specify the following alchemy improvement proposals [here](../Alchemy):
 
-| Proposal | Description |
-|-|-|
-| [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI |
-| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration |
+| Proposal | Description | Cost |
+|-|-|-|
+| [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI | $16k |
+| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $6k |
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
 | NFT Issuance | Allow DAO to issue different NFTs |
 | ENS Manager | Dedicated view for managing ENS sites |
