@@ -12,11 +12,18 @@
 
 - Resolve [various minor issues](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed)
 
+- Promotional [tweet with demo video](https://twitter.com/dOrg_tech/status/1237769212099264518?s=20) + [medium article explainer](https://twitter.com/Ingalandia/status/1237525857981218816)
+
 # DAO's Mind
 
   - [Wrap up usable PoC](https://github.com/daostack/alchemy/pull/1314)
 
-  TODO demo video
+  	- [DEMO VIDEO](https://youtu.be/nSuwobJI3-4)
+
+  <p float="center">
+  	<img src="../img/uprtcl_4.png" width="60%"/>
+  	<img src="../img/uprtcl_5.png" width="60%"/>
+  </p>
 
 # Alchemy
 
