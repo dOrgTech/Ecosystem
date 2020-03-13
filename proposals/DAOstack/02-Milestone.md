@@ -1,181 +1,154 @@
-# Milestone 2 Deliverables
+*An overview of dOrg's progress in the 2nd month (Nov 1 - 30) of our six month engagement with Genesis DAO.*
 
-Date: Jun 28, 2019
+*For context, [see the recurring proposal here](Genesis_Recurring_Funding.md).*
 
-*An overview of dOrg's progress in the second 2-month segment of our partnership with DAOstack (May 1 - June 30)*
+# DAOcreator
 
-### Summary of Document:
+- **Automated Alchemy Support** is here! Newly deployed DAOs will now automatically show up in Alchemy using the latest [DAOcreator](https://dorg.tech/#/dao-creator).
+	- DAOtracker solution merged to [Arc](https://github.com/daostack/arc/pull/683) and [Subgraph](https://github.com/daostack/subgraph/pull/380)  
 
-- BBLLC
-- DAOcreator - UI
-- DAOcreator - Subgraph
-- DAOcomponents
-- DAOregistry
-- Ecosystem
-- Self-Sustainability
+<p float="center">
+  <img src="../img/DAOcreator-Deploy-Success.png" width="49%" />
+  <img src="../img/DAOcreator-Deploy-Alchemy.png" width="49%" /> 
+</p>  
 
-# BBLLC
+- **Improvements & Bug Fixes** to the live DAOcreator app
 
-Launched a blockchain-based LLC legal wrapper for the newly deployed dOrg DAO. 
+	- [Various deployment improvements](https://github.com/dOrgTech/DAOcreator/pull/238)
 
-### Present
+		- Detect unsupported networks
 
-- dOrg **DAO deployed**: First company to migrate all funds and operations to a DAOstack DAO
-- dOrg **BBLLC formed**: First limited liability DAO (linked to a DAOstack DAO)
-- **Press Attention**: DAOstack featured in news about our BBLLC
-    - [Coindesk](https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao)
-    - [Cointelegraph](https://cointelegraph.com/news/dorg-llc-purports-to-be-first-legally-valid-dao-under-us-law)
-    - [MIT Law](http://law.mit.edu/bbllc)
-- DAO-specialized **legal agreements** finalized and [open-sourced](https://app.openlaw.io/template/bbllc-dao%20-%20vermont)
-- **Operational Protocols** implemented for managing work-orders, invoices, legal agreements and Reputation through proposals
+		- Detect no web3 support
+		
+		- Add alert before window close during migration
 
-### Future
+		- Properly display errors in the migration log
 
-- Develop toolchain for integrating legal agreements into DAO proposal flow
-    - "Legal Scheme" for legal decisions
-    - IPFS storage solution for legal agreement versioning
-    - Alchemy-embedded U.I. components
-- Explore avenues for funding (Received initial interest from OpenLaw, Atrium and others)
+	- [Remove whitespace from CSV import](https://github.com/dOrgTech/DAOcreator/pull/217)
 
-# DAOcreator - UI
+	- [Ensure Rep and Token of founder not set to 0](https://github.com/dOrgTech/DAOcreator/pull/231)
 
-DAOcreator is a front-end for designing & deploying Arc-based DAOs.
+	- [Fix leading 0 bug](https://github.com/dOrgTech/DAOcreator/pull/226)
 
-### Present
+	- [Fix time validation bug](https://github.com/dOrgTech/DAOcreator/pull/227)
 
-After receiving feedback from the DAOstack team during our last milestone review, we chose to unprioritize development of DAOcreator. Some updates we made during this shelving period include:
+	- [Upgrade arcVersion dependency](https://github.com/dOrgTech/DAOcreator/pull/235)
 
-- Mobile friendly [About](https://dorg.tech/#/about) & [FAQ](https://dorg.tech/#/overview) pages
-- [Warning](https://dorg.tech/#/dapp) page
-- [More robust deployment](https://github.com/dOrgTech/DAOcreator/commit/41640bcea1dcdc1a0a0005bd8b361eaa49e28eab), helping ensure transactions are resolved and don't time-out
+	- Save DAO config in local storage & [preview config before resume](https://github.com/dOrgTech/DAOcreator/issues/232)
 
-### Future
+<p float="center">
+  <img src="../img/DAOcreator-Preview.png" width="75%" />
+</p> 
 
-We have decided to reprioritize the DAOcreator after receiving renewed interest and feedback on its importance over the last month. During this next phase, we plan on adding:
+- **DAOcreator Redesign** intensive user research & multiple wireframe iterations
 
-- "**Simple Mode**" where we'll hide all advanced features and present users a simple click by click tutorial for standing up a "Minimum Viable DAO"
-- Additional warnings (or disabling) features that are unsupported by Alchemy
-- "**Request U.I.**" instructions and submission form to request your newly deployed DAO be indexed by Alchemy's subgraph
-- Serialization features where users can **import** pre-saved configurations ("templates"), and **export** their DAO's configuration to be used with the daostack/migration project
+	- User research: focus group with DAOstack core, [DAOtalk forum post](https://daotalk.org/t/daocreator-redesign-feedback-round-1/993), [feedback form](https://dorgtech.typeform.com/to/RjMhEq), and [open call for one-on-ones](https://calendly.com/orishim/daocreator)
 
-# DAOcreator - Subgraph
+	- Play with [interactive wireframe here](https://www.figma.com/proto/t77rlBAupEeqIYHFBBpqrl/Playground?node-id=723%3A28&viewport=48%2C337%2C0.14125387370586395&scaling=min-zoom)
 
-DAOs deployed with the DAOcreator are not able to be viewed in Alchemy due to the subgraph only supporting static contract addresses. We've worked towards solving this.
+<p float="center">
+  <img src="../img/Cotary-Description.png" width="33%"/>
+  <img src="../img/Cotary-Configure.png" width="33%"/>
+  <img src="../img/Cotary-Members.png" width="33%"/>
+</p>  
 
-### Present
+### Next Steps
 
-- [PR adding "**Data Source Template Support**" to the subgraph](https://github.com/daostack/subgraph/pull/215) is awaiting final approval
-- [PR adding an "**On-Chain DAO-Indexing** Source of Truth" to Arc](https://github.com/daostack/arc/pull/640) is on stand-by
-- [A solution that avoids DAOstack having to maintain a monolithic subgraph](https://github.com/daostack/subgraph/issues/270) is being explored.
+- Continue conducting user research and iterating on wirefram, develop into functional front-end
 
-### Future
+- Get newly deployed DAOs on Alchemy front-page. [Solution proposed here](https://github.com/daostack/alchemy/issues/1246)
 
-- Since a solution for automatically indexing newly deployed DAOs has not been reached, we will smoothen the UX for new DAOs to request that their contract addresses be added to DAOstack's subgraph manually. We can add this to the final page of the DAOcreator
-- A solution where dOrg stands up new caching servers for DAOs is a possibility
-- Continue to hold conversations with the tech team until a clear path forward is found
+- Embed DAOcreator directly into Alchemy. [Working on solution here](https://github.com/daostack/alchemy/pull/1264)
 
-# DAOcomponents
+# Use Cases & Integration
 
-DAOcomponents aims to create an easy to use React Component Library that wraps the DAOstack/client library. The hope is to be able to turn any app into a DAO enabled dApp by adding ~2 components.
+- **Gasless Rep Redeem ([solution](https://github.com/dOrgTech/TxPayerService))**:
 
-### Present
+	- [Dynamic handling of insufficient balance and gas limits](https://github.com/dOrgTech/TxPayerService/pull/29)
 
-- Lots of continued work has taken place including...
-    - **all major DAO primitives** have been added
-    - component list **sorting** and **filtering** support
-    - a blocking architectural flaw was [fixed](https://github.com/dOrgTech/DAOcomponents/commit/2a10b7f913f7760bd8bb213c0a6ddd0babe49eaf)
-    - additional environment **debugging tools** for local development
-- PRs and issues have been opened against DAOstack's Client library, as a few breaking changes and inconsistencies were found
-    - PRs: [#190](https://github.com/daostack/client/pull/190), [#210](https://github.com/daostack/client/pull/210), [#211](https://github.com/daostack/client/pull/211), [#212](https://github.com/daostack/client/pull/212), [#228](https://github.com/daostack/client/pull/228), [#235](https://github.com/daostack/client/pull/235), [#246](https://github.com/daostack/client/pull/246)
-    - Issues: [#234](https://github.com/daostack/client/issues/234), [#229](https://github.com/daostack/client/issues/229), [#227](https://github.com/daostack/client/issues/227), [#214](https://github.com/daostack/client/issues/214), [#213](https://github.com/daostack/client/issues/213), [#196](https://github.com/daostack/client/issues/196)
-- [An alpha version was published to NPM](https://www.npmjs.com/package/@dorgtech/daocomponents)
-- Shiv was on-boarded and...
-    - helped with the continued development of the project
-    - integrated DAOcomponents into **DAOexplorer**
-    - provided valuable feedback
-    - helped spec out future work items
+	- Migrated from Heroku to Netlify to run as [serverless function](https://github.com/dOrgTech/TxPayerService/pull/31)
 
-### Future
+	- Testing and gathering feedback from DAOstack core (Jelle, Oren, Eylon)
 
-- Continue to move towards a solid beta release
-- Support Shiv in DAOexplorer development
-- Create small sample applications
+- **[Auto-Generated Proposals from Alchemy URL](https://github.com/daostack/alchemy/pull/1226)**: Add the ability to open a proposal template for a user via embedding its pre-filled-out contents within the URL's parameters. Read more about the rationale [here](https://github.com/daostack/alchemy/issues/1181).
 
-# DAOregistry
+- **_prtcl Alchemy Integration**: Worked on [wiki componentent](https://github.com/dOrgTech/js-uprtcl/tree/wiki_component_creation)
 
-The DAOregistry is a whitelist of DAOs to be curated by the Genesis DAO. In DAOstack's current [implementation](https://github.com/daostack/arc-hive/blob/master/contracts/DAORegistry.sol), the Genesis Avatar would own the registry contract. We implemented a scheme that interfaces with this registry using a generic action call.
+	<img src="../img/uprtcl_0.png" width="400">
 
-### Present
+- **Identity DAO - MVP Complete**: We've completed our first 4 month engagment with GoodDollar, and an initial MVP of the Identity DAO is functional including:  
+	- [Identity Registry Contract](https://github.com/dOrgTech/ID-DAO/blob/dev/dao/contracts/IdentityRegistry.sol)
+	- ["Human Reputation Claim" Scheme](https://github.com/dOrgTech/ID-DAO/blob/dev/dao/contracts/HumanReputationClaim.sol)
+	- [DAO Deployment Scripts](https://github.com/dOrgTech/ID-DAO/blob/dev/dao/migrations/2_deploy_contracts.js)
+	- [Javascript Client Library](https://github.com/dOrgTech/ID-DAO/tree/dev/client) Which Supports...
+		- ID-DAO Proposals
+		- Registry Lookup
+		- Identity Definition Download & Upload
+		- Identity Definition Creation & Validation
+	- [Onboarding Tool](https://github.com/dOrgTech/ID-DAO/tree/dev/init-humans) For "Initial Humanity Set"
+	- GoodDollar [dApp](https://github.com/dOrgTech/GoodDAPP/tree/dorg-id-dev) & [Server](https://github.com/dOrgTech/GoodServer/tree/dorg-id-dev) Integration
 
-- **RegistryScheme tests** added
-- [PR awaiting final approval](https://github.com/daostack/arc-hive/pull/9)
+- **[Nectar DAO Bootstrap U.I.](https://github.com/dorgtech/nectarDAO-Bootstrapper) - Launch-ready**: Rigorous testing, functionality and UX improvements in collaboration with DeversiFi and DAOstack core
 
-### Future
+<p float="center">
+  <img src="../img/Nectar-Lock.png" width="33%"/>
+  <img src="../img/Nectar-Snapshot.png" width="33%"/>
+  <img src="../img/Nectar-Bid.png" width="33%"/>
+</p>  
 
-- Generic "RegistryScheme" Specification & Prototype
-    - This scheme will allow a DAO to interact with any registry that implements the "ISerializableRegistry" interface
-    - We plan to use this for our various registry DAO projects going forward: Token Registry, Identity Registry, DAO Registry, etc
+### Next Steps
+
+- Finish testing and ship Gasless Rep Redeem
+
+- uprtcl: create perspective
+
+- Resume work on Bonding Curve Smart Contracts, Subgraph and Dapp for dxDAO
+
+- Begin work on GEN-locking-for-Rep U.I.
 
 # Ecosystem
 
-### DAOify Hackathon
+- Various contributions to core DAOstack repos
 
-On-boarded new developers to the community and created reusable presentations about DAOstack.
+	- [Subgraph bug fix](https://github.com/daostack/subgraph/pull/392)
 
-- [DAOstack Tech Stack](https://docs.google.com/presentation/d/1x4bWuRRz9T0yqS-JeGX0SMeKiiK-g56Z7rbJeOYiDk4/)
-- [DAOstack Ecosystem](https://docs.google.com/presentation/d/1rW7n8Cori9hN-rbJhge2onXdbfS_w9sAF-FGsFk61KI)
-- Winning Projects:
-    - [Predictor App](https://github.com/electrone901/predictor-app)
-    - [Blockathon](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0xf673ccb4e1d2479d50797cf3850265ca0c50e93843239a9ef0353b14d7c6a59b) proposal
-    - [WeatherCon](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0x84ccf3a53b112ebfe236bd1a3e2db030d23c16666d02cda0bd48648a99cce742) proposal
+	- [Handle transaction timeout error](https://github.com/daostack/migration/issues/211)
 
-### Scheme Registrar Tutorial
+	- Migration optimizations: [1](https://github.com/daostack/migration/issues/228), [2](https://github.com/daostack/migration/issues/229), [3](https://github.com/daostack/migration/issues/217)
 
-[Helped Ezra author a "How To" article on the Scheme Registrar.](https://daotalk.org/t/how-to-use-the-scheme-registrar-in-alchemy/669) We created a step by step guide for updating Genesis Protocol parameters using Etherscan and Alchemy. 
+	- Alchemy improvement issues opened: [GenericSchemeRegistry package](https://github.com/daostack/alchemy/issues/1244), [Detect DAO profile info](https://github.com/daostack/subgraph/issues/378), [Disqus integration bug](https://github.com/daostack/alchemy/issues/1206), [Tooltip persistence bug](https://github.com/daostack/alchemy/issues/1232)
 
-### DAOstack R&D Resource List
+	- Client improvement issues opened: [User-provided address sanitation](https://github.com/daostack/client/issues/338), [Transaction speed-ups](https://github.com/daostack/client/issues/318)
 
-[Authored this overview](https://daotalk.org/t/resource-list-dao-r-d/572) that can be used to help new open-source developers get started.
+	- [Arc security vulnerability discovered and addressed](https://github.com/daostack/arc/issues/680)
 
-### On-boarded 4 New Developers
+- Continued to specify good first time and advanced issues for new OS contrubtors to DAOstack in a follow-up session with Kate, Shiv and others. ([Loan Scheme](https://github.com/daostack/Ecosystem/issues/32))
 
-dOrg has on-boarded 4 new developers to help with ongoing projects, and in doing so they've been on-boarded into the DAOstack ecosystem.
+- Presented on DAOstack, dOrg and the DAOcreator tool at Jason's DAOfest event in Bangkok
 
-- [Thomas Spofford](https://github.com/tspoff)
-- [Seth Febius](https://github.com/sethfork)
-- [Jeremy Luso](https://github.com/jvluso)
-- [Luis Dominguez](https://github.com/luis-sh)
+### Next Steps
 
-# Self-Sustainability
+- Follow through on solutions for issues raised in DAOstack core repos
 
-## Gnosis: Bonding Curves for DAOs
+# DAO Admin
 
-Bonding curve support for DAOs to allow continuous funding.
+- Working with legal counsel to optimize agreement signing flows with paying DAO clients
 
-### Present
+- Spec-ing and discussing improvements to dOrg DAO's Rep, Token, and payment allocation flows
 
-- Started May 20th
-- Contracts for schemes and curve [prototyped](https://github.com/dOrgTech/BC-DAO/tree/master/contracts)
-- Delivered [initial spec](https://github.com/dOrgTech/BC-DAO/) with overview of economic model and technical architecture
-- Delivered [research survey](https://github.com/dOrgTech/BC-DAO/blob/master/research.md) of existing bonding curve projects
+	- [Reputation-weighted Payment Splitter](https://github.com/dOrgTech/Ecosystem/issues/32)
 
-### Future
+	- [Proposal Scheduler](https://github.com/dOrgTech/Ecosystem/issues/28)
 
-- Finalize economic model
-- Fully implement and audit all contracts
+	- [Rep/Token Dynamics](https://github.com/dOrgTech/Ecosystem/issues/24)
 
-## GoodDollar: Identity DAO
+- Released [dOrg Handbook](https://dorg.gitbook.io/-/) for our contributors
 
-DAO-curated registry of human identities to be integrated with the GoodDollar app.
+### Next Steps
 
-### Present
+- Iterate on Handbook
 
-- Started June 17
-- [Initial technical specification and product overview / UX flow drafted](https://drive.google.com/file/d/1NWTYfKECUuUD4yw3OMGJbKnL-aYmWo9y/view)
-- Scheme and registry contracts prototyped
+- Migrate dOrg DAO to fresh instance [to resolve current issues](https://github.com/dOrgTech/Ecosystem/issues/18)
 
-### Future
+- New landing page better publicizing all of the projects we've been working on
 
-- Complete spec & mock-ups
-- Implement all contracts and U.I. components
-- Build javascript Web3 plug-in for easy application integration

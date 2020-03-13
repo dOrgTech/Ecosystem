@@ -1,164 +1,105 @@
-# Milestone 3 Deliverables
+*An overview of dOrg's progress in the 3rd month (Dec 1 - 31) of our six month engagement with Genesis DAO.*
 
-Date: Aug 29, 2019
+*For context, [see the recurring proposal here](Genesis_Recurring_Funding.md).*
 
-*An overview of dOrg's progress in the third 2-month segment of our partnership with DAOstack (July 1 - August 31)*
+# DAOcreator
 
-### Summary of Document:
+- **DAOcreator in Alchemy**: We've embedded the first version of the UI in Alchemy. The [PR](https://github.com/daostack/alchemy/pull/1264) is currently awaiting approval from DAOstack core.
 
-- DAOcreator - UI
-- DAOcreator - Subgraph
-- DAOcomponents
-- Ecosystem
-- Self-Sustainability
+  <p float="center">
+    <img src="../img/DAOcreator-Alchemy-Embed.png" width="95%">
+  </p>
 
-# DAOcreator - UI
+- **DAOcreator Redesign**: Development is underway, and a usable beta is coming soon. You can test an early WIP version [here](https://daocreator-v2.herokuapp.com/). Please send any and all feedback to *contact@dorg.tech*.
+  - Progress can be tracked [here](https://github.com/orgs/dOrgTech/projects/10).
 
-DAOcreator is a front-end for designing & deploying Arc-based DAOs.
+  <p float="center">
+    <img src="../img/DAOcreator-V2-Dev-1.png" width="47.5%" />
+    <img src="../img/DAOcreator-V2-Dev-2.png" width="47.5%" />
+  </p>
 
-### Present
+- **DAOcreator Packages Published**: Packages for both the core logic and V1 UI have been published to NPM. This will allow any developer to either embed the UI within their applications, or easily build their own UI and have 80% of the work done for them by the core library.
+  - [DAOcreator Core Library](https://www.npmjs.com/package/@dorgtech/daocreator-lib)
+  - [DAOcreator V1 UI](https://www.npmjs.com/package/@dorgtech/daocreator-ui-v1)
 
-- Complete UI Overhaul
+### Next Steps 
 
-    [https://youtu.be/iKTuQT0bBf4](https://youtu.be/iKTuQT0bBf4)
+- Finish V2 UI, progress can be tracked [here](https://github.com/orgs/dOrgTech/projects/10).
 
-    - Genesis Protocol Voting Machine Presets: Easy, Normal, Critical, Custom
-        - Custom configurations screen with tailored field controls and tool-tips.
-    - Member's CSV Import / Export
-        - CSV Template Download
-    - Export dao-params.json
-    - Core Form Library
-        - Complex Validation Logic
-        - React Agnostic
-        - Plan to ship this as its own package for other tools to use. We've talked with [Odyssy](https://odyssy.io/) about using it in their [DAOhaus](https://daohaus.club/) application and they were super interested.
+- Get newly deployed DAOs on Alchemy front-page. [Solution proposed here](https://github.com/daostack/alchemy/issues/1246).
 
-### Future
+# Use Cases & Integration
 
-- Mainnet Deployments
-- Simple Mode + DAO Templates
-- Reputation Bootstrapping Schemes
-- Members Editor Redesign
-- Import dao-params.json
-- Persist sessions through local storage
-- Use the core library in other applications ([Odyssy](https://odyssy.io/))
+- **[Gasless Rep Redeem](https://github.com/dOrgTech/TxPayerService):** A service for paying transaction fees
+  - Deploy with [one button click](https://github.com/dOrgTech/TxPayerService/pull/31) as a serverless function
+  - [Notification emails](https://github.com/dOrgTech/TxPayerService/pull/40) when the service is low on funds
+  - Other bug fixes & optimizations: [1](https://github.com/dOrgTech/TxPayerService/issues/38), [2](https://github.com/dOrgTech/TxPayerService/pull/35), [3](https://github.com/dOrgTech/TxPayerService/pull/37), [4](https://github.com/dOrgTech/TxPayerService/pull/34)
 
-# DAOcreator - Subgraph
+- **[Alchemy Proposal Template URLs](https://github.com/daostack/alchemy/pull/1226):** Add the ability to open a proposal template for a user via embedding its pre-filled-out contents within the URL's parameters.
+  - Added additional optimizations and tests
 
-DAOs deployed with the DAOcreator are not able to be viewed in Alchemy due to the subgraph only supporting static contract addresses. We've worked towards solving this.
+- **DAO's Mind:** 70% done (note this work is also partially funded by uprtcl)
+  - [Wiki component added to Alchemy](https://github.com/dOrgTech/alchemy/commits/wiki_functionality_attachment)
 
-### Present
+  <p float="center">
+    <img src="../img/uprtcl_1.png" width="80%" />
+  <p/>
 
-- [Subgraph PR](https://github.com/daostack/subgraph/pull/215) ready to be merged
-- [DAOtracker PR](https://github.com/daostack/arc/pull/640) ready to be merged
+  - Generic Scheme interface added 
 
-### Future
+  <p float="center">
+    <img src="../img/uprtcl_2.png" width="80%" />
+  </p>
 
-- Integrate DAOtracker to the migration scripts
-- Integrate DAOtracker to the subgraph
-- 🙌 Deploy in DAOcreator → Use in Alchemy 🙌
+  - [Additional development on wiki component](https://github.com/uprtcl/js-uprtcl/pull/21)
 
-# DAOcomponents
+  - [Bundling into npm package](https://github.com/dOrgTech/daosMind)
 
-DAOcomponents aims to create an easy to use React Component Library that wraps the DAOstack/client library. The hope is to be able to turn any app into a DAO enabled dApp by adding ~2 components.
+- **Open Raise (Previously BC-DAO):** Applying to external grants to fund improvements and audit
+  - [**GitCoin Grant**](https://gitcoin.co/grants/255/open-raise-3)
+  <p float="center">
+    <img src="../img/open-raise.png" width="95%" />
+  <p/>
 
-### Present
+- **Alchemy GEN-Locking-For-REP UI:** We started working on the GEN locking UI for Alchemy by restyling the UI we created for NecDAO.
+  * Code available [here](https://github.com/dOrgTech/GEN-Locking)
+  <p float="center">
+    <img src="../img/Alchemy-GEN-Locking.png" width="95%" />
+  <p/>
 
-- Updated to latest client version
-- Added the following components
-    - Stake(s)
-    - Scheme(s)
-    - Token(s)
-    - Vote(s)
-- [Breaking issue](https://github.com/daostack/subgraph/issues/321) found where subgraph endpoints go offline
-- [Improved loading handler](https://github.com/dOrgTech/DAOcomponents/commit/746f5ad8c714a9c58bca9ae82f836af7ff1fbac8)
-- Improved ComponentList Inference [underway](https://github.com/dOrgTech/DAOcomponents/compare/infer-prop?expand=1)
+### Next Steps
 
-        <Member address={"0xMy_Address"} daoAddress={"0xDAO"}>
-          <Proposals from={"Member as proposer"}>
-          ... all proposals created by this member
+- DAO's Mind:
+  - Allow the creation of proposals through the wiki's UI
+  - Improve wiki component UI
+  - Improve uprtcl smart contracts
 
-### Future
-
-- Complete improved inference
-- Support interested users
-    - [DAOhaus](https://daohaus.club/)
-    - New Alchemy
+- Gasless Rep Redeem:
+  - Complete and test email notifications
 
 # Ecosystem
 
-## Berlin Blockchain Week
+- [Migration ABI Optimizations](https://github.com/daostack/migration/pull/247)
+  - Decreases size of ./contracts from 30mb to 7mb.
+  - With an optional optimization that strips bytecode, the size goes to 1.7 mb.
 
-dOrg members participated in various blockchain week events to share our progress with the rest of the ecosystem.
+- Added [mcDAI support to Alchemy](https://github.com/daostack/alchemy/pull/1269)
 
-- **Web3Summit**: [Ori spoke at the dgov node](https://www.youtube.com/watch?v=-cW4HVLDCJ8) about how dOrg uses Alchemy to operate its legal entity.
-- **DAOfest**:
-    - [Jordan spoke](https://www.youtube.com/watch?v=XBjy4oj61JE) about DAOstack's tech stack and open source ecosystem.
-    - [Ori spoke](https://www.youtube.com/watch?v=BTZMRR1YRyo) about dOrg's legal process.
-- **Dappcon**: [Thomas spoke](https://www.youtube.com/watch?v=TTk-I7QmBm0) about dOrg's bonding curves for DAOs project.
-- **ETHBerlin**: Enjoyed good company and conversation.
+# DAO Admin
 
-## On-boarded 7 New Developers
+- New release of [dOrg Handbook](https://dorg.gitbook.io/-/)
+  <p float="center">
+    <img src="../img/dOrg-Handbook.png" width="95%" />
+  <p/>
 
-dOrg has on-boarded 7 new developers to help with ongoing projects, and in doing so they've been on-boarded into the DAOstack ecosystem.
+- New landing page that better publicizes all of the projects we've been working on is almost complete
+  <p float="center">
+    <img src="../img/dOrg-New-Landing.png" width="95%" />
+  <p/>
 
-- [Bogdan](https://github.com/bogdanbatog) - Adding a scalable dividend solution to the [Bonding Curve DAO](https://github.com/dorgtech/bc-dao) project.
-- [Christian](https://github.com/xiphiness) - Working on the [Identity DAO](https://github.com/dorgtech/id-dao) project's GoodDollar dApp integration.
-- [Zak](https://github.com/zakhap) - Blessing the [Identity DAO](https://github.com/dorgtech/id-dao) project with his design and project management skills.
-- [Hector](https://github.com/mrrobot16) - Working on adding additional, highly requested, features to the [DAOcreator](https://github.com/dorgtech/DAOcreator).
-- [Cesar](https://github.com/cbrzn) - Working on adding additional, highly requested, features to the [DAOcreator](https://github.com/dorgtech/DAOcreator).
-- [Eric](https://github.com/arsena21) - Developing a product specification & a go to market roadmap for the Ideologi project.
-- [James](https://github.com/Flash-Git) - Working on the Nectar DAO front-end.
+- New experimental internal budgeting system rolled out
 
-## Veriledger Takes On dOrg's Accounting
-
-dOrg has engaged [Veriledger](https://veriledger.io) to take on accounting solutions for legal DAOs. This includes:
-
-- Tax reporting templates for DAO participants
-- Financial statements for DAOs
-- Automated bookkeeping processes for DAOs
-- Tax strategies for DAOs
-
-Like our [previous engagement with Gravel & Shea](https://www.gravelshea.com/2019/06/dorg-launches-first-limited-liability-dao/) to develop legal solutions for DAOs, we hope that this engagement will yield solutions that further reduce the frictions between legacy systems and DAOs while bringing more attention to the ecosystem. See Veriledger's previous work on the topic [here](https://medium.com/veriledger/dao-accounting-dc496e6fb57f).
-
-## Helping other Dev Shops build on DAOstack
-
-In addition to growing itself, dOrg has also helped on-board and advise new developer teams in the ecosystem:
-
-- [_prtcl](https://github.com/uprtcl/spec): Helping Pepo & Gillem specify their Alchemy integration.
-- [Ape Unit](https://apeunit.com/): Helping to walk them through the DAOstack architecture and scope a project.
-- [AliceDapp](https://www.alicedapp.com/): Helping Mark redesign Alchemy mobile.
-- [Odyssy](https://odyssy.io/): Discussing the possibility of adding DAOstack support to their Moloch DAOcreator.
-- [Level K](https://www.levelk.io/): Collaborating with us on the U.I. for the DAO bonding curve project.
-
-# Self-Sustainability
-
-## Gnosis: Bonding Curves for DAOs
-
-Bonding curve support for DAOs to allow continuous funding.
-
-### Present
-
-- A new dividend model that is highly scalable and fully on-chain was developed and integrated.
-- The alchemy integration is underway.
-- BC-DAPP, the continuation of this project for use by the dxDAO, has been scoped out and proposed to the dxDAO.
-
-### Future
-
-- Development of BC-DAPP
-- Improved alchemy integration with custom views
-- Third-party auditing
-
-## GoodDollar: Identity DAO
-
-DAO-curated registry of human identities to be integrated with the GoodDollar app.
-
-### Present
-
-- [Contracts](https://github.com/dOrgTech/ID-DAO/tree/master/dao) Finished
-- [Client Library](https://github.com/dOrgTech/ID-DAO/tree/master/client) 90% complete
-- Gooddollar dApp & Server integration 80% complete
-
-### Future
-
-- Gooddollar dApp polish
-- Alchemy views integration
+### Next Steps
+- Release new landing page
+- Automate budgeting system, and release publicly
+- Migrate dOrg DAO to fresh instance [to resolve current issues](https://github.com/dOrgTech/Ecosystem/issues/18)

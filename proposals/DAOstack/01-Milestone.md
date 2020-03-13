@@ -1,133 +1,71 @@
-# Milestone 1 Deliverables
+*An overview of dOrg's progress in the 1st month (Oct 1 - 31) of our six month engagement with Genesis DAO.*
 
-Date: Apr 26, 2019
+*For context, [see the recurring proposal here](Genesis_Recurring_Funding.md).*
 
-*An overview of dOrg's progress in the first 2-month segment of our partnership with DAOstack (March 1 - April 30)*
+# DAOcreator
 
-### Summary of Document:
+*In addition to several UX and functionality improvements, we got mainnet deployments working and finished specifying DAOcreator beta.*
 
-- DAOcreator
-- DAOcomponents
-- DAOregistry
-- BBLLC
-- Self-Sustainability
-- Summary of Future Work
+- **Mainnet deployments** now supported inside the app!
+    - Detailed warnings and instructions
 
-# DAOcreator (v0.2)
+    <img src="../img/deploy.png" width="800">
 
-### Front-End
+    - Full, exportable deployment log
 
-We've made a lot of progress updating and refining the DAOcreator, both in UX and functionality. The latest version [can be viewed here](https://dorg.tech). 
+    <img src="../img/log.png" width="800">
 
-- Change Log:
-    - Remove Arc.js Dependency
-    - Enable Mainnet Deployments
-    - Configurable Voting Machines
-    - Configurable Schemes
-    - Scheme Specific Voting Machines
-    - Helpful Descriptions
-    - Input Validation
-    - User Friendly Transaction Descriptions
-    - New User Landing Page
-    - Notification Refinement
-    - Bug Fixes++
+- **Import DAO** now supported
 
-### Back-End
+    <img src="../img/import.png" width="250">
 
-In order for Alchemy to support these newly deployed DAOs, the subgraph needs to be updated to use a new feature that has just been released from The Graph Protocol. This new feature is called "Dynamic Datasources" or "Template Datasources". We performed some preliminary R&D to help move this update along. When this feature is integrated into DAOstack's subgraph, DAOs created with DAOcreator will show up and be usable in Alchemy.
+- Improved [import members from CSV sanitation](https://github.com/dOrgTech/DAOcreator/issues/215)
+- [Subgraph PR](https://github.com/daostack/subgraph/pull/215) and [DAOtracker PR](https://github.com/daostack/arc/pull/640) fixed and merged - this lays the groundwork for automated Alchemy support!
+- Beta release redesign specified and timelined
 
-- [Issue](https://github.com/daostack/subgraph/issues/197)
-- [WIP Implementation](https://github.com/dOrgTech/subgraph/pull/2)
+### Future
 
-# DAOcomponents
+- Automated Alchemy support (Integrate DAOtracker to the migration scripts and subgraph)
+- Design and iterate on new design mock-ups with community research
+- Begin implementing functional version of DAOcreator beta from wireframes
 
-### Present (POC)
+# Use Cases & Integration
 
-DAOcomponents aims to create an easy to use React Component Library that wraps the DAOstack/client library. The hope is to be able to turn any app into a DAO enabled dApp by adding ~2 components.
+- **Gasless Rep Redeem**: Allows ReputationFromToken to be redeemed without needing any gas in order to support seemless onboarding for future dHacks and DAOfests. [[problem](https://github.com/dOrgTech/Ecosystem/issues/17)] [[solution](https://github.com/dOrgTech/TxPayerService)]
+- Began specifying [Reputation simulation app](https://github.com/dOrgTech/Ecosystem/issues/19) for DAOs to visualize and model changes in Rep over time.
 
-- For more information on how to use the library, please refer to the [README](https://github.com/dOrgTech/DAOcomponents/blob/master/README.md)
-- The library is almost ready for Proof-of-Concept release. [View the remaining tasks for POC release here](https://github.com/dOrgTech/DAOcomponents/milestone/1).
-- Additionally, Genesis DAO has signaled its interest in the project. [See passed proposal here](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0xca25582de4148b1c960d3d32fd96a1b017b9c3757c8165e2343a54c5b8425329).
+    <img src="../img/rep-simulation.png" width="500">
 
-### Future (MVP)
+- **_prtcl Alchemy Integration**: We've kicked off this project, and development should start around November 11th. Genesis proposal viewable [here](https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0xcbdc3612e6d73cb47cdb4c44e1db18213eb0cf8c17f4870b8beca33cffbd7d3f).
 
-Future plans for this project are:
+### Future
 
-- Onboard Shiv who's expressed interest in helping with further development
-- Finish POC milestone and publish to NPM
-- DAOexplorer integration
-- Start developing dOrg's front-end for Arc
-- Alchemy integration?
+- Finish testing and ship Gasless Rep Redeem
+- Finish specifying and start implementing Rep simulation
+- Continue to assist in the _prtcl integration
 
-[See the full list of features for the MVP release here](https://github.com/dOrgTech/DAOcomponents/milestone/2https://github.com/dOrgTech/DAOcomponents/milestone/2).
+# Ecosystem
 
-# DAOregistry
+- Started [DAOstack-collab](https://github.com/dOrgTech/daostack-collab/) repo on github to support joint roadmaps across technical teams in the ecosystem  → forked into [DAOstack's Ecosystem repo](https://github.com/daostack/Ecosystem)
+- Helped to begin specifying good "first time issues" for new open-source contributors (several of which have been more fully elaborated on [here](https://github.com/daostack/Ecosystem/issues))
+- Launched the [DAOfest DAO](https://alchemy.daostack.io/dao/0x8990e11b69403Ea53Ef2B32434bBD7dBf84B5234) with Felipe
+- Presented to the Bucharest Blockchain Group on how DAOstack can be used to manage a legal entity and responsibly fundraise [[event](https://www.eventbrite.com/e/blockchain-based-llc-and-funding-tools-for-daos-tickets-74091444505)] [[presentation](https://docs.google.com/presentation/d/1fs3cufwBT4dBWqi0VB0UaVCarkauFORdBwpSXGZTSkI/edit?usp=sharing)]
+- Pro Bono DAO advising one legal-tech consulting agency and one mobile design agency in launching their own (dOrg style) small DAOs. We believe a proliferation of small DAOs on the platform is equally important as having several large DAOs.
 
-The DAOregistry is a whitelist of DAOs to be curated by the Genesis DAO. In DAOstack's current [implementation](https://github.com/daostack/arc-hive/blob/master/contracts/DAORegistry.sol), the Genesis Avatar would own the registry contract. We implemented a scheme that interfaces with this registry using a generic action call.
+### Future
 
-Check out our
+- Help bountify additional tasks for open-source
+- Help anyone else in the community launch a DAO
 
-- [DAORegistryScheme implementation](https://github.com/dOrgTech/arc-hive/blob/dao-registry-scheme/contracts/DAORegistryScheme.sol)
-- [New specification](https://gist.github.com/gh1dra/7bd7cb0700d81b474ed0b79d81f5b30d)
-- [Pull Request](https://github.com/daostack/arc-hive/pull/9) awaiting final approval
+# DAO Admin
 
-# BBLLC
+*This past period we focused heavily on bookkeeping and tax prep.*
 
-The Blockchain-Based Limited Liability Company is a new legal entity classification in Vermont which allows a company to govern and operate itself on a blockchain. We believe that this law and others like it present possible "legal solutions" for DAOs.
+- 90% through reconciling all of dOrg's transactions with Veriledger. These will allow us to create the first official 'DAO Financial Statements'
+- Submitted dOrg tax election to IRS
+- Reseraching tax-exempt benefits for Rep holders– such as reimbursements for Healthcare, Coworking and Data expenses.
 
-To this end, we established an engagement with local advisors who assisted with the development of Vermont's BBLLC law to develop:
+### Future
 
-1. A legal wrapper for dOrg's DAO
-2. Guidelines and templates for DAOs to seamlessly register their own legal wrappers. See [here](https://docs.google.com/document/d/18gfexutgAVBpEpCyDg2e0XvudLNpZ-sjfp3gYQVesR4/edit#) for more info
-
-So far, we have worked with our legal counsel to draft the initial set of legal agreements for dOrg's BBLLC-DAO (Operating Agreement, Contractor Agreements, etc). The entity will be registered within the next 1-2 weeks.
-
-Going forward, we plan to work on:
-
-- Templating software to automate generation and execution of the relevant legal contracts for new DAOs
-- Integrating this functionality into the DAOcreator wizard
-- Templating and integrating other legal entity classifications
-
-# Self Sustainability
-
-### Grants
-
-**Gnosis GECO**: Awarded grant to work on Continuous Funding Scheme for the dxDAO.
-
-- [Original Proposal](https://github.com/gnosis/GECO/pull/29https://github.com/gnosis/GECO/pull/29)
-- [Presentation Slide Deck](https://docs.google.com/presentation/d/18psmeqqw0fJdfs1iuVA7DHtCDrVSX8Fkm32MvHYXDgI/edit?usp=sharing)
-- [Acceptance Video](https://youtu.be/LB_E8OqMxzE)
-
-### Potential Clients
-
-We have also been scoping out projects with clients who would pay us to build particular DAOstack integrations.
-
-# Summary of Future Work
-
-### DAOcreator
-
-- Finish up R&D on Subgraph Datasource Templates needed to add Alchemy Earth support for newly deployed DAOs
-- Release v0.3
-    - Additional [bug fixes and usability improvements](https://github.com/dOrgTech/DAOcreator/issues)
-    - Additional features, including DAOregistry support and legal entity registration
-
-### DAOcomponents
-
-- Finalize [POC](https://github.com/dOrgTech/DAOcomponents/milestone/1)
-- Work towards [MVP](https://github.com/dOrgTech/DAOcomponents/milestone/2)
-
-### DAOregistry
-
-- Finalize DAORegistryScheme implementation
-
-### BBLLC
-
-- Finalize legal entity registration
-
-### Continuous DAOs
-
-- begin work on Gnosis GECO project
-
-### Self-Sustainability
-
-- Close additional grants and clients
+- Create tax guidelines for the dOrg DAO contractors
+- Define reimbursement protocol for dOrg DAO contractors
