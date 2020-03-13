@@ -45,9 +45,9 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
     - Updating metadata
 
 ## User Story
-As an artist, I want to collaborate with other artists and create/sell NFT art on OpenSea (to share profit) with a storefront or through bundling.
-As an organisation, I want to award NFTs (badges/awards)
-As a user, I want to be able to see what NFTs a DAO owns and use them to create a revenue model.
+As an artist, I want to collaborate with other artists and create/sell NFT art on OpenSea (to share profit) with a storefront or through bundling.   
+As an organisation, I want to award NFTs (badges/awards).   
+As a user, I want to be able to see what NFTs a DAO owns and use them to create a revenue model.   
 
 ## Questions
 - Which token standards should be supported?
