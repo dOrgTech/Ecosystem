@@ -6,6 +6,10 @@
 
 - [Embeded new DAOcreator into Alchemy](https://github.com/dOrgTech/alchemy/commits/daocreator-v2-embed)
 
+  <p float="center">
+  	<img src="../img/DAOcreator-V2-Dev-4.png" width="60%"/>
+  </p>
+
 - Resolve [various minor issues](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed)
 
 # DAO's Mind
