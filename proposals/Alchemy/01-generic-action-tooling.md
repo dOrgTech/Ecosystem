@@ -1,6 +1,8 @@
 # RFC-01: Generic Actions Tooling
 
-## Summary
+## User Story
+
+### Current
 
 Adding GA plugins within Alchemy currently has the following problems:  
 - No UI for configuring & deploying a new GA plugin contract – must be done by a skilled programmer.
@@ -9,7 +11,7 @@ Adding GA plugins within Alchemy currently has the following problems:
 - Complex UI for adding a GA plugin to the DAO via the plugin manager.
 - Subgraph does not pickup on newly deployed GA plugin contracts.
 
-## User Story
+### New
 
 As a DAO founder or enthusiast I want to easily interface my DAO with existing smart contracts, so that it can perform particular actions (set parameters, manage finances).
 

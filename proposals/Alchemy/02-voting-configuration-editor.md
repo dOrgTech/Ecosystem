@@ -1,11 +1,13 @@
 # RFC-02: Voting configuration editor
 
-## Summary
-
-Editing a DAO plugin's voting machine configuration is currently super complicated. Users do not have an easy to use interface within Alchemy for doing this.
-
 ## User Story
 
+### Current
+Editing a DAO plugin's voting machine configuration is currently super complicated. Users do not have an easy to use interface within Alchemy for doing this. Currently, a user must
+- TODO
+- ...
+
+### New
 As a non technical user of the DAO I want to manage and set up my organization in any way that I want to, this way, if me as founder, do something wrong at the time of the creation of the the DAO or eventually me and my group just want to change the rules of a scheme of the organization, we will be able to do it through an UI, making it easier to add a new voting configuration for the desired scheme.
 
 ## Detailed Design

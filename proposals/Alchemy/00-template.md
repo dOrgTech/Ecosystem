@@ -1,10 +1,12 @@
 # RFC-00: Template
 
-## Summary
-
-A brief summary of the proposal.
-
 ## User Story
+
+### Current
+A brief summary of the current user flow.
+
+### New 
+1 or 2 sentences about the desired outcome.
 
 As a `[type of user]` I want to `[some goal]`, so that `[some reason]`.
 
