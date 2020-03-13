@@ -5,16 +5,16 @@ Alchemy currently lacks the ability to display, transfer and create NFTs (ERC721
 This proposal outlines how with the addition of 2 new generic schemes, users will be able to add NFT functionality to their DAOs.
 
 #### 1. The **NFT Support** scheme:
-    - Gives DAOs the ability to transfer NFTs (whitelisted NFTs are selectable from drop-down, with optional manual override for unwhitelisted tokens)
-    - Gives DAOs the ability to list owned tokens for sale on OpenSea and accept existing orders (in Eth or ERC20s)
-    - Gives DAOs the ability to whitelist NFTs (The front end will be aware of whitelisted NFTs)
+- Gives DAOs the ability to transfer NFTs (whitelisted NFTs are selectable from drop-down, with optional manual override for unwhitelisted tokens)
+- Gives DAOs the ability to list owned tokens for sale on OpenSea and accept existing orders (in Eth or ERC20s)
+- Gives DAOs the ability to whitelist NFTs (The front end will be aware of whitelisted NFTs)
 
 #### 2. The **NFT Creation** scheme:
-    - Gives DAOs the ability to deploy new NFT Contracts
-    - Gives DAOs the ability to create new NFTs from these contracts
-        - The created NFTs can be transfered
-        - The created NFTs can be listed for sale on OpenSea (in Eth or ERC20s)
-        - The created NFTs can have their metadata updated
+- Gives DAOs the ability to deploy new NFT Contracts
+- Gives DAOs the ability to create new NFTs from these contracts
+    - The created NFTs can be transfered
+    - The created NFTs can be listed for sale on OpenSea (in Eth or ERC20s)
+    - The created NFTs can have their metadata updated
 
 ## Detailed Design
 
