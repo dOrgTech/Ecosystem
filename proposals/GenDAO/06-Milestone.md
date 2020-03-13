@@ -20,8 +20,8 @@
 
 | Proposal | Description |
 |-|-|
-| Voting Config Editor | Improve UI for editing a plugin's voting machine configuration |
-| Generic Action UI | Easily add/remove Generic Actions through the UI |
+| [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI |
+| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration |
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
 | NFT Issuance | Allow DAO to issue different NFTs |
 | ENS Manager | Dedicated view for managing ENS sites |
@@ -44,8 +44,8 @@
 		- *Bootstrap Solution* = Rep bootstrap app custom styling & parameterization for token lock, bid and snapshot
 		- *On-boarding & Engagement* = Stakeholder on-boarding, proposal priming, user feedback, social media campaign, content creation
 		- *Custom Governance UI* = Customized governance app that can be embedded in the client's own site
-	- Currently testing this out with a few potential clients
 	- This can serve as our plan of attack for attracting DeFi projects to DAOstack
+	- Currently testing this out with a few potential clients ([NecDAO](../NecDAO/DAOify_NecDAO.pdf), Bancor, Totle, Orchid)
 
 - Develop tailored offering for large institutions (non-profits, NGOs, corporates) to run DAOstack pilots
 	- Slush fund for their employees
