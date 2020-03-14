@@ -4,15 +4,15 @@
 
 # DAOcreator
 
-- [Embeded new DAOcreator into Alchemy](https://github.com/dOrgTech/alchemy/commits/daocreator-v2-embed)
+- [Embeded new DAOcreator into Alchemy](https://github.com/daostack/alchemy/pull/1506)
 
   <p float="center">
   	<img src="../img/DAOcreator-V2-Dev-4.png" width="60%"/>
   </p>
 
-- Resolve [various minor issues](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed)
+- Resolve [various minor issues](https://github.com/dOrgTech/DAOcreator/pulls?q=is%3Apr+is%3Aclosed): [1](https://github.com/dOrgTech/DAOcreator/pull/474), [2](https://github.com/dOrgTech/DAOcreator/pull/475), [3](https://github.com/dOrgTech/DAOcreator/pull/476), [4](https://github.com/dOrgTech/DAOcreator/pull/462/files), [5](https://github.com/dOrgTech/DAOcreator/pull/469)
 
-- Promotional [tweet with demo video](https://twitter.com/dOrg_tech/status/1237769212099264518?s=20) + [medium article explainer](https://twitter.com/Ingalandia/status/1237525857981218816)
+- Published Promotional [explainer article on Medium](https://twitter.com/Ingalandia/status/1237525857981218816) and [demo video on Twitter](https://twitter.com/dOrg_tech/status/1237769212099264518?s=20)
 
 # DAO's Mind
 
@@ -21,18 +21,18 @@
   	- [DEMO VIDEO](https://youtu.be/nSuwobJI3-4)
 
   <p float="center">
-  	<img src="../img/uprtcl_4.png" width="60%"/>
   	<img src="../img/uprtcl_5.png" width="60%"/>
+	<img src="../img/uprtcl_4.png" width="30%"/>
   </p>
 
 # Alchemy
 
-- Specify the following alchemy improvement proposals [here](../Alchemy)
+- Specify the following alchemy improvement proposals [here](../Alchemy):
 
-| Proposal | Description |
-|-|-|
-| [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI |
-| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration |
+| Proposal | Description | Cost |
+|-|-|-|
+| [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI | $16k |
+| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $6k |
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
 | NFT Issuance | Allow DAO to issue different NFTs |
 | ENS Manager | Dedicated view for managing ENS sites |
@@ -44,8 +44,10 @@
 | Documentation Overhaul | Developer docs for Alchemy development |
 | DevOps Overhaul | |
 | Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
+| Mobile Optimization | Styling changes to make the entire app mobile friendly |
 | Bug Squashing / Maintenance | Continue to identify, triage and squash bugs |
 
+- Each of these will be specified, roadmapped, and budgeted before approval by DAOstack to begin building
 
 # Biz Dev
 
@@ -60,7 +62,6 @@
 
 - Develop tailored offering for large institutions (non-profits, NGOs, corporates) to run DAOstack pilots
 	- Slush fund for their employees
-	- Standard pricing for set-up
 	- Seed everyone with ETH & GEN for participation
 	- Set up (monthly) contribution drip contract for the institution
 
