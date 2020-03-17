@@ -1,6 +1,6 @@
 *An overview of dOrg's progress in the 6th month (Mar 1 - 31) of our six month engagement with Genesis DAO.*
 
-*For context, [see the recurring proposal here](Genesis_Recurring_Funding.md).*
+*For context, [see the recurring proposal here](00-Recurring-Funding.md).*
 
 # DAOcreator
 
