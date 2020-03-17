@@ -33,15 +33,15 @@
 |-|-|-|
 | [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI | $16k |
 | [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $6k |
-| Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
+| [Documentation Overhaul](../Alchemy/04-documentation-overhaul.md) | Developer docs for Alchemy development | $4k |
 | NFT Issuance | Allow DAO to issue different NFTs |
+| Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
 | ENS Manager | Dedicated view for managing ENS sites |
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
 | DAOcomponents (Embeddable Alchemy) | Embed simplified DAOstack UI components into external websites |
 | DAO Wiki (Next Steps) | Ship & improve DAO-controlled Wiki |
 | Abridged Integration | |
 | 3box Comments | |
-| Documentation Overhaul | Developer docs for Alchemy development |
 | DevOps Overhaul | |
 | Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
 | Mobile Optimization | Styling changes to make the entire app mobile friendly |
