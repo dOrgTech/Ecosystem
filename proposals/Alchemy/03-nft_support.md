@@ -70,4 +70,4 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
 - Which contract model should be used for the NFT Creation Scheme (NFT specific contract, DAO specific NFT contract, or a super generic NFT contract used by all DAOs)
 
 ## Impact on Adoption
-TODO
+This would allow large brands to run promos using DAOs that issue NFTs. It could also serve as a bridge to on-board the large community of NFT enthusiasts / artists on platforms such as OpenSea.
