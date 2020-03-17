@@ -59,8 +59,8 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
 ## Roadmap
 | Time | Workload | Description | 
 |-|-|-|
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
+| TODO | 1.0 FT | NFT Support Scheme |
+| TODO | 1.0 FT | NFT Creation Scheme |
 
 ## Questions
 - Which token standards should be supported?
