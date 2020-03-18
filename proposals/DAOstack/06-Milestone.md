@@ -40,7 +40,7 @@
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
 | DAOcomponents (Embeddable Alchemy) | Embed simplified DAOstack UI components into external websites |
 | DAO Wiki (Next Steps) | Ship & improve DAO-controlled Wiki |
-| Abridged Integration | |
+| [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage |
 | 3box Comments | |
 | DevOps Overhaul | |
 | Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
