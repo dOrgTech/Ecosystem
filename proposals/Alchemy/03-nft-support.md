@@ -3,7 +3,7 @@
 ## User Story
 
 ### Current
-Alchemy currently lacks the ability to display, transfer and create NFTs (ERC721s and ERC1151).
+Alchemy currently lacks the ability to display, transfer, create and sell NFTs (ERC721s and ERC1151).
 
 ### New 
 As an artist, I want to collaborate with other artists and create/sell NFT art on OpenSea (to share profit) with a storefront or through bundling.   
@@ -14,7 +14,7 @@ As a user, I want to be able to see what NFTs a DAO owns and use them to create 
 
 This proposal outlines how with the addition of 2 new generic schemes, users will be able to add NFT functionality to their DAOs.
 
-#### 1. NFT Support Scheme
+#### 1 - NFT Support Scheme
 
 ##### Functionality
 - Gives DAOs the ability to transfer NFTs (whitelisted NFTs are selectable from drop-down, with optional manual override for unwhitelisted tokens)
@@ -35,7 +35,7 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
     - Updating metadata (for DAO owned NFTs)
     
 
-#### 2. NFT Creation Scheme:
+#### 2 - NFT Creation Scheme:
 
 ##### Functionality
 - Gives DAOs the ability to deploy new NFT Contracts
@@ -57,10 +57,12 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
     - Updating metadata 
 
 ## Roadmap
-| Time | Workload | Description | 
-|-|-|-|
-| TODO | 1.0 FT | NFT Support Scheme |
-| TODO | 1.0 FT | NFT Creation Scheme |
+| Time | Workload | Description |  
+|-|-|-|  
+| 2 weeks | 1.0 FT | Adds a basic view to the Alchemy DAO dashboard for viewing owned NFTs (with basic metadata support for images). Adds transfer support through new nft support scheme that is accessed either through the scheme create proposal menu or through the new view.  |  
+| 2-3 weeks | 1.0 FT | Adds a view for deployed NFTs that displays basic information and allows the creation of new tokens and the updating of their metadata using the new creation scheme. |  
+| 2 weeks+ | 1.0 FT | Polish previous additions with feedback rounds. Adds built in support for 3rd party sellers (mintbase/opensea). Adds special support for certain tokens such as ENS. |  
+
 
 ## Questions
 - Which token standards should be supported?
