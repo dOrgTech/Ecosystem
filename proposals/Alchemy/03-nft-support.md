@@ -60,8 +60,8 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
 | Time | Workload | Description |  
 |-|-|-|  
 | 2 weeks | 1.0 FT | Adds a basic view to the Alchemy DAO dashboard for viewing owned NFTs (with basic metadata support for images). Adds transfer support through new nft support scheme that is accessed either through the scheme create proposal menu or through the new view.  |  
-| 2-3 weeks | 1.0 FT | Adds a view for deployed NFTs that displays basic information and allows the creation of new tokens and the updating of their metadata using the new creation scheme. |  
-| 2 weeks+ | 1.0 FT | Polish previous additions with feedback rounds. Adds built in support for 3rd party sellers (mintbase/opensea). Adds special support for certain tokens such as ENS. |  
+| 3 weeks | 1.0 FT | Adds a view for deployed NFTs that displays basic information and allows the creation of new tokens and the updating of their metadata using the new creation scheme. |  
+| 2 weeks | 1.0 FT | Polish previous additions with feedback rounds. Adds built in support for 3rd party sellers (mintbase/opensea). Adds special support for certain tokens such as ENS. |  
 
 
 ## Questions
