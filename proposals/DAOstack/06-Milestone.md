@@ -40,12 +40,10 @@
 | ENS Manager | Dedicated view for managing ENS sites |
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
 | DAOcomponents (Embeddable Alchemy) | Embed simplified DAOstack UI components into external websites |
-| DAO Wiki (Next Steps) | Ship & improve DAO-controlled Wiki |
+| DAO Wiki | Ship & improve DAO-controlled Wiki |
 | 3box Comments | |
 | DevOps Overhaul | |
-| Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
-| Mobile Optimization | Styling changes to make the entire app mobile friendly |
-| Bug Squashing / Maintenance | Continue to identify, triage and squash bugs |
+| Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) & optimize for mobile |
 
 - Each of these will be specified, roadmapped, and budgeted before approval by DAOstack to begin building
 
