@@ -17,24 +17,21 @@ As a new user I want to login with my email and password, and access to the bloc
   - Implement the [`submitAccountTransaction`](https://playground.archanova.run/#send_account_transaction) method from the sdk so the user can vote/stake/propose.
 
 - Create a "Buy crypto" module for web2 (traditional users), so they can pay for gas tx; here the user can pay for ETH with fiat
-  - TODO... (What should we use? Wyre or Moonpay)
+  - We are going to use [Ramp instant SDK](https://instant.ramp.network/) to allow new users to buy ether with USD or EUR.
 
 This is an example app with abridged integration: https://github.com/odyssy-automaton/moloch-pokemol
-
 
 ## Roadmap
 
 | Time | Workload | Description | 
 |-|-|-|
-| To be defined | 1.0 FT | Create the actions for login/sign up, we can use PostgreSQL or Amazon Incognito (still need to be defined), for this actions we are going to create a class to manage the auth methods to allow the user web3 attributes (address) to interact with alchemy functionalities |
-| To be defined | 1.0 FT | Implement Crypto On-Ramps |
+| 2 weeks | 1.0 FT | Create the actions for login/sign up, we can use PostgreSQL or Amazon Incognito (still need to be defined), for this actions we are going to create a class to manage the auth methods to allow the user web3 attributes (address) to interact with alchemy functionalities |
+| 1 week | 1.0 FT | Implement Crypto On-Ramps with Ramp Instant |
 
 
 ## Open Questions
 
-Should we use AWS Incognito or PostgreSQL db?
-
-My personal opinion is that alchemy already has a database and a server so we can make use of it, it will save us time and it's easier to develop.
+None
 
 ## Impact on Adoption
 
