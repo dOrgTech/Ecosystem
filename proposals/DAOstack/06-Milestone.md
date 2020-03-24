@@ -33,9 +33,9 @@
 |-|-|-|
 | [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI | $16k |
 | [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $6k |
-| [NFT Issuance](../Alchemy/03-nft-support.md) | Allow DAO to issue different NFTs |
+| [NFT Issuance](../Alchemy/03-nft-support.md) | Allow DAO to issue different NFTs | $14k |
 | [Documentation Overhaul](../Alchemy/04-documentation-overhaul.md) | Developer docs for Alchemy development | $4k |
-|  [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage |
+|  [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage | $6k |
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
 | ENS Manager | Dedicated view for managing ENS sites |
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
@@ -43,8 +43,8 @@
 | DAO Wiki | Ship & improve DAO-controlled Wiki |
 | 3box Comments | |
 | DevOps Overhaul | |
-| [Design Overhaul](../Alchemy/13-design-overhaul.md) | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
-| [Mobile Optimize](../Alchemy/14-mobile-optimize.md) | Minor tweaks to optimize Alchemy for mobile use |
+| [Design Overhaul](../Alchemy/13-design-overhaul.md) | Redesign core elements of the UI (proposal feed, schemes, redemption,..) | $28k |
+| [Mobile Optimize](../Alchemy/14-mobile-optimize.md) | Minor tweaks to optimize Alchemy for mobile use | $2k |
 
 - Each of these will be specified, roadmapped, and budgeted before approval by DAOstack to begin building
 
