@@ -17,7 +17,24 @@ As a DAO founder or enthusiast I want to easily interface my DAO with existing s
 
 As a protocol developer, I want to give DAOstack DAOs the ability to interact with my smart contracts (ENS, Uniswap, Compound), so that adoption of my protocol increases.
 
+## Impact on Adoption
+
+The ability to easily call existing smart contracts is crucial for adoption by any Ethereum projects interested in DAOifying their governance with DAOstack.
+
+Many projects are currently choosing to use Aragon specifically because [Aragon Agent](https://aragon.org/agent/) makes it easy to interface their DAO with smart contracts.
+
+This is a HUGE missed opportunity right now.
+
+## Roadmap
+
+| Time | Workload | Description | 
+|-|-|-|
+| 4 week | 1.0 FT | TODO |
+| 4 week | 1.0 FT | TODO |
+
 ## Detailed Design
+
+TODO
 
 ### Terminology
 
@@ -27,28 +44,8 @@ As a protocol developer, I want to give DAOstack DAOs the ability to interact wi
 **GA Registry**: On-chain registry of GA JSONs. This registry should be managed by a DAO made up by the stake-holders of Alchemy. The Alchemy DAO.  
 **Known GA**: A Generic Action that's registered in the registry.  
 
-This is the main section of the RFC. What does the proposal include? What are
-the proposed interfaces/APIs? How are different affected parties, such as users,
-developers or node operators affected by the change and how are they going to
-use it?
-
-## Roadmap
-
-| Time | Workload | Description | 
-|-|-|-|
-| 4 week | 1.0 FT | TODO |
-| 4 week | 1.0 FT | TODO |
-
 ## Open Questions
 
 - How will this feature be affected by Stack 2.0 changes?
 
 - Would it be better to focus on creating a "generic generic action" rather than encouraging a proliferation of particular generic actions?
-
-## Impact on Adoption
-
-The ability to easily call existing smart contracts is crucial for adoption by any Ethereum projects interested in DAOifying their governance with DAOstack.
-
-Many projects are currently choosing to use Aragon specifically because [Aragon Agent](https://aragon.org/agent/) makes it easy to interface their DAO with smart contracts.
-
-This is a HUGE missed opportunity right now.

@@ -13,6 +13,16 @@ Trying to develop on alchemy is a complicated task, since is a pretty robust dAp
 
 As a developer I want to go to alchemy and see a good documentation, so I can save time and just go to tackle the problem I came to resolve, this way I dont need to understand the entire app to build a functionality.
 
+## Impact on Adoption
+
+This will allow a lot more of developer to have an easier development and the dApp will grow and be more robust faster
+
+## Roadmap
+
+| Time | Workload | Description | 
+|-|-|-|
+| 10 days | 1.0 FT | Create/edit alchemy hackers kit to be more intuitive, add Alchemy repo docs, add all subsections |
+
 ## Detailed Design
 
 We want to make a clear and easy to understand documentation.
@@ -29,33 +39,20 @@ This leads us to create an explicit documentation:
    - It's unclear how to really set the voting machine parameters, there's no a clear indication of how the parameters should be added into the voting machine (i.e: Which order, what are the validations on the contract)
    - When creating the PR into the subgraph, how can I query the data of my DAO (Controller, DAOToken, Reputation and Arc Version) to add it into the file i'm creating 
 
-
-
-## Roadmap
-
-| Time | Workload | Description | 
-|-|-|-|
-| 10 days | 1.0 FT | Create/edit alchemy hackers kit section, add the documentation of the alchemy's repository into this doc; making it more intuitive and easier to work on. Separating it into different sub sections, which are going to be: Set up/Development/Upgrades/Tests.
-
 What are we going to show on each subsection?
 
-Set up: How to start your local environment and how you can work with ganache (local) or rinkeby (testnet). Starting up your own subgraph or working with docker? Why and when do what (Depending on developer objective)
+- Set up: How to start your local environment and how you can work with ganache (local) or rinkeby (testnet). Starting up your own subgraph or working with docker? Why and when do what (Depending on developer objective)
 
-Development: Add a DAO to your local subgraph, as well as adding and removing schemes into already existing DAOs
+- Development: Add a DAO to your local subgraph, as well as adding and removing schemes into already existing DAOs
 
-Upgrades: Create a new generic scheme and add it into your DAO 
+- Upgrades: Create a new generic scheme and add it into your DAO 
 
-Tests: How to set up you environment to run integration tests
+- Tests: How to set up you environment to run integration tests
 
-We want to create video tutorials for: 
+Video tutorials for:
 - Deploying new generic scheme on remix and calling the method initialize (How to get the code of the generic scheme and the contracts it depends)
 - How to add voting configuration into voting machine using remix
-|
 
 ## Open Questions
 
 Are we missing something?
-
-## Impact on Adoption
-
-This will allow a lot more of developer to have an easier development and the dApp will grow and be more robust faster

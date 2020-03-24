@@ -10,6 +10,16 @@ As an artist, I want to collaborate with other artists and create/sell NFT art o
 As an organisation, I want to award NFTs (badges/awards).   
 As a user, I want to be able to see what NFTs a DAO owns and use them to create a revenue model.  
 
+## Impact on Adoption
+This would allow large brands to run promos using DAOs that issue NFTs. It could also serve as a bridge to on-board the large community of NFT enthusiasts / artists on platforms such as OpenSea.
+
+## Roadmap
+| Time | Workload | Description |  
+|-|-|-|  
+| 2 weeks | 1.0 FT | Adds a basic view to the Alchemy DAO dashboard for viewing owned NFTs (with basic metadata support for images). Adds transfer support through new nft support scheme that is accessed either through the scheme create proposal menu or through the new view.  |  
+| 3 weeks | 1.0 FT | Adds a view for deployed NFTs that displays basic information and allows the creation of new tokens and the updating of their metadata using the new creation scheme. |  
+| 2 weeks | 1.0 FT | Polish previous additions with feedback rounds. Adds built in support for 3rd party sellers (mintbase/opensea). Adds special support for certain tokens such as ENS. |  
+
 ## Detailed Design
 
 This proposal outlines how with the addition of 2 new generic schemes, users will be able to add NFT functionality to their DAOs.
@@ -33,7 +43,6 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
     - Sale listing
     - Offer handling
     - Updating metadata (for DAO owned NFTs)
-    
 
 #### 2 - NFT Creation Scheme:
 
@@ -56,20 +65,9 @@ This proposal outlines how with the addition of 2 new generic schemes, users wil
     - Offer handling
     - Updating metadata 
 
-## Roadmap
-| Time | Workload | Description |  
-|-|-|-|  
-| 2 weeks | 1.0 FT | Adds a basic view to the Alchemy DAO dashboard for viewing owned NFTs (with basic metadata support for images). Adds transfer support through new nft support scheme that is accessed either through the scheme create proposal menu or through the new view.  |  
-| 3 weeks | 1.0 FT | Adds a view for deployed NFTs that displays basic information and allows the creation of new tokens and the updating of their metadata using the new creation scheme. |  
-| 2 weeks | 1.0 FT | Polish previous additions with feedback rounds. Adds built in support for 3rd party sellers (mintbase/opensea). Adds special support for certain tokens such as ENS. |  
-
-
-## Questions
+## Open Questions
 - Which token standards should be supported?
 - Are there "super" NFT contracts where single contract addresses are used for multiple NFTs.
 - Are there many NFTs that fail to follow the token standards?
 - Where will created NFT metadata be stored?
 - Which contract model should be used for the NFT Creation Scheme (NFT specific contract, DAO specific NFT contract, or a super generic NFT contract used by all DAOs)
-
-## Impact on Adoption
-This would allow large brands to run promos using DAOs that issue NFTs. It could also serve as a bridge to on-board the large community of NFT enthusiasts / artists on platforms such as OpenSea.
