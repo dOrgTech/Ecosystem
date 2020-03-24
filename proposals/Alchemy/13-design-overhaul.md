@@ -20,11 +20,7 @@
 
 ### New
 
--   Much simpler UI by default
-
--   Hide complexities for advanced users
-
-As a new user I want to easily join or create a new DAO
+As a new user I want to quickly create a new DAO or join an existing DAO.
 
 As a DAO member I want to see a compact overview of the finances +
 recent activity in all my DAOs.
@@ -35,6 +31,8 @@ DAO(s).
 As an advanced user I want to edit my DAO's configuration.
 
 ## Detailed Design
+
+Redesign user flow to be simple by default, with advanced features/info hidden unless user chooses to expose them.
 
 ### Views
 
@@ -64,9 +62,9 @@ As an advanced user I want to edit my DAO's configuration.
 
 -   **Proposal Feed**: One view that aggregates proposals from all different categories
 
-    -   Defaults to showing active proposals (boosted, pending, regular)
+    -   Defaults to showing active proposals: boosted, pending, regular
 
-    -   Can also filter proposals by: categories, passed, failed
+    -   Can also filter proposals by: categories (AKA plug-ins/schemes) and status (active, passed, failed)
 
 -   **Proposal Details**: See details about an individual proposal
 
@@ -77,6 +75,8 @@ As an advanced user I want to edit my DAO's configuration.
     -   Hide all optional fields (only show if the user checks them)
 
 - **Members**: Member list
+
+- **Settings**: advanced view for viewing and proposing changes to plug-ins
 
 ## Roadmap
 
