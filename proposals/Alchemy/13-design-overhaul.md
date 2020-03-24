@@ -30,6 +30,20 @@ DAO(s).
 
 As an advanced user I want to edit my DAO's configuration.
 
+## Impact on Adoption
+
+This could significantly boost adoption and user retention for DAOstack,
+given that current DAO interfaces (alchemy, aragon, moloch, colony) are
+incredibly complicated for new users. We could attract more crypto
+players in addition to crypto newbies.
+
+## Roadmap
+
+| Time | Workload | Description |
+|-|-|-|
+| 4 Weeks | 1.0 FT Design | (Mock-up + feedback + iterate) x 3 |
+| 10 Weeks | 2.0 FT Frontend + 0.25 Design | Implement + continued design improvement |
+
 ## Detailed Design
 
 Redesign user flow to be simple by default, with advanced features/info hidden unless user chooses to expose them.
@@ -78,20 +92,6 @@ Redesign user flow to be simple by default, with advanced features/info hidden u
 
 - **Settings**: advanced view for viewing and proposing changes to plug-ins
 
-## Roadmap
-
-| Time | Workload | Description |
-|-|-|-|
-| 4 Weeks | 1.0 FT Design | (Mock-up + feedback + iterate) x 3 |
-| 10 Weeks | 2.0 FT Frontend + 0.25 Design | Implement + continued design improvement |
-
 ## Open Questions
 
 None
-
-## Impact on Adoption
-
-This could significantly boost adoption and user retention for DAOstack,
-given that current DAO interfaces (alchemy, aragon, moloch, colony) are
-incredibly complicated for new users. We could attract more crypto
-players in addition to crypto newbies.

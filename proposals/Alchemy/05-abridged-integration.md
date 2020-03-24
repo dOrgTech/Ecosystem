@@ -8,6 +8,18 @@ If a new user wants to interact with Alchemy, he needs to download a browser ext
 ### New 
 As a new user I want to login with my email and password, and access to the blockchain, so I don't need to complicate downloading browser extensions that I do not know how to use and also I want to buy Ether with my fiat money.
 
+## Impact on Adoption
+
+This will helps the on boarding of new users into the dApp, since it's going to work as a traditional web2 app (Logging in with email and password).
+More details on the impact can be found here: https://medium.com/abridged-io/layer-2-first-developer-flow-the-first-2-minutes-217c2bfd5868
+
+## Roadmap
+
+| Time | Workload | Description | 
+|-|-|-|
+| 2 weeks | 1.0 FT | Create the actions for login/sign up, we can use PostgreSQL or Amazon Incognito (still need to be defined), for this actions we are going to create a class to manage the auth methods to allow the user web3 attributes (address) to interact with alchemy functionalities |
+| 1 week | 1.0 FT | Implement Crypto On-Ramps with Ramp Instant |
+
 ## Detailed Design
 
 - Create views for traditional auth - Register and Login
@@ -21,19 +33,6 @@ As a new user I want to login with my email and password, and access to the bloc
 
 This is an example app with abridged integration: https://github.com/odyssy-automaton/moloch-pokemol
 
-## Roadmap
-
-| Time | Workload | Description | 
-|-|-|-|
-| 2 weeks | 1.0 FT | Create the actions for login/sign up, we can use PostgreSQL or Amazon Incognito (still need to be defined), for this actions we are going to create a class to manage the auth methods to allow the user web3 attributes (address) to interact with alchemy functionalities |
-| 1 week | 1.0 FT | Implement Crypto On-Ramps with Ramp Instant |
-
-
 ## Open Questions
 
 None
-
-## Impact on Adoption
-
-This will helps the on boarding of new users into the dApp, since it's going to work as a traditional web2 app (Logging in with email and password).
-More details on the impact can be found here: https://medium.com/abridged-io/layer-2-first-developer-flow-the-first-2-minutes-217c2bfd5868
