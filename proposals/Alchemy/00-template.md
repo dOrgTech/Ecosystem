@@ -10,12 +10,9 @@ A brief summary of the current user flow.
 
 As a `[type of user]` I want to `[some goal]`, so that `[some reason]`.
 
-## Detailed Design
+## Impact on Adoption
 
-This is the main section of the RFC. What does the proposal include? What are
-the proposed interfaces/APIs? How are different affected parties, such as users,
-developers or node operators affected by the change and how are they going to
-use it?
+How will this lead to further adoption for DAOstack?
 
 ## Roadmap
 
@@ -25,10 +22,13 @@ use it?
 | 1 Month | 1.0 FT | Y | 1 Month |
 | ... | ... | ... | ... |
 
+## Detailed Design
+
+This is the main section of the RFC. What does the proposal include? What are
+the proposed interfaces/APIs? How are different affected parties, such as users,
+developers or node operators affected by the change and how are they going to
+use it?
+
 ## Open Questions
 
 What are unresolved questions?
-
-## Impact on Adoption
-
-How will this lead to further adoption for DAOstack?

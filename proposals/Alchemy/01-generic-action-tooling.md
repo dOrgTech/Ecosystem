@@ -47,14 +47,6 @@ This is a HUGE missed opportunity right now.
 
 ## Detailed Design
 
-### Terminology
-
-**GA Creator**: UI for configuring & deploying new generic action plugins from within Alchemy. Deployment via the UI will (1) deploy a new GA plugin contract via the ***GA Factory*** and (2) call create a proposal in the DAO's Plugin Manager to add the new GA plugin.  
-**GA Factory**: Contract factory that spawns new GA plugin contracts. This is needed until Arc-Hives is live.  
-**GA Designer**: UI for defining new generic actions (Compound, Uniswap, Moloch, etc). The UI will be a front-end for defining [GA JSON files](https://github.com/daostack/alchemy/tree/dev/src/genericSchemeRegistry/schemes), and proposing them to the ***GA Registry***.  
-**GA Registry**: On-chain registry of GA JSONs. This registry should be managed by a DAO made up by the stake-holders of Alchemy. The Alchemy DAO.  
-**Known GA**: A Generic Action that's registered in the registry.  
-
 ### Steps to take
 
 Part one (`GA Creator`):
@@ -68,8 +60,15 @@ Part one (`GA Creator`):
 Part two:
   - Develop a new section called "Manage connections". Here members of a DAO can add existing Generic schemes that has been added into `GA JSON files` and the `GA Factory`. Users will see the existing generic schemes been with just one click, they will create a proposal in the scheme registrar so they can add any generic scheme that's showed in this section.
 
+### Terminology
+
+**GA Creator**: UI for configuring & deploying new generic action plugins from within Alchemy. Deployment via the UI will (1) deploy a new GA plugin contract via the ***GA Factory*** and (2) call create a proposal in the DAO's Plugin Manager to add the new GA plugin.  
+**GA Factory**: Contract factory that spawns new GA plugin contracts. This is needed until Arc-Hives is live.  
+**GA Designer**: UI for defining new generic actions (Compound, Uniswap, Moloch, etc). The UI will be a front-end for defining [GA JSON files](https://github.com/daostack/alchemy/tree/dev/src/genericSchemeRegistry/schemes), and proposing them to the ***GA Registry***.  
+**GA Registry**: On-chain registry of GA JSONs. This registry should be managed by a DAO made up by the stake-holders of Alchemy. The Alchemy DAO.  
+**Known GA**: A Generic Action that's registered in the registry.  
+
 ## Open Questions
 
 - How will this feature be affected by Stack 2.0 changes?
-
 - Would it be better to focus on creating a "generic generic action" rather than encouraging a proliferation of particular generic actions?
