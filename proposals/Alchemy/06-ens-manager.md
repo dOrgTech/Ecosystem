@@ -12,13 +12,10 @@
 
   If the ENS Dashboard is not added, there will be a button on this section that will create the proposal in scheme manager to add this new scheme
 
-## Detailed Design
 
-  We want to interact with the ENS contracts, so the DAO can registrer/edit/renew it's domains by interacting with the ENS contracts.
+## Impact on Adoption
 
-  TODO: ...
-
-
+How will this lead to further adoption for DAOstack?
 
 ## Roadmap
 
@@ -28,10 +25,12 @@
 | 1 Month | 1.0 FT | Y | 1 Month |
 | ... | ... | ... | ... |
 
+## Detailed Design
+
+  We want to interact with the ENS contracts, so the DAO can registrer/edit/renew it's domains by interacting with the ENS contracts.
+
+  TODO: ...
+
 ## Open Questions
 
 What are unresolved questions?
-
-## Impact on Adoption
-
-How will this lead to further adoption for DAOstack?

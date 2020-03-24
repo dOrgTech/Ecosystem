@@ -21,13 +21,29 @@ When an user wants to add the Generic Scheme into it's DAO, he needs to look for
 
 ### New
 
-- As an excited DAO member I want to easily extend the functionality of my DAO, so that I can focus on using the DAO to achieve its goal. Going to the main alchemy interface of my DAO, I see a card called "Manage Connections" with a small description "Manage connection to contracts/applications" which signals me that I could maybe add a connection to the ENS application/contract. Clicking on the card leads me to a view with all active connections my DAO currently has. I have the option to add, remove or edit a connection so I go with add a connection. I see a modal which presents me with popular connections like the ENS system or Uniswap. I click on the ENS system which leads me to a view which is all about the ENS system connection. I can observe how many DAOs have a connection with it which gives me confidence that this is the right connection I want to make. A big blue button with the description "Add ENS connection" clearly indicates me that this will lead me to my end goal. I click on the blue button and metamask is popping up to sign the transaction. Alchemy detects my transaction signing and while I am waiting for the transaction to be confirmed alchemy shows me tipps of how I can be more efficient with my DAO. After the transaction got confirmed, I see a pending connection in my connection overview. I click on the pending connection item which collapse and indicates me that my recent metamask transaction triggered three proposals for the main ENS contract, the .eth registry and the public resolver. While I didn`t knew that it was required to have three connections to a specific contract, alchemy made the process incredible easy by doing the heavy lifting for me.
+- As an excited DAO member I want to easily extend the functionality of my DAO, so that I can focus on using the DAO to achieve its goal. Going to the main alchemy interface of my DAO, I see a card called "Manage Connections" with a small description "Manage connection to contracts/applications" which signals me that I could maybe add a connection to the ENS application/contract. Clicking on the card leads me to a view with all active connections my DAO currently has. I have the option to add, remove or edit a connection so I go with add a connection. I see a modal which presents me with popular connections like the ENS system or Uniswap. I click on the ENS system which leads me to a view which is all about the ENS system connection. I can observe how many DAOs have a connection with it which gives me confidence that this is the right connection I want to make. A big blue button with the description "Add ENS connection" clearly indicates me that this will lead me to my end goal. I click on the blue button and metamask is popping up to sign the transaction. Alchemy detects my transaction signing and while I am waiting for the transaction to be confirmed alchemy shows me tipps of how I can be more efficient with my DAO. After the transaction got confirmed, I see a pending connection in my connection overview. I click on the pending connection item which collapse and indicates me that my recent metamask transaction triggered three proposals for the main ENS contract, the .eth registry and the public resolver. While I didn't knew that it was required to have three connections to a specific contract, alchemy made the process incredible easy by doing the heavy lifting for me.
 
 - As a protocol developer, I want to give DAOstack DAOs the ability to interact with my smart contracts (ENS, Uniswap, Compound), so that adoption of my protocol increases.
 
 This is going to be splitted in two parts, which are: 
   - The creation of a Generic Scheme through UI
   - A marketplace of plugins (Generic schemes) in alchemy, so the user can add existing generic schemes into his DAO by just clicking a button
+
+## Impact on Adoption
+
+The ability to easily call existing smart contracts is crucial for adoption by any Ethereum projects interested in DAOifying their governance with DAOstack.
+
+Many projects are currently choosing to use Aragon specifically because [Aragon Agent](https://aragon.org/agent/) makes it easy to interface their DAO with smart contracts.
+
+This is a HUGE missed opportunity right now.
+
+## Roadmap
+
+| Time | Workload | Description | 
+|-|-|-|
+| 3 week | 1.0 FT | Part one .1: Create UI of the three forms that will allow any user to create a new generic scheme |
+| 2 week | 1.0 FT | Part one .2: Create `GA Factory` contract to access created GS created through UI |
+| 3 week | 1.0 FT | Part two: Create a new section to show the generic schemes that has been added through the `GA JSON files` and `GA Factory`, also allow the user to create a new proposal in the DAO's Scheme Manager |
 
 ## Detailed Design
 
@@ -52,24 +68,8 @@ Part one (`GA Creator`):
 Part two:
   - Develop a new section called "Manage connections". Here members of a DAO can add existing Generic schemes that has been added into `GA JSON files` and the `GA Factory`. Users will see the existing generic schemes been with just one click, they will create a proposal in the scheme registrar so they can add any generic scheme that's showed in this section.
 
-## Roadmap
-
-| Time | Workload | Description | 
-|-|-|-|
-| 3 week | 1.0 FT | Part one .1: Create UI of the three forms that will allow any user to create a new generic scheme |
-| 2 week | 1.0 FT | Part one .2: Create `GA Factory` contract to access created GS created through UI |
-| 3 week | 1.0 FT | Part two: Create a new section to show the generic schemes that has been added through the `GA JSON files` and `GA Factory`, also allow the user to create a new proposal in the DAO's Scheme Manager |
-
 ## Open Questions
 
 - How will this feature be affected by Stack 2.0 changes?
 
 - Would it be better to focus on creating a "generic generic action" rather than encouraging a proliferation of particular generic actions?
-
-## Impact on Adoption
-
-The ability to easily call existing smart contracts is crucial for adoption by any Ethereum projects interested in DAOifying their governance with DAOstack.
-
-Many projects are currently choosing to use Aragon specifically because [Aragon Agent](https://aragon.org/agent/) makes it easy to interface their DAO with smart contracts.
-
-This is a HUGE missed opportunity right now.
