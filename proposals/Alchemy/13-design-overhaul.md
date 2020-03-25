@@ -54,23 +54,23 @@ Redesign user flow to be simple by default, with advanced features/info hidden u
 
 -   Detect if user is in DAO(s)
 
-  -   If no, display "Create new DAO" or "Explore featured DAOs" buttons
+    -   If no, display "Create new DAO" or "Explore featured DAOs" buttons
 
-  -   If yes, show user her DAO summary card(s)
+    -   If yes, show user her DAO summary card(s)
 
 #### DAOs
 
--   Featured: List of DAO Summary Cards for most active DAOs
+-   **Featured**: List of DAO Summary Cards for most active DAOs
 
--   DAO Summary Card
+-   **DAO Summary Card**
 
-  -   Current treasury
+      -   Current treasury
 
-  -   Recent payments in/out
+      -   Recent payments in/out
 
-  -   Recent proposals passed/failed
+      -   Recent proposals passed/failed
 
-  -   Active proposals
+      -   Active proposals
 
 #### DAO
 
