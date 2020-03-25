@@ -32,10 +32,10 @@ As an advanced user I want to edit my DAO's configuration.
 
 ## Impact on Adoption
 
-This could significantly boost adoption and user retention for DAOstack,
-given that current DAO interfaces (alchemy, aragon, moloch, colony) are
-incredibly complicated for new users. We could attract more crypto
-players in addition to crypto newbies.
+Attract and retain new users, especially since most existing DAO UIs (alchemy, aragon, moloch, colony) are
+incredibly complicated for new users. We could attract more crypto players in addition to crypto newbies.
+
+Increase user engagement in existing DAOs -> increase effectiveness of DAOs.
 
 ## Roadmap
 
@@ -54,13 +54,13 @@ Redesign user flow to be simple by default, with advanced features/info hidden u
 
 -   Detect if user is in DAO(s)
 
-  -   If no, "display Create new DAO" or "Explore all DAOs" buttons
+  -   If no, display "Create new DAO" or "Explore featured DAOs" buttons
 
   -   If yes, show user her DAO summary card(s)
 
-#### All DAOs
+#### DAOs
 
--   List of DAO Summary Cards
+-   Featured: List of DAO Summary Cards for most active DAOs
 
 -   DAO Summary Card
 
