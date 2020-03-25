@@ -23,9 +23,9 @@
 As a new user I want to quickly create a new DAO or join an existing DAO.
 
 As a DAO member I want to see a compact overview of the finances +
-recent activity in all my DAOs.
+recent activity in all my DAO(s).
 
-As a DAO member I want to easily vote, stake, and create proposals in my
+As a DAO member I want to quickly vote, stake, create and redeem proposals in my
 DAO(s).
 
 As an advanced user I want to edit my DAO's configuration.
