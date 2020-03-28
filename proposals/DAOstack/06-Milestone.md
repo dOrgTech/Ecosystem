@@ -44,7 +44,7 @@
 | 3box Comments | |
 | DevOps Overhaul | |
 | [Design Overhaul](../Alchemy/13-design-overhaul.md) | Redesign core elements of the UI (proposal feed, schemes, redemption,..) | $28k |
-| [Mobile Optimize](../Alchemy/14-mobile-optimize.md) | Minor tweaks to optimize Alchemy for mobile use | $2k |
+| [Mobile Optimize](../Alchemy/14-mobile-optimize.md) | Various tweaks to optimize Alchemy for mobile use | $4k |
 
 - Each of these will be specified, roadmapped, and budgeted before approval by DAOstack to begin building
 
