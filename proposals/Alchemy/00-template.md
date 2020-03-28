@@ -18,9 +18,9 @@ How will this lead to further adoption for DAOstack?
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 Month | 1.0 FT | X | 1 Month |
-| 1 Month | 1.0 FT | Y | 1 Month |
-| ... | ... | ... | ... |
+| X weeks | 1.0 FT | ... | 
+| Y weeks | 1.0 FT | ... | 
+| ... | ... | ... | 
 
 ## Detailed Design
 
