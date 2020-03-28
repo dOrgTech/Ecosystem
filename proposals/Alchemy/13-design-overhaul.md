@@ -32,8 +32,7 @@ As an advanced user I want to edit my DAO's configuration.
 
 ## Impact on Adoption
 
-Attract and retain new users, especially since most existing DAO UIs (alchemy, aragon, moloch, colony) are
-incredibly complicated for new users. We could attract more crypto players in addition to crypto newbies.
+Attract and retain new users, especially since most existing DAO UIs (alchemy, aragon, moloch, colony) are incredibly complicated for new users. We could attract more crypto players in addition to crypto newbies.
 
 Increase user engagement in existing DAOs -> increase effectiveness of DAOs.
 
