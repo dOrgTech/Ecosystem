@@ -41,8 +41,8 @@ Increase user engagement in existing DAOs -> increase effectiveness of DAOs.
 | Time | Workload | Description |
 |-|-|-|
 | 4 Weeks | 1.0 FT | (Mock-up + feedback + iterate) x 3 |
-| 4 Weeks | 2.25 FT | Implement Home + DAOs views (2.0) + continued design improvement (0.25) |
-| 6 Weeks | 2.0 FT | Implement DAO views |
+| 4 Weeks | 2.25 FT | Implement `Home` + `Featured` + `DAO Summary Card` views (2.0) + continued design improvement (0.25) |
+| 6 Weeks | 2.0 FT | Implement `Proposal Feed`, `Proposal Details`, `Create Proposal`, `Members`, `Settings` views |
 
 ## Detailed Design
 
