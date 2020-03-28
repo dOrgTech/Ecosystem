@@ -4,27 +4,18 @@
 
 ### Current
 
-User needs high degree of knowhow of the Daostack framework and the smart contract the DAO wants to connect with. This leads to a huge barrier for any user, even experienced developers.
-
-Example: 
-
-User wants to add Uniswap support to an already existing DAO with 100 members. User goes to the internal DAO interface on Alchemy with the goal to achieve his goal. Looking through the cards, he/she gets confused about the technical words like "Funding and voting power" or "Scheme Manager". The user is asking himself what are schemes, which leads to even more confusion. "Scheme Manager" indicates clearly that something can be managed so the user clicks on the Scheme Manager. User clicks on New scheme proposal, to explore what Scheme Manager is all about, a modal pops up with three main categories "Add Plugin, Edit Plugin and remove Plugin". User is confused as he believe he would add a new scheme and now the interface is showing with the term "Plugin". User wont know what to do and since the actual alchemy UI is not intuitive, adding Uniswap support wont be an easy task.
-
-In summary:
-
-Adding GA plugins within Alchemy currently has the following problems:  
+Adding Generic Action (GA) plugins within Alchemy currently has the following problems:  
 - No UI for configuring & deploying a new GA plugin contract – must be done by a skilled programmer.
 - No UI for knowing what types of GAs Alchemy supports (ENS Registrar, Uniswap, etc).
 - No UI for creating new types of GAs that Alchemy can support (Compound, etc) – must be PR'd into Alchemy for them to be usable.
 - Complex UI for adding a GA plugin to the DAO via the plugin manager.
 - Subgraph does not pickup on newly deployed GA plugin contracts.
 
-When a user wants to add the Generic Scheme into it's DAO, he needs to look for the Generic Scheme address, create a proposal in the Scheme Registrar and create a PR in the subgraph to use the new scheme
+When a user wants to add the Generic Scheme into it's DAO, he needs to look for the Generic Scheme address, create a proposal in the Scheme Registrar and create a PR in the subgraph to use the new scheme.
 
 ### New
 
 - As a DAO founder or enthusiast I want to easily interface my DAO with existing smart contracts, so that it can perform particular actions (set parameters, manage finances).
-
 - As a protocol developer, I want to give DAOstack DAOs the ability to interact with my smart contracts (ENS, Uniswap, Compound), so that adoption of my protocol increases.
 
 Example:
@@ -43,9 +34,9 @@ This is a HUGE missed opportunity right now.
 
 | Time | Workload | Description | 
 |-|-|-|
-| 3 week | 1.0 FT | Part one .1: Create UI of the three forms that will allow any user to create a new generic scheme |
-| 2 week | 1.0 FT | Part one .2: Create `GA Factory` contract to access created GS created through UI |
-| 3 week | 1.0 FT | Part two: Create a new section to show the generic schemes that has been added through the `GA JSON files` and `GA Factory`, also allow the user to create a new proposal in the DAO's Scheme Manager |
+| 3 week | 1.0 FT | Part one: Create UI of the three forms that will allow any user to create a new generic scheme |
+| 2 week | 1.0 FT | Part two: Create `GA Factory` contract to access created GS created through UI |
+| 3 week | 1.0 FT | Part three: Create a new section to show the generic schemes that have been added through the `GA JSON files` and `GA Factory`, also allow the user to create a new proposal in the DAO's Scheme Manager |
 
 ## Detailed Design
 
@@ -64,15 +55,7 @@ Two parts:
     - When the users clicks `Submit` a call to the `GA Factory` will be triggered, so the new scheme is added, and then a new proposal in the scheme registrar of the DAO where the Generic Scheme is being added, is going to be created to add this new scheme
  
 #### 2. `GA Registry`
-  - Develop a new section called "Manage connections". Here members of a DAO can add existing Generic schemes that has been added into `GA JSON files` and the `GA Factory`. Users will see the existing generic schemes been with just one click, they will create a proposal in the scheme registrar so they can add any generic scheme that's showed in this section.
-
-### Terminology
-
-**GA Creator**: UI for configuring & deploying new generic action plugins from within Alchemy. Deployment via the UI will (1) deploy a new GA plugin contract via the ***GA Factory*** and (2) call create a proposal in the DAO's Plugin Manager to add the new GA plugin.  
-**GA Factory**: Contract factory that spawns new GA plugin contracts. This is needed until Arc-Hives is live.  
-**GA Designer**: UI for defining new generic actions (Compound, Uniswap, Moloch, etc). The UI will be a front-end for defining [GA JSON files](https://github.com/daostack/alchemy/tree/dev/src/genericSchemeRegistry/schemes), and proposing them to the ***GA Registry***.  
-**GA Registry**: On-chain registry of GA JSONs. This registry should be managed by a DAO made up by the stake-holders of Alchemy. The Alchemy DAO.  
-**Known GA**: A Generic Action that's registered in the registry.  
+  - Develop a new section called "Manage connections". Here members of a DAO can add existing Generic schemes that have been added into `GA JSON files` and the `GA Factory`. Users will see the existing generic schemes been with just one click, they will create a proposal in the scheme registrar so they can add any generic scheme that's showed in this section.
 
 ## Open Questions
 

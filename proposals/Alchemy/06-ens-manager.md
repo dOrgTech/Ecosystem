@@ -4,26 +4,29 @@
 
 ### Current
 
-  DAOs does not have any way to interact with their ENS domains (if they have) - Or the ability to create an ENS (after ENS plugin has been added)
+DAOs do not have an easy way to...
+- add all needed generic schemes to manage an ENS domain (ENS Public Resolver, ENS Registry, ENS Registrar)
+- see all ENS domains owned by the DAO
+- purchase a new ENS domain on behalf of the DAO
 
-### New 
+### New
 
-  User can go to a section of "ENS Dashboard" in DAO, where he can manage all the domains that are owned by the organization, if he wants to make a change it will need to go through a proposal on ENS plugin.
-
-  If the ENS Dashboard is not added, there will be a button on this section that will create the proposal in scheme manager to add this new scheme
-
+Users will have access to a new tab in Alchemy called "ENS" which serves as an "ENS Dashboard" for the DAO. Here they'll be able to:
+- add all ENS generic schemes
+- see all ENS domains owned by the DAO
+- propose a domain purchase to the DAO
+- propose to edit a domain the DAO owns
 
 ## Impact on Adoption
 
-How will this lead to further adoption for DAOstack?
+Currently governing something as important as a domain is left up to administrative single user accounts. Allowing DAOs to govern this is a huge advantage to the space and will certainly draw a lot of attention.
 
 ## Roadmap
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 Month | 1.0 FT | X | 1 Month |
-| 1 Month | 1.0 FT | Y | 1 Month |
-| ... | ... | ... | ... |
+| 1 Month | 1.0 FT | TODO |
+| 1 Month | 1.0 FT | TODO |
 
 ## Detailed Design
 
