@@ -32,7 +32,7 @@
 | Proposal | Description | Cost |
 |-|-|-|
 | [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI | $16k |
-| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $6k |
+| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $8k |
 | [NFT Issuance](../Alchemy/03-nft-support.md) | Allow DAO to issue different NFTs | $14k |
 | [Documentation Overhaul](../Alchemy/04-documentation-overhaul.md) | Developer docs for Alchemy development | $4k |
 |  [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage | $10k |
