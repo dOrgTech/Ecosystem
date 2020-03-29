@@ -39,7 +39,7 @@
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
 | [ENS Manager](../Alchemy/06-ens-manager.md) | Dedicated view for managing ENS sites |
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
-| [DAOcomponents](../Alchemy/09-dao-components.md) | Embed simplified DAOstack UI components into external websites | TODO |
+| [DAOcomponents](../Alchemy/09-dao-components.md) | Embed simplified DAOstack UI components into external websites | $10k |
 | DAO Wiki | Ship & improve DAO-controlled Wiki |
 | 3box Comments | |
 | DevOps Overhaul | |
