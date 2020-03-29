@@ -27,8 +27,6 @@ With DAOcomponents, I can DAO-enable my React app by adding just 2 components. T
 
 ## Roadmap
 
-TODO: update client 2.0, demo application & documentation
-
 | Time | Workload | Description |
 |-|-|-|
 | 2 weeks | 1.0 FT | Update for client 2.0 |
