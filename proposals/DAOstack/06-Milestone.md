@@ -32,20 +32,19 @@
 | Proposal | Description | Cost |
 |-|-|-|
 | [Generic Action UI](../Alchemy/01-generic-action-tooling.md) | Easily add/remove Generic Actions through the UI | $16k |
-| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $6k |
-| [NFT Issuance](../Alchemy/03-nft-support.md) | Allow DAO to issue different NFTs |
+| [Voting Config Editor](../Alchemy/02-voting-configuration-editor.md) | Improve UI for editing a plugin's voting machine configuration | $8k |
+| [NFT Issuance](../Alchemy/03-nft-support.md) | Allow DAO to issue different NFTs | $14k |
 | [Documentation Overhaul](../Alchemy/04-documentation-overhaul.md) | Developer docs for Alchemy development | $4k |
-|  [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage |
+|  [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage | $10k |
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
-| [ENS Manager](../Alchemy/06-ens-manager.md) | Dedicated view for managing ENS sites |
+| [ENS Manager](../Alchemy/06-ens-manager.md) | Dedicated view for managing ENS sites | $10k |
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
-| DAOcomponents (Embeddable Alchemy) | Embed simplified DAOstack UI components into external websites |
-| DAO Wiki (Next Steps) | Ship & improve DAO-controlled Wiki |
+| [DAOcomponents](../Alchemy/09-dao-components.md) | Embed simplified DAOstack UI components into external websites | $10k |
+| DAO Wiki | Ship & improve DAO-controlled Wiki |
 | 3box Comments | |
 | DevOps Overhaul | |
-| Design Overhaul | Redesign core elements of the UI (proposal feed, schemes, redemption,..) |
-| Mobile Optimization | Styling changes to make the entire app mobile friendly |
-| Bug Squashing / Maintenance | Continue to identify, triage and squash bugs |
+| [Design Overhaul](../Alchemy/13-design-overhaul.md) | Redesign core elements of the UI (proposal feed, schemes, redemption,..) | $50k |
+| [Mobile Optimize](../Alchemy/14-mobile-optimize.md) | Various tweaks to optimize Alchemy for mobile use | $4k |
 
 - Each of these will be specified, roadmapped, and budgeted before approval by DAOstack to begin building
 

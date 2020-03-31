@@ -1,36 +1,51 @@
-# RFC-00: Template
+# RFC-06: ENS Manager
 
 ## User Story
 
 ### Current
 
-  DAOs does not have any way to interact with their ENS domains (if they have) - Or the ability to create an ENS (after ENS plugin has been added)
+User must navigate between `EthRegistrar`, `EnsRegistry` and `EnsPublicResolver` plug-ins to call individual functions on respective ENS contracts. There is no place in Alchemy to view the DAO's ENS Names.
+
+ENS Names don't render in the Member List or Proposals.
 
 ### New 
 
-  User can go to a section of "ENS Dashboard" in DAO, where he can manage all the domains that are owned by the organization, if he wants to make a change it will need to go through a proposal on ENS plugin.
+User enters "ENS Dashboard", where they can manage all domains owned by the DAO. Editing or adding any new domains will trigger a proposal on the respective ENS contract.
 
-  If the ENS Dashboard is not added, there will be a button on this section that will create the proposal in scheme manager to add this new scheme
+If the ENS Dashboard is not added, there will be a button on this section that will create all 3 plug-in manager proposals.
 
+Throughout the UI, ENS Names render properly.
 
 ## Impact on Adoption
 
-How will this lead to further adoption for DAOstack?
+TODO
 
 ## Roadmap
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 Month | 1.0 FT | X | 1 Month |
-| 1 Month | 1.0 FT | Y | 1 Month |
-| ... | ... | ... | ... |
+| 1 week | 1.0 FT | Dashboard UI - Design |
+| 2 weeks | 1.0 FT | Dashboard UI - Implementation |
+| 2 weeks | 1.0 FT | Registration/Update Functionality + Interacting with ENS Contracts |
 
 ## Detailed Design
 
-  We want to interact with the ENS contracts, so the DAO can registrer/edit/renew it's domains by interacting with the ENS contracts.
+1. Dashboard UI - new section accessible through side bar for viewing and managing ENS domains
 
-  TODO: ...
+	- Table with registered ENS Names
+
+	- Each entry has "edit" button that triggers a modal with basic options like set resolver or content hash. Advanced tab shows all possible actions.
+
+	- Button to register a new ENS Name
+
+2. Registration/Update Functionality: Actions in the dashboard generate proposals in the respective plug-in.
+
+3. Reading from ENS Contracts
+
+	- ENS Name Resolution: Allow proposal recipients to be ENS Names
+
+	- Reverse Resolution: Display ENS Name wherever addresses are displayed (DAO members or proposal)
 
 ## Open Questions
 
-What are unresolved questions?
+None
