@@ -24,7 +24,6 @@
     - Name registration/Name updates: User can register and/or update an existing ENS
 
 
-
 ## Roadmap
 
 | Time | Workload | Description | 
