@@ -1,4 +1,4 @@
-# RFC-00: Template
+# RFC-06: ENS Manager
 
 ## User Story
 
@@ -16,7 +16,12 @@
 
   We want to interact with the ENS contracts, so the DAO can registrer/edit/renew it's domains by interacting with the ENS contracts.
 
-  TODO: ...
+  The integration consists on two steps, which are going to be:
+  - Dashboard UI
+  - Interacting with ENS Contracts
+    - Resolving ENS Names: This will allow DAO to understand ENS Names, meaning that, a user can create a proposal and the recipient can be an ENS name like `cesar.eth`
+    - Support Reverse Resolution: DAO will display ENS Name wherever it displays an address (DAO members, or proposal) - If the address has an ENS name associated
+    - Name registration/Name updates: User can register and/or update an existing ENS
 
 
 
@@ -24,14 +29,9 @@
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 Month | 1.0 FT | X | 1 Month |
-| 1 Month | 1.0 FT | Y | 1 Month |
-| ... | ... | ... | ... |
+| 2 weeks | 1.0 FT | Dashboard UI: We are going to create a new section, which can be accessed through the side bar, it will be a table with the ENS already registered to the DAO address and it will have buttons to create (register) new ENS names |
+| 2 weeks | 1.0 FT | Develop the interaction with ENS contracts, so the dashboard can use this methods |
 
 ## Open Questions
 
-What are unresolved questions?
-
-## Impact on Adoption
-
-How will this lead to further adoption for DAOstack?
+None
