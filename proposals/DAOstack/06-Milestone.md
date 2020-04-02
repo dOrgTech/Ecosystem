@@ -37,7 +37,7 @@
 | [Documentation Overhaul](../Alchemy/04-documentation-overhaul.md) | Developer docs for Alchemy development | $4k |
 |  [Abridged Integration](../Alchemy/05-abridged-integration.md) | Gasless on-boarding and usage | $10k |
 | Generic Generic Action | Scheme that allows DAO to execute any action on any contract |
-| [ENS Manager](../Alchemy/06-ens-manager.md) | Dedicated view for managing ENS sites |
+| [ENS Manager](../Alchemy/06-ens-manager.md) | Dedicated view for managing ENS sites | $10k |
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
 | [DAOcomponents](../Alchemy/09-dao-components.md) | Embed simplified DAOstack UI components into external websites | $10k |
 | DAO Wiki | Ship & improve DAO-controlled Wiki |
