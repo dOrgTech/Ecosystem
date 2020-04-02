@@ -18,7 +18,7 @@ Throughout the UI, ENS Names render properly.
 
 ## Impact on Adoption
 
-TODO
+This would significantly improve DAOstack's interoporability with the web3 ecosystem which is increasingly utilizing ENS.
 
 ## Roadmap
 
