@@ -10,6 +10,18 @@ As a User I want to comment on proposals without creating Disqus account, so tha
 
 As a User I want to be able ot see and post messages.
 
+## Impact on Adoption
+
+Adding a decentralized messaging component inside proposals will reduce user frictions and increase user engagement. It will make the whole app a more integrated experience without reliance on centralized third-parties.
+
+## Roadmap
+
+| Time | Workload | Description | 
+|-|-|-|
+| 1 week | 0.25 FT | Steps 1-3 |
+| 1 week | 0.25 FT | Steps 4-6 |
+| 1 week | 0.25 FT | Steps 7-9 |
+
 ## Detailed Design
 
 Based of 3box documentation https://docs.3box.io/build/web-apps/messaging/persistent-threads
@@ -36,14 +48,6 @@ We are going to use persistent threads for our messages.
 
 9. List messages that belong to each proposals.
 
-## Roadmap
-
-| Time | Workload | Description | 
-|-|-|-|
-| 1 week | 0.25 FT | Steps 1-3 |
-| 1 week | 0.25 FT | Steps 4-6 |
-| 1 week | 0.25 FT | Steps 7-9 |
-
 ## Open Questions
 
 - Do we want the ability to update and delete messages?
@@ -51,9 +55,3 @@ We are going to use persistent threads for our messages.
 - Do we want to include the DAO Wall? (DAO forum unrelated to particular proposals)
 
 - There is a feature to add moderators. Do we want that as well?
-
-## Impact on Adoption
-
-Adding a decentralized messaging component inside proposals will reduce user frictions and increase user engagement. It will make the whole app a more integrated experience without reliance on centralized third-parties.
-
-
