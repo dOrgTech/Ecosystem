@@ -3,22 +3,18 @@
 ## User Story
 
 ### Current
-Currently we can discuss inside proposals using a centralized solution like Disqus. However it does not have the nature of chat, rather its just like a forum board.
+Currently a user needs a 3box for an Alchemy profile but a Disqus account to comment on proposals.
 
 ### New 
-We want a decentralized messaging component inside proposals.
+As a User I want to comment on proposals without creating Disqus account, so that we can fluidly start discussions related to proposals.
 
-As a User I want to be able to chat inside my proposals, so that we can start discussions and answer questions related to proposals.
-
-As a User I want to see a list of messages.
-
-As a User I want to send messages.
+As a User I want to be able ot see and post messages.
 
 ## Detailed Design
 
 Based of 3box documentation https://docs.3box.io/build/web-apps/messaging/persistent-threads
 
-We are gonna use persistent threads for our messages.
+We are going to use persistent threads for our messages.
 
 ### Steps to take
 
@@ -44,16 +40,20 @@ We are gonna use persistent threads for our messages.
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 week | 0.25 FT | Steps 1-3 
-| 1 week | 0.25 FT | Steps 4-6 
-| 1 week | 0.25 FT | Steps 7-9
+| 1 week | 0.25 FT | Steps 1-3 |
+| 1 week | 0.25 FT | Steps 4-6 |
+| 1 week | 0.25 FT | Steps 7-9 |
 
 ## Open Questions
 
 - Do we want the ability to update and delete messages?
 
-- There is feature to add moderators do we want that as well?
+- Do we want to include the DAO Wall? (DAO forum unrelated to particular proposals)
+
+- There is a feature to add moderators. Do we want that as well?
 
 ## Impact on Adoption
 
-Adding the ability to chat will enable us to discuss in real time proposals and increase collaboration among the community. 
+Adding a decentralized messaging component inside proposals will reduce user frictions and increase user engagement. It will make the whole app a more integrated experience without reliance on centralized third-parties.
+
+
