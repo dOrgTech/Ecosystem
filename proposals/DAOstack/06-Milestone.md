@@ -41,7 +41,7 @@
 | Registry Manager | Dedicated view for DAOs to view and edit registries |
 | [DAOcomponents](../Alchemy/09-dao-components.md) | Embed simplified DAOstack UI components into external websites | $10k |
 | DAO Wiki | Ship & improve DAO-controlled Wiki |
-| [3box Comments](../Alchemy/11-3box-comments.md) | $1.5K |
+| [3box Comments](../Alchemy/11-3box-comments.md) | Replace Disqus with 3box comments | $1.5K |
 | DevOps Overhaul | |
 | [Design Overhaul](../Alchemy/13-design-overhaul.md) | Redesign core elements of the UI (proposal feed, schemes, redemption,..) | $50k |
 | [Mobile Optimize](../Alchemy/14-mobile-optimize.md) | Various tweaks to optimize Alchemy for mobile use | $4k |
