@@ -8,7 +8,7 @@ Currently a user needs a 3box for an Alchemy profile but a Disqus account to com
 ### New 
 As a User I want to comment on proposals without creating Disqus account, so that we can fluidly start discussions related to proposals.
 
-As a User I want to be able ot see and post messages.
+As a User I want to be able to see and post messages.
 
 ## Impact on Adoption
 
@@ -18,9 +18,7 @@ Adding a decentralized messaging component inside proposals will reduce user fri
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1 week | 0.25 FT | Steps 1-3 |
-| 1 week | 0.25 FT | Steps 4-6 |
-| 1 week | 0.25 FT | Steps 7-9 |
+| 3 week | 1 FT | Steps 1-9 |
 
 ## Detailed Design
 
