@@ -44,9 +44,9 @@ We are gonna use persistent threads for our messages.
 
 | Time | Workload | Description | 
 |-|-|-|
-| 1st week | 0.25 FT | Steps 1-3 
-| 2nd week | 0.25 FT | Steps 4-6 
-| 3rd week | 0.25 FT | Steps 7-9
+| 1 week | 0.25 FT | Steps 1-3 
+| 1 week | 0.25 FT | Steps 4-6 
+| 1 week | 0.25 FT | Steps 7-9
 
 ## Open Questions
 
