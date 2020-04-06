@@ -1,0 +1,42 @@
+{
+  "name" : "dOrg",
+  "description" : "A full-stack freelancer agency building and running itself on web3",
+  "address" : "0x15344ecdc2c4edfcb092e284d93c20f0529fd8a6",
+  "homepage" : "https://dorg.tech",
+  "email" : "contact@dorg.tech",
+  "web" : {
+    "Github" : "https://github.com/dOrgTech",
+    "Keybase" : "https://keybase.io/team/dorg",
+    "Twitter" : "https://twitter.com/dOrg_tech",
+    "LinkedIn" : "https://www.linkedin.com/company/dorg-tech/",
+    "Medium" : "https://medium.com/dorg-tech",
+  },
+  "legal" : {
+    "name" : "dOrg, LLC",
+    "address" : {
+      "street": "76 St. Paul St, 7th Floor, P.O. Box 369",
+      "city" : "Burlington",
+      "region" : "VT",
+      "postal" : "05402",
+      "country" : "USA"
+    },
+    "business-id" : "0357139",
+    "tax-id" :"84-2930500"
+  },
+  "config" : {
+    "rep-rate" : 1,
+    "admin-thresh" : 30000,
+    "block-freq" : "bimonthly",
+    "client-referral" : {
+      "commission" : 0.1,
+      "month-limit" : 12
+    },
+    "agent-referral" : {
+      "commission" : 0.05,
+      "month-limit" : 6
+    },
+  },
+  "dependencies" : {
+    "@daostack/arc" : "0.0.1-rc.33",
+  },
+}
